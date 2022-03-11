@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--HR Report module action-->
+        <record id="action_hr_extended_report" model="ir.actions.act_window">
+            <field name="name">HR Extended Reports</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr_extended_report</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    No records found.
+                </p>
+                <p>
+                    Create new record for generating a report.
+                </p>
+            </field>
+        </record>
+
+        <!--HR Report module tree view-->
+        <record id="hr_extended_report_tree_view" model="ir.ui.view">
+            <field name="name">hr.extended.report.tree.view</field>
+            <field name="model">hr_extended_report</field>
+            <field name="arch" type="xml">
+                <tree string="HR Timesheet Reports">
+                    <field name="name"/>
+                    <field name="group"/>
+                    <field name="employee_id"/>
+                    <field name="department_id"/>
+                    <field name="overhead"/>
+                    <field name="month"/>
+                    <field name="year"/>
+                    <field name="total"/>
+                </tree>
+            </field>
+        </record>
+
+        <!--HR Report module form view-->
+        <record id="hr_extended_report_form_view" model="ir.ui.view">
+            <field name="name">hr.extended.report.tree.view</field>
+            <field name="model">hr_extended_report</field>
+            <field name="arch" type="xml">
+                <form string="HR Timesheet Report">
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Record name..."/>
+                            </h1>
+                        </div>
+
+                        <group>
+                            <group name="details" string="Details">
+                                <field name="group"/>
+                                <field name="employee_id"
+                                       attrs="{
+                                       'required': [('group', '=', 'employee')],
+                                       'invisible': [('group', '!=', 'employee')]
+                                       }"/>
+                                <field name="department_id"
+                                       attrs="{
+                                       'required': [('group', '=', 'department')],
+                                       'invisible': [('group', '!=', 'department')]
+                                       }"/>
+                                <field name="overhead"/>
+                            </group>
+
+                            <group name="date_info" string="Date">
+                                <field name="month"/>
+                                <field name="year"/>
+                            </group>
+                        </group>
+
+                        <notebook>
+							<page string="Timesheets" name="timesheet_recordset">
+								<field name="timesheet_ids" mode="tree">
+									<tree string="Timesheet Lines">
+										<field name="hr_report_id" invisible="1"/>
+										<field name="company_id" invisible="1"/>
+										<field name="name" optional="show"/>
+										<field name="employee_id" optional="show"/>
+										<field name="project_id" optional="show"/>
+										<field name="task_id" optional="show"/>
+										<field name="date" optional="show"/>
+										<field name="unit_amount"/>
+										<field name="hour_unit_price"/>
+										<field name="timesheet_value"/>
+									</tree>
+								</field>
+
+                                <group name="total_value" col="4">
+									<group class="oe_subtotal_footer oe_right" colspan="3" name="collection_total">
+										<field name="total"/>
+									</group>
+								</group>
+							</page>
+						</notebook>
+
+						<field name="comment"/>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!--HR Report module menu-->
+        <menuitem id="menu_hr_extended_report" parent="hr_timesheet.menu_timesheets_reports_timesheet"
+                  action="action_hr_extended_report" name="HR Extended Reports" sequence="21"/>
+    </data>
+</odoo>

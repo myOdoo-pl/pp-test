@@ -1,0 +1,3 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_company_poland_tax_office_manager","poland.tax.office.manager","account_pl_declaration_data.model_poland_tax_office","account.group_account_manager",1,1,1,1
+"access_company_poland_tax_office_user","poland.tax.office.user","account_pl_declaration_data.model_poland_tax_office","account.group_account_user",1,1,1,1

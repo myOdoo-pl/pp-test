@@ -1,0 +1,257 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* currency_rate_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-09 10:28+0000\n"
+"PO-Revision-Date: 2022-03-09 10:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__ch_admin_getter
+msgid "Admin.ch"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__auto_currency_up
+msgid "Automatic Update"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,help:currency_rate_update.field_currency_rate_update_service__auto_currency_up
+msgid "Automatic update of the currencies for this service"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__ca_boc_getter
+msgid "Bank of Canada - noon rates"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__mx_bdm_getter
+msgid "Bank of Mexico"
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:0
+#, python-format
+msgid "Base currency rate should be 1.00!"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__company_id
+msgid "Company"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__currency_to_update
+#: model_terms:ir.ui.view,arch_db:currency_rate_update.currency_rate_update_form
+msgid "Currencies to update with this service"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model,name:currency_rate_update.model_res_currency
+msgid "Currency"
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_error.py:0
+#, python-format
+msgid ""
+"Currency %s is out of date. Last rate update was on %s.\n"
+"Please contact your system administrator or run history update from Currency Rate Update menu."
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.actions.act_window,name:currency_rate_update.currency_rate_update_action
+#: model:ir.actions.server,name:currency_rate_update.ir_cron_currency_update_every_day_ir_actions_server
+#: model:ir.cron,cron_name:currency_rate_update.ir_cron_currency_update_every_day
+#: model:ir.cron,name:currency_rate_update.ir_cron_currency_update_every_day
+#: model:ir.model,name:currency_rate_update.model_currency_rate_update_service
+#: model:ir.ui.menu,name:currency_rate_update.currency_rate_update_menu
+msgid "Currency Rate Update"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__interval_type
+msgid "Currency update frequency"
+msgstr ""
+
+#. module: currency_rate_update
+#: model_terms:ir.ui.view,arch_db:currency_rate_update.currency_rate_update_form
+#: model_terms:ir.ui.view,arch_db:currency_rate_update.currency_rate_update_tree
+msgid "Currency update services"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__interval_type__days
+msgid "Day(s)"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__display_name
+#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:0
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:0
+#, python-format
+msgid "Error !"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__ecb_getter
+msgid "European Central Bank"
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:0
+#, python-format
+msgid "Exchange data for %s is not reported by Bank of Canada."
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:0
+#, python-format
+msgid "Exchange data format error for Bank of Canada - %s !"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__interval_number
+msgid "Frequency"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__id
+#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency__id
+msgid "ID"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,help:currency_rate_update.field_currency_rate_update_service__max_delta_days
+msgid ""
+"If the time delta between the rate date given by the webservice and the "
+"current date exceeds this value, then the currency rate is not updated in "
+"Odoo."
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:0
+#, python-format
+msgid "Interval number must be >= 0"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service____last_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: currency_rate_update
+#: model_terms:ir.ui.view,arch_db:currency_rate_update.currency_rate_update_form
+msgid "Logs"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__max_delta_days
+msgid "Max delta days"
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:0
+#, python-format
+msgid "Max delta days must be >= 0"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__interval_type__months
+msgid "Month(s)"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__pl_nbp_getter
+msgid "National Bank of Poland"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__ro_bnr_getter
+msgid "National Bank of Romania"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__next_run
+msgid "Next run on"
+msgstr ""
+
+#. module: currency_rate_update
+#: model_terms:ir.ui.view,arch_db:currency_rate_update.currency_rate_update_form
+msgid "Refresh currencies"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__name
+msgid "Service name"
+msgstr ""
+
+#. module: currency_rate_update
+#: code:addons/currency_rate_update/model/currency_rate_update.py:0
+#, python-format
+msgid "There is no base currency set!"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__note
+msgid "Update logs"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service__service
+msgid "Webservice to use"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__interval_type__weeks
+msgid "Week(s)"
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields,help:currency_rate_update.field_currency_rate_update_service__company_id
+msgid ""
+"When set the service is used only for this company. If not set the service "
+"and currencies are used for all companies."
+msgstr ""
+
+#. module: currency_rate_update
+#: model:ir.model.fields.selection,name:currency_rate_update.selection__currency_rate_update_service__service__yahoo_getter
+msgid "Yahoo Finance"
+msgstr ""

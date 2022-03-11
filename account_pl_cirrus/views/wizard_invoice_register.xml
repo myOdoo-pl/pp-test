@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="account_report_invoice_register" model="ir.ui.view">
+        <field name="name">Drukuj rejestr faktur</field>
+        <field name="model">account.report.invoice_register</field>
+        <!--<field name="inherit_id" ref="account.account_common_report_view"/>-->
+        <field name="arch" type="xml">
+            <form string="Report Options">
+                <group>
+                  <group>
+                    <field name="company_id" readonly="0"/>
+                    <field name="journal_type"/>
+                  </group>
+                  <group>
+                    <field name="date_from" required="1"/>
+                    <field name="date_to" required="1"/>
+                    <field name="cash_basis_pl"/>
+                    <field name="different_period_items"/>
+                  </group>
+                </group>
+                <group>
+                  <field name="register_journal_ids"/>
+                </group>
+                <footer>
+                    <button name="generate_report" string="Print" type="object" default_focus="1" class="oe_highlight"/>
+                    or
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_account_invoice_register" model="ir.actions.act_window">
+        <field name="name">Invoice Register</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">account.report.invoice_register</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="account_report_invoice_register"/>
+        <field name="target">new</field>
+    </record>
+    <menuitem id="menu_invoice_register" name="Drukuj Rejestr faktur" parent="menu_finance_legal_reports" action="account_pl_cirrus.action_account_invoice_register" sequence="40"/>
+</odoo>

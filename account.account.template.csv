@@ -1,0 +1,259 @@
+id,chart_template_id/id,code,reconcile,user_type_id/id,name
+l10n_pl_openglobe.chart01010000,pl_chart_template,01-010-000,False,account.data_account_type_fixed_assets,Środki trwałe - Grunty własne i prawa wieczystego użytkowania gruntów
+l10n_pl_openglobe.chart01020000,pl_chart_template,01-020-000,False,account.data_account_type_fixed_assets,"Środki trwałe - Budynki, lokale i obiekty inżynierii lądowej i wodnej"
+l10n_pl_openglobe.chart01030000,pl_chart_template,01-030-000,False,account.data_account_type_fixed_assets,Środki trwałe - Urządzenia techniczne i maszyny
+l10n_pl_openglobe.chart01040000,pl_chart_template,01-040-000,False,account.data_account_type_fixed_assets,Środki trwałe - Środki transportu
+l10n_pl_openglobe.chart01050000,pl_chart_template,01-050-000,False,account.data_account_type_fixed_assets,Środki trwałe - Inne środki trwałe
+l10n_pl_openglobe.chart02010000,pl_chart_template,02-010-000,False,account.data_account_type_non_current_assets,Wartości niematerialne i prawne - Koszty zakończonych prac rozwojowych
+l10n_pl_openglobe.chart02020000,pl_chart_template,02-020-000,False,account.data_account_type_non_current_assets,Wartości niematerialne i prawne - Nabyta wartość firmy
+l10n_pl_openglobe.chart02080000,pl_chart_template,02-080-000,False,account.data_account_type_non_current_assets,Wartości niematerialne i prawne - Inne wartości niematerialne i prawne
+l10n_pl_openglobe.chart02090000,pl_chart_template,02-090-000,False,account.data_account_type_non_current_assets,Wartości niematerialne i prawne - Zaliczki na wartości niematerialne i prawne
+l10n_pl_openglobe.chart03010100,pl_chart_template,03-010-100,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w jednostkach powiązanych - Udziały lub akcje
+l10n_pl_openglobe.chart03010200,pl_chart_template,03-010-200,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w jednostkach powiązanych - Inne papiery wartościowe
+l10n_pl_openglobe.chart03010300,pl_chart_template,03-010-300,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w jednostkach powiązanych - Udzielone pożyczki
+l10n_pl_openglobe.chart03010400,pl_chart_template,03-010-400,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w jednostkach powiązanych - Inne długoterminowe aktywa finansowe
+l10n_pl_openglobe.chart03020100,pl_chart_template,03-020-100,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w pozostałych jednostkach - Udziały lub akcje
+l10n_pl_openglobe.chart03020200,pl_chart_template,03-020-200,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w pozostałych jednostkach - Inne papiery wartościowe
+l10n_pl_openglobe.chart03020300,pl_chart_template,03-020-300,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w pozostałych jednostkach - Udzielone pożyczki
+l10n_pl_openglobe.chart03020400,pl_chart_template,03-020-400,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - w pozostałych jednostkach - Inne długoterminowe aktywa finansowe
+l10n_pl_openglobe.chart03050100,pl_chart_template,03-050-100,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - Odpisy aktualizujące długoterminowe aktywa finansowe - Udziały lub akcje
+l10n_pl_openglobe.chart03050200,pl_chart_template,03-050-200,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - Odpisy aktualizujące długoterminowe aktywa finansowe - Inne papiery wartościowe
+l10n_pl_openglobe.chart03050300,pl_chart_template,03-050-300,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - Odpisy aktualizujące długoterminowe aktywa finansowe - Udzielone pożyczki
+l10n_pl_openglobe.chart03050400,pl_chart_template,03-050-400,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - Odpisy aktualizujące długoterminowe aktywa finansowe - Inne długoterminowe aktywa finansowe
+l10n_pl_openglobe.chart03090100,pl_chart_template,03-090-100,False,account.data_account_type_non_current_assets,Długoterminowe aktywa finansowe - Inne inwestycje długoterminowe - Inne rodzaje długoterminowych aktywów finansowych
+l10n_pl_openglobe.chart04010000,pl_chart_template,04-010-000,False,account.data_account_type_non_current_assets,Inwestycje w nieruchomości i prawa - Nieruchomości
+l10n_pl_openglobe.chart04020000,pl_chart_template,04-020-000,False,account.data_account_type_non_current_assets,Inwestycje w nieruchomości i prawa - Wartości niematerialne i prawne
+l10n_pl_openglobe.chart05010000,pl_chart_template,05-010-000,False,account.data_account_type_non_current_assets,Długoterminowe rozliczenia międzyokresowe - Aktywa z tytułu odroczonego podatku dochodowego
+l10n_pl_openglobe.chart05020000,pl_chart_template,05-020-000,False,account.data_account_type_non_current_assets,Długoterminowe rozliczenia międzyokresowe - Inne rozliczenia międzyokresowe
+l10n_pl_openglobe.chart06010000,pl_chart_template,06-010-000,False,account.data_account_type_non_current_assets,Należności długoterminowe - Od jednostek powiązanych
+l10n_pl_openglobe.chart06020000,pl_chart_template,06-020-000,False,account.data_account_type_non_current_assets,Należności długoterminowe - Od pozostałych jednostek
+l10n_pl_openglobe.chart07010100,pl_chart_template,07-010-100,False,account.data_account_type_depreciation,Odpisy umorzeniowe środków trwałych - Odpisy umorzeniowe wartości gruntów i prawa wieczystego użytkowania gruntów
+l10n_pl_openglobe.chart07010200,pl_chart_template,07-010-200,False,account.data_account_type_depreciation,"Odpisy umorzeniowe środków trwałych - Odpisy umorzeniowe budynków, lokali i obiektów inżynierii lądowej i wodnej"
+l10n_pl_openglobe.chart07010300,pl_chart_template,07-010-300,False,account.data_account_type_depreciation,Odpisy umorzeniowe środków trwałych - Odpisy umorzeniowe urządzeń technicznych i maszyn
+l10n_pl_openglobe.chart07010400,pl_chart_template,07-010-400,False,account.data_account_type_depreciation,Odpisy umorzeniowe środków trwałych - Odpisy umorzeniowe środków transportu
+l10n_pl_openglobe.chart07010500,pl_chart_template,07-010-500,False,account.data_account_type_depreciation,Odpisy umorzeniowe środków trwałych - Odpisy umorzeniowe innych środków trwałych
+l10n_pl_openglobe.chart07010900,pl_chart_template,07-010-900,False,account.data_account_type_depreciation,Odpisy umorzeniowe środków trwałych - Odpisy umorzeniowe ulepszeń obcych środków trwałych
+l10n_pl_openglobe.chart07020100,pl_chart_template,07-020-100,False,account.data_account_type_depreciation,Odpisy umorzeniowe wartości niematerialnych i prawnych - Odpisy umorzeniowe zakończonych prac rozwojowych
+l10n_pl_openglobe.chart07020200,pl_chart_template,07-020-200,False,account.data_account_type_depreciation,Odpisy umorzeniowe wartości niematerialnych i prawnych - Odpisy umorzeniowe wartości firmy
+l10n_pl_openglobe.chart07020300,pl_chart_template,07-020-300,False,account.data_account_type_depreciation,Odpisy umorzeniowe wartości niematerialnych i prawnych - Odpisy umorzeniowe innych wartości niematerialnych i prawnych
+l10n_pl_openglobe.chart07030100,pl_chart_template,07-030-100,False,account.data_account_type_depreciation,Odpisy umorzeniowe inwestycji w nieruchomości i prawa - Odpisy umorzeniowe inwestycji w nieruchomości
+l10n_pl_openglobe.chart07030200,pl_chart_template,07-030-200,False,account.data_account_type_depreciation,Odpisy umorzeniowe inwestycji w nieruchomości i prawa - Odpisy umorzeniowe inwestycji w wartości niematerialne i prawne
+l10n_pl_openglobe.chart08010000,pl_chart_template,08-010-000,False,account.data_account_type_non_current_assets,Środki trwałe w budowie - Inwestycje budowy środka trwałego
+l10n_pl_openglobe.chart08020000,pl_chart_template,08-020-000,False,account.data_account_type_non_current_assets,Środki trwałe w budowie - Ulepszenia środka trwałego
+l10n_pl_openglobe.chart08030000,pl_chart_template,08-030-000,False,account.data_account_type_non_current_assets,Środki trwałe w budowie - Nakłady na budowę środka trwałego
+l10n_pl_openglobe.chart08040000,pl_chart_template,08-040-000,False,account.data_account_type_non_current_assets,Środki trwałe w budowie - Zaliczki na środki trwałe w budowie
+l10n_pl_openglobe.chart08050000,pl_chart_template,08-050-000,False,account.data_account_type_current_assets,Środki trwałe w budowie - Ulepszenia obcych środków trwałych
+l10n_pl_openglobe.chart09010000,pl_chart_template,09-010-000,False,account.data_account_type_current_assets,Odpisy aktualizujące długoterminowe aktywa finansowe - Odpisy aktualizujące udziały i akcje w obcych jednostkach
+l10n_pl_openglobe.chart09020000,pl_chart_template,09-020-000,False,account.data_account_type_non_current_assets,Odpisy aktualizujące długoterminowe aktywa finansowe - Odpisy aktualizujące lokaty
+l10n_pl_openglobe.chart09030000,pl_chart_template,09-030-000,False,account.data_account_type_non_current_assets,Odpisy aktualizujące długoterminowe aktywa finansowe - Odpisy aktualizujące udzielone pożyczki długoterminowe
+l10n_pl_openglobe.chart09090000,pl_chart_template,09-090-000,False,account.data_account_type_non_current_assets,Odpisy aktualizujące długoterminowe aktywa finansowe - Odpisy aktualizujące inne rodzaje długoterminowych aktywów finansowych
+l10n_pl_openglobe.chart10010000,pl_chart_template,10-010-000,False,account.data_account_type_liquidity,Środki pieniężne w kasie - Kasa krajowych środków pieniężnych
+l10n_pl_openglobe.chart10020000,pl_chart_template,10-020-000,False,account.data_account_type_liquidity,Środki pieniężne w kasie - Kasa zagranicznych środków pieniężnych
+l10n_pl_openglobe.chart11090000,pl_chart_template,11-090-000,True,account.data_account_type_liquidity,Rachunki i kredyty bankowe - Środki pieniężne w drodze
+l10n_pl_openglobe.chart13090000,pl_chart_template,13-090-000,False,account.data_account_type_liquidity,Inne środki pieniężne - Pozostałe inne środki pieniężne
+l10n_pl_openglobe.chart16000000,pl_chart_template,14-000-000,False,account.data_account_type_liquidity,Inne aktywa pieniężne
+l10n_pl_openglobe.chart15010100,pl_chart_template,15-010-100,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w jednostkach powiązanych - Udziały lub akcje
+l10n_pl_openglobe.chart15010200,pl_chart_template,15-010-200,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w jednostkach powiązanych - Inne papiery wartościowe
+l10n_pl_openglobe.chart15010300,pl_chart_template,15-010-300,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w jednostkach powiązanych - Udzielone pożyczki
+l10n_pl_openglobe.chart15010400,pl_chart_template,15-010-400,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w jednostkach powiązanych - Inne krótkoterminowe aktywa finansowe
+l10n_pl_openglobe.chart15020100,pl_chart_template,15-020-100,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w pozostałych jednostkach - Udziały lub akcje
+l10n_pl_openglobe.chart15020200,pl_chart_template,15-020-200,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w pozostałych jednostkach - Inne papiery wartościowe
+l10n_pl_openglobe.chart15020300,pl_chart_template,15-020-300,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - w pozostałych jednostkach - Inne krótkoterminowe aktywa finansowe
+l10n_pl_openglobe.chart15050000,pl_chart_template,15-050-000,False,account.data_account_type_current_assets,Krótkoterminowe aktywa finansowe - Odpisy aktualizujące krótkoterminowe aktywa finansowe
+l10n_pl_openglobe.chart18000000,pl_chart_template,18-000-000,False,account.data_account_type_current_assets,Krótkoterminowe rozliczenia międzyokresowe
+l10n_pl_openglobe.chart20000000,pl_chart_template,20-000-000,True,account.data_account_type_receivable,Rozrachunki z odbiorcami
+l10n_pl_openglobe.chart21000000,pl_chart_template,21-000-000,True,account.data_account_type_payable,Rozrachunki z dostawcami
+l10n_pl_openglobe.chart22010000,pl_chart_template,22-010-000,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - Rozrachunki z urzędem skarbowym z tytułu VAT
+l10n_pl_openglobe.chart22020100,pl_chart_template,22-020-100,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT naliczony i jego rozliczenie - Rozliczenie naliczonego VAT 22%
+l10n_pl_openglobe.chart22020200,pl_chart_template,22-020-200,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT naliczony i jego rozliczenie - Rozliczenie naliczonego VAT 7%
+l10n_pl_openglobe.chart22020300,pl_chart_template,22-020-300,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT naliczony i jego rozliczenie - Rozliczenie naliczonego VAT 3%
+l10n_pl_openglobe.chart22020400,pl_chart_template,22-020-400,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT naliczony i jego rozliczenie - Rozliczenie naliczonego VAT 23%
+l10n_pl_openglobe.chart22020500,pl_chart_template,22-020-500,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT naliczony i jego rozliczenie - Rozliczenie naliczonego VAT 8%
+l10n_pl_openglobe.chart22020600,pl_chart_template,22-020-600,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT naliczony i jego rozliczenie - Rozliczenie naliczonego VAT 5%
+l10n_pl_openglobe.chart22030100,pl_chart_template,22-030-100,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT należny i jego rozliczenie - Rozliczenie należnego VAT 22%
+l10n_pl_openglobe.chart22030200,pl_chart_template,22-030-200,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT należny i jego rozliczenie - Rozliczenie należnego VAT 7%
+l10n_pl_openglobe.chart22030300,pl_chart_template,22-030-300,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT należny i jego rozliczenie - Rozliczenie należnego VAT 3%
+l10n_pl_openglobe.chart22030400,pl_chart_template,22-030-400,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT należny i jego rozliczenie - Rozliczenie należnego VAT 23%
+l10n_pl_openglobe.chart22030500,pl_chart_template,22-030-500,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT należny i jego rozliczenie - Rozliczenie należnego VAT 8%
+l10n_pl_openglobe.chart22030600,pl_chart_template,22-030-600,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne - VAT należny i jego rozliczenie - Rozliczenie należnego VAT 5%
+l10n_pl_openglobe.chart22040000,pl_chart_template,22-040-000,False,account.data_account_type_current_assets,Pozostałe rozrachunki publicznoprawne
+l10n_pl_openglobe.chart22040100,pl_chart_template,22-040-100,False,account.data_account_type_current_assets,Pozostałe rozrachunki z urzędem skarbowym
+l10n_pl_openglobe.chart22040200,pl_chart_template,22-040-200,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne z urzędem miasta/gminy
+l10n_pl_openglobe.chart22040300,pl_chart_template,22-040-300,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne z urzędem celnym
+l10n_pl_openglobe.chart22040400,pl_chart_template,22-040-400,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne z ZUS
+l10n_pl_openglobe.chart22040500,pl_chart_template,22-040-500,False,account.data_account_type_current_assets,Rozrachunki publicznoprawne z PFRON
+l10n_pl_openglobe.chart23010000,pl_chart_template,23-010-000,False,account.data_account_type_current_assets,Rozrachunki z pracownikami - Rozrachunki z tytułu wynagrodzeń
+l10n_pl_openglobe.chart23020000,pl_chart_template,23-020-000,False,account.data_account_type_current_assets,Rozrachunki z pracownikami - Rozrachunki z tytułu pożyczek udzielonych pracownikom
+l10n_pl_openglobe.chart23090000,pl_chart_template,23-090-000,False,account.data_account_type_current_assets,Rozrachunki z pracownikami - Inne rozrachunki z pracownikami
+l10n_pl_openglobe.chart24010100,pl_chart_template,24-010-100,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Pożyczki - Pożyczki otrzymane
+l10n_pl_openglobe.chart24010200,pl_chart_template,24-010-200,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Pożyczki - Pożyczki udzielone
+l10n_pl_openglobe.chart24020100,pl_chart_template,24-020-100,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozliczenie niedoborów i nadwyżek - Rozliczenie niedoborów
+l10n_pl_openglobe.chart24020200,pl_chart_template,24-020-200,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozliczenie niedoborów i nadwyżek - Rozliczenie nadwyżek
+l10n_pl_openglobe.chart24030100,pl_chart_template,24-030-100,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki związane z kapitałem zakładowym - Rozrachunki z tytułu wpłat na kapitał zakładowy
+l10n_pl_openglobe.chart24030200,pl_chart_template,24-030-200,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki związane z kapitałem zakładowym - Rozrachunki z tytułu wkładów niepieniężnych na kapitał zakładowy
+l10n_pl_openglobe.chart24030300,pl_chart_template,24-030-300,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki związane z kapitałem zakładowym - Rozrachunki z tytułu podwyższenia kapitału ze środków własnych spółki
+l10n_pl_openglobe.chart24030400,pl_chart_template,24-030-400,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki związane z kapitałem zakładowym - Rozrachunki z tytułu umorzenia udziałów własnych
+l10n_pl_openglobe.chart24050000,pl_chart_template,24-050-000,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki wewnątrzzakładowe
+l10n_pl_openglobe.chart24060000,pl_chart_template,24-060-000,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Należności dochodzone na drodze sądowej
+l10n_pl_openglobe.chart24070000,pl_chart_template,24-070-000,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki z tytułu dywidend
+l10n_pl_openglobe.chart24080000,pl_chart_template,24-080-000,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Rozrachunki z tytułu dopłat i zwrotu dopłat
+l10n_pl_openglobe.chart24090000,pl_chart_template,24-090-000,False,account.data_account_type_current_assets,Pozostałe rozrachunki - Pozostałe rozrachunki
+l10n_pl_openglobe.chart28000000,pl_chart_template,28-000-000,False,account.data_account_type_current_assets,Odpisy aktualizujące rozrachunki
+l10n_pl_openglobe.chart29010000,pl_chart_template,29-010-000,False,account.data_account_type_current_assets,Rozrachunki pozabilansowe - Należności warunkowe
+l10n_pl_openglobe.chart29020000,pl_chart_template,29-020-000,False,account.data_account_type_current_assets,Rozrachunki pozabilansowe - Zobowiązania warunkowe
+l10n_pl_openglobe.chart29030000,pl_chart_template,29-030-000,False,account.data_account_type_current_assets,Rozrachunki pozabilansowe - Weksle obce dyskontowane lub indosowane
+l10n_pl_openglobe.chart30010000,pl_chart_template,30-010-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Rozliczenie zakupu materiałów
+l10n_pl_openglobe.chart30020000,pl_chart_template,30-020-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Rozliczenie zakupu towarów
+l10n_pl_openglobe.chart30030000,pl_chart_template,30-030-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Rozliczenie zakupu usług obcych
+l10n_pl_openglobe.chart30040000,pl_chart_template,30-040-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Rozliczenie zakupu składników aktywów trwałych
+l10n_pl_openglobe.chart30050000,pl_chart_template,30-050-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Rozliczenie wartości materiałów i towarów w drodze
+l10n_pl_openglobe.chart30060000,pl_chart_template,30-060-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Wartości dostaw niefakturowanych
+l10n_pl_openglobe.chart30070000,pl_chart_template,30-070-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Opłaty manipulacyjne policzone przez Urząd Celny
+l10n_pl_openglobe.chart30080000,pl_chart_template,30-080-000,False,account.data_account_type_current_assets,"Rozliczenie zakupu - Niedobory, szkody i nadwyżki w transporcie"
+l10n_pl_openglobe.chart30090000,pl_chart_template,30-090-000,False,account.data_account_type_current_assets,Rozliczenie zakupu - Reklamacje faktur dostawców
+l10n_pl_openglobe.chart31010000,pl_chart_template,31-010-000,False,account.data_account_type_current_assets,Materiały i opakowania - Materiały
+l10n_pl_openglobe.chart31060000,pl_chart_template,31-060-000,False,account.data_account_type_current_assets,Materiały i opakowania - Opakowania
+l10n_pl_openglobe.chart31090000,pl_chart_template,31-090-000,False,account.data_account_type_current_assets,Materiały i opakowania - Materiały w przerobie
+l10n_pl_openglobe.chart33010000,pl_chart_template,33-010-000,False,account.data_account_type_current_assets,Towary - Towary w hurcie
+l10n_pl_openglobe.chart33020000,pl_chart_template,33-020-000,False,account.data_account_type_current_assets,Towary - Towary w detalu
+l10n_pl_openglobe.chart33030000,pl_chart_template,33-030-000,False,account.data_account_type_current_assets,Towary - Towary w zakładach gastronomicznych
+l10n_pl_openglobe.chart33040000,pl_chart_template,33-040-000,False,account.data_account_type_current_assets,Towary - Towary skupu
+l10n_pl_openglobe.chart33080000,pl_chart_template,33-080-000,False,account.data_account_type_current_assets,Towary - Towary poza jednostką
+l10n_pl_openglobe.chart33090000,pl_chart_template,33-090-000,False,account.data_account_type_current_assets,Towary - Nieruchomości i prawa majątkowe przeznaczone do obrotu
+l10n_pl_openglobe.chart34010000,pl_chart_template,34-010-000,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych materiałów i towarów - Odchylenia materiałów
+l10n_pl_openglobe.chart34020100,pl_chart_template,34-020-100,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych materiałów i towarów - Odchylenia towarów w hurcie
+l10n_pl_openglobe.chart34020200,pl_chart_template,34-020-200,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych materiałów i towarów - Odchylenia od cen ewidencyjnych towarów w detalu
+l10n_pl_openglobe.chart34020300,pl_chart_template,34-020-300,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych materiałów i towarów - Odchylenia towarów w zakładach gastronomicznych
+l10n_pl_openglobe.chart34020400,pl_chart_template,34-020-400,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych materiałów i towarów - Odchylenia towarów skupu
+l10n_pl_openglobe.chart34060000,pl_chart_template,34-060-000,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych materiałów i towarów - Odchylenia opakowań
+l10n_pl_openglobe.chart34070000,pl_chart_template,34-070-000,False,account.data_account_type_current_assets,Odchylenia z tytułu aktualizacji wartości zapasów materiałów i towarów
+l10n_pl_openglobe.chart39000000,pl_chart_template,39-000-000,False,account.data_account_type_current_assets,Zapasy obce
+l10n_pl_openglobe.chart40010100,pl_chart_template,40-010-100,False,account.data_account_type_expenses,Zużycie materiałów i energii - Zużycie surowców do wytwarzania produktów
+l10n_pl_openglobe.chart40010200,pl_chart_template,40-010-200,False,account.data_account_type_expenses,Zużycie materiałów i energii - Zużycie energii
+l10n_pl_openglobe.chart40010300,pl_chart_template,40-010-300,False,account.data_account_type_expenses,Zużycie materiałów i energii - Zużycie paliwa do środków transportu
+l10n_pl_openglobe.chart40010400,pl_chart_template,40-010-400,False,account.data_account_type_expenses,Zużycie materiałów i energii - Zużycie materiałów biurowych
+l10n_pl_openglobe.chart40010900,pl_chart_template,40-010-900,False,account.data_account_type_expenses,Zużycie materiałów i energii - Zużycie innych materiałów
+l10n_pl_openglobe.chart40020100,pl_chart_template,40-020-100,False,account.data_account_type_expenses,Usługi obce - Usługi celne
+l10n_pl_openglobe.chart40020200,pl_chart_template,40-020-200,False,account.data_account_type_expenses,Usługi obce - Usługi telekomunikacyjne
+l10n_pl_openglobe.chart40020300,pl_chart_template,40-020-300,False,account.data_account_type_expenses,Usługi obce - Usługi pocztowe
+l10n_pl_openglobe.chart40020400,pl_chart_template,40-020-400,False,account.data_account_type_expenses,Usługi obce - Usługi kurierskie i transportowe
+l10n_pl_openglobe.chart40020500,pl_chart_template,40-020-500,False,account.data_account_type_expenses,Usługi obce - Analizy sanitarne
+l10n_pl_openglobe.chart40020600,pl_chart_template,40-020-600,False,account.data_account_type_expenses,Usługi obce - Usługi graficzne i drukarskie
+l10n_pl_openglobe.chart40020700,pl_chart_template,40-020-700,False,account.data_account_type_expenses,Usługi obce - Usługi remontowe
+l10n_pl_openglobe.chart40020900,pl_chart_template,40-020-900,False,account.data_account_type_expenses,Usługi obce - Pozostałe usługi
+l10n_pl_openglobe.chart40030100,pl_chart_template,40-030-100,False,account.data_account_type_expenses,Podatki i opłaty - Podatek od nieruchomości
+l10n_pl_openglobe.chart40030200,pl_chart_template,40-030-200,False,account.data_account_type_expenses,Podatki i opłaty - Podatek od środków transportowych
+l10n_pl_openglobe.chart40030300,pl_chart_template,40-030-300,False,account.data_account_type_expenses,Podatki i opłaty - Podatek akcyzowy
+l10n_pl_openglobe.chart40030400,pl_chart_template,40-030-400,False,account.data_account_type_expenses,Podatki i opłaty - VAT niepodlegający odliczeniu
+l10n_pl_openglobe.chart40030500,pl_chart_template,40-030-500,False,account.data_account_type_expenses,Podatki i opłaty - Opłaty i prowizje bankowe
+l10n_pl_openglobe.chart40030600,pl_chart_template,40-030-600,False,account.data_account_type_expenses,"Podatki i opłaty - Opłaty sądowe, prawnicze i notarialne"
+l10n_pl_openglobe.chart40030700,pl_chart_template,40-030-700,False,account.data_account_type_expenses,Podatki i opłaty - Opłaty skarbowe
+l10n_pl_openglobe.chart40030800,pl_chart_template,40-030-800,False,account.data_account_type_expenses,Podatki i opłaty - Koncesje
+l10n_pl_openglobe.chart40030900,pl_chart_template,40-030-900,False,account.data_account_type_expenses,Podatki i opłaty - Pozostałe podatki i opłaty
+l10n_pl_openglobe.chart40040100,pl_chart_template,40-040-100,False,account.data_account_type_expenses,Wynagrodzenia - Wynagrodzenia pracowników
+l10n_pl_openglobe.chart40040200,pl_chart_template,40-040-200,False,account.data_account_type_expenses,Wynagrodzenia - Wynagrodzenia osób doraźnie zatrudnionych
+l10n_pl_openglobe.chart40050100,pl_chart_template,40-050-100,False,account.data_account_type_expenses,"Ubezpieczenia społeczne i inne świadczenia - Składki na ubezpieczenia społeczne, FP, FGŚP"
+l10n_pl_openglobe.chart40050200,pl_chart_template,40-050-200,False,account.data_account_type_expenses,Ubezpieczenia społeczne i inne świadczenia - Odpisy na zakładowy fundusz świadczeń socjalnych lub świadczenia urlopowe
+l10n_pl_openglobe.chart40050900,pl_chart_template,40-050-900,False,account.data_account_type_expenses,Ubezpieczenia społeczne i inne świadczenia - Pozostałe świadczenia
+l10n_pl_openglobe.chart41000000,pl_chart_template,41-000-000,False,account.data_account_type_expenses,Świadczenia na rzecz pracowników
+l10n_pl_openglobe.chart42000000,pl_chart_template,42-000-000,False,account.data_account_type_expenses,Amortyzacja
+l10n_pl_openglobe.chart43000000,pl_chart_template,43-000-000,False,account.data_account_type_expenses,Pozostałe koszty rodzajowe
+l10n_pl_openglobe.chart49010000,pl_chart_template,49-010-000,False,account.data_account_type_expenses,Rozliczenie kosztów - Nie podlegające rozliczeniu w czasie
+l10n_pl_openglobe.chart49020000,pl_chart_template,49-020-000,False,account.data_account_type_expenses,Rozliczenie kosztów - Przypadające na przyszłe okresy
+l10n_pl_openglobe.chart49030000,pl_chart_template,49-030-000,False,account.data_account_type_expenses,Rozliczenie kosztów - Koszty zgromadzone
+l10n_pl_openglobe.chart49040000,pl_chart_template,49-040-000,False,account.data_account_type_expenses,Rozliczenie kosztów - Koszty nie wliczane do wartości sprzedaży
+l10n_pl_openglobe.chart50010000,pl_chart_template,50-010-000,False,account.data_account_type_expenses,Koszty działalności podstawowej-produkcyjnej - Rozliczone koszty działalności
+l10n_pl_openglobe.chart50020000,pl_chart_template,50-020-000,False,account.data_account_type_expenses,Koszty działalności podstawowej-produkcyjnej - Koszty nie zakończonych długotrwałych usług
+l10n_pl_openglobe.chart50030000,pl_chart_template,50-030-000,False,account.data_account_type_expenses,Koszty działalności podstawowej-produkcyjnej - Straty związane z wykonaniem długotrwałych usług
+l10n_pl_openglobe.chart50040000,pl_chart_template,50-040-000,False,account.data_account_type_expenses,Koszty działalności podstawowej-produkcyjnej - Koszty utrzymania hurtowni
+l10n_pl_openglobe.chart52010000,pl_chart_template,52-010-000,False,account.data_account_type_expenses,Koszty działalności podstawowej-handlowej - Koszty utrzymania punktów sprzedaży detalicznej
+l10n_pl_openglobe.chart52030000,pl_chart_template,52-030-000,False,account.data_account_type_expenses,Koszty działalności podstawowej-handlowej - Koszty sprzedaży wyrobów
+l10n_pl_openglobe.chart53010000,pl_chart_template,53-010-000,False,account.data_account_type_expenses,Koszty działalności pomocniczej - Świadczenia usług transportowych
+l10n_pl_openglobe.chart53020000,pl_chart_template,53-020-000,False,account.data_account_type_expenses,Koszty działalności pomocniczej - Pozostałe koszty
+l10n_pl_openglobe.chart55010000,pl_chart_template,55-010-000,False,account.data_account_type_expenses,Koszty zarządu - Koszty zarządzania jednostką
+l10n_pl_openglobe.chart55020000,pl_chart_template,55-020-000,False,account.data_account_type_expenses,Koszty zarządu - Świadczenia usług na potrzeby reprezentacji i reklamy
+l10n_pl_openglobe.chart58000000,pl_chart_template,58-000-000,False,account.data_account_type_expenses,Rozliczenie kosztów działalności
+l10n_pl_openglobe.chart60010100,pl_chart_template,60-010-100,False,account.data_account_type_current_assets,Półprodukty i produkty - Produkty gotowe w magazynie
+l10n_pl_openglobe.chart60010200,pl_chart_template,60-010-200,False,account.data_account_type_current_assets,Półprodukty i produkty - Produkty gotowe poza jednostką
+l10n_pl_openglobe.chart60020000,pl_chart_template,60-020-000,False,account.data_account_type_current_assets,Półprodukty i produkty - Półprodukty
+l10n_pl_openglobe.chart62010000,pl_chart_template,62-010-000,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych produktów - Odchylenia od cen ewidencyjnych produktów
+l10n_pl_openglobe.chart62020000,pl_chart_template,62-020-000,False,account.data_account_type_current_assets,Odchylenia od cen ewidencyjnych produktów - Odchylenia z tytułu aktualizacji wartości zapasów produktów
+l10n_pl_openglobe.chart64010000,pl_chart_template,64-010-000,False,account.data_account_type_current_assets,Rozliczenia międzyokresowe kosztów - Czynne rozliczenia międzyokresowe kosztów
+l10n_pl_openglobe.chart64020000,pl_chart_template,64-020-000,False,account.data_account_type_current_assets,Rozliczenia międzyokresowe kosztów - Bierne rozliczenia międzyokresowe kosztów
+l10n_pl_openglobe.chart65010000,pl_chart_template,65-010-000,False,account.data_account_type_current_assets,Pozostałe rozliczenia międzyokresowe - Aktywa z tytułu odroczonego podatku dochodowego
+l10n_pl_openglobe.chart65020000,pl_chart_template,65-020-000,False,account.data_account_type_current_assets,Pozostałe rozliczenia międzyokresowe - Inne rozliczenia międzyokresowe
+l10n_pl_openglobe.chart70010000,pl_chart_template,70-010-000,False,account.data_account_type_revenue,Sprzedaż produktów - Sprzedaż produktów na kraj
+l10n_pl_openglobe.chart70020000,pl_chart_template,70-020-000,False,account.data_account_type_revenue,Sprzedaż produktów - Sprzedaż produktów na eksport
+l10n_pl_openglobe.chart70030000,pl_chart_template,70-030-000,False,account.data_account_type_revenue,Sprzedaż produktów - Sprzedaż usług na kraj
+l10n_pl_openglobe.chart70040000,pl_chart_template,70-040-000,False,account.data_account_type_revenue,Sprzedaż produktów - Sprzedaż usług na eksport
+l10n_pl_openglobe.chart70110000,pl_chart_template,70-110-000,False,account.data_account_type_expenses,Koszty sprzedanych produktów - Koszt własny sprzedaży produktów na kraj
+l10n_pl_openglobe.chart70120000,pl_chart_template,70-120-000,False,account.data_account_type_expenses,Koszty sprzedanych produktów - Koszt własny sprzedaży produktów na eksport
+l10n_pl_openglobe.chart70130000,pl_chart_template,70-130-000,False,account.data_account_type_expenses,Koszty sprzedanych produktów - Koszt własny sprzedaży usług na kraj
+l10n_pl_openglobe.chart70140000,pl_chart_template,70-140-000,False,account.data_account_type_expenses,Koszty sprzedanych produktów - Koszt własny sprzedaży usług na eksport
+l10n_pl_openglobe.chart73010000,pl_chart_template,73-010-000,False,account.data_account_type_revenue,Sprzedaż towarów - Sprzedaż hurtowa towarów
+l10n_pl_openglobe.chart73020000,pl_chart_template,73-020-000,False,account.data_account_type_revenue,Sprzedaż towarów - Sprzedaż detaliczna towarów
+l10n_pl_openglobe.chart73030000,pl_chart_template,73-030-000,False,account.data_account_type_revenue,Sprzedaż towarów - Sprzedaż wysyłkowa towarów
+l10n_pl_openglobe.chart73040000,pl_chart_template,73-040-000,False,account.data_account_type_revenue,Sprzedaż towarów - Prowizja komisowa
+l10n_pl_openglobe.pl_a_expense,pl_chart_template,73-110-000,False,account.data_account_type_expenses,Wartość sprzedanych towarów w cenach zakupu - Wartość sprzedanych towarów w sprzedaży hurtowej
+l10n_pl_openglobe.chart73120000,pl_chart_template,73-120-000,False,account.data_account_type_expenses,Wartość sprzedanych towarów w cenach zakupu - Wartość sprzedanych towarów w sprzedaży detalicznej
+l10n_pl_openglobe.chart73130000,pl_chart_template,73-130-000,False,account.data_account_type_expenses,Wartość sprzedanych towarów w cenach zakupu - Wartość sprzedanych towarów w sprzedaży wysyłkowej
+l10n_pl_openglobe.chart73140000,pl_chart_template,73-140-000,False,account.data_account_type_expenses,Wartość sprzedanych towarów w cenach zakupu - Prowizja komisowa
+l10n_pl_openglobe.chart74010000,pl_chart_template,74-010-000,False,account.data_account_type_revenue,Sprzedaż materiałów i opakowań - Sprzedaż materiałów
+l10n_pl_openglobe.chart74020000,pl_chart_template,74-020-000,False,account.data_account_type_revenue,Sprzedaż materiałów i opakowań - Sprzedaż opakowań
+l10n_pl_openglobe.chart74030000,pl_chart_template,74-030-000,False,account.data_account_type_revenue,Sprzedaż materiałów i opakowań - Sprzedaż odpadów
+l10n_pl_openglobe.chart74110000,pl_chart_template,74-110-000,False,account.data_account_type_expenses,Wartość sprzedanych materiałów i opakowań - Wartość w cenach zakupu sprzedanych materiałów
+l10n_pl_openglobe.chart74120000,pl_chart_template,74-120-000,False,account.data_account_type_expenses,Wartość sprzedanych materiałów i opakowań - Wartość w cenach zakupu sprzedanych opakowań
+l10n_pl_openglobe.chart74130000,pl_chart_template,74-130-000,False,account.data_account_type_expenses,Wartość sprzedanych materiałów i opakowań - Wartość w cenach zakupu sprzedanych odpadów
+l10n_pl_openglobe.chart75010000,pl_chart_template,75-010-000,False,account.data_account_type_revenue,Przychody finansowe - Kwoty należne ze sprzedaży aktywów finansowych
+l10n_pl_openglobe.chart75020000,pl_chart_template,75-020-000,False,account.data_account_type_revenue,Przychody finansowe - Kwoty należne z tytułu dywidend
+l10n_pl_openglobe.chart75030000,pl_chart_template,75-030-000,False,account.data_account_type_revenue,Przychody finansowe - Otrzymane odsetki
+l10n_pl_openglobe.chart75040000,pl_chart_template,75-040-000,False,account.data_account_type_revenue,Przychody finansowe - Przychody ze zbycia inwestycji
+l10n_pl_openglobe.chart75050000,pl_chart_template,75-050-000,False,account.data_account_type_revenue,Przychody finansowe - Aktualizacja wartości inwestycji-przychody
+l10n_pl_openglobe.chart75060000,pl_chart_template,75-060-000,False,account.data_account_type_other_income,Przychody finansowe - Dodatnie różnice kursu walut
+l10n_pl_openglobe.chart75070000,pl_chart_template,75-070-000,False,account.data_account_type_revenue,Przychody finansowe - Pozostałe przychody finansowe
+l10n_pl_openglobe.chart75110000,pl_chart_template,75-110-000,False,account.data_account_type_expenses,Koszty finansowe - Wartość sprzedanych inwestycji
+l10n_pl_openglobe.chart75120000,pl_chart_template,75-120-000,False,account.data_account_type_expenses,Koszty finansowe - Odpisy z tytułu utraty wartości inwestycji-koszty
+l10n_pl_openglobe.chart75130000,pl_chart_template,75-130-000,False,account.data_account_type_expenses,Koszty finansowe - Odsetki zapłacone
+l10n_pl_openglobe.pl_a_pay,pl_chart_template,75-140-000,False,account.data_account_type_expenses,Koszty finansowe - Ujemne różnice kursu walut
+l10n_pl_openglobe.chart75190000,pl_chart_template,75-190-000,False,account.data_account_type_expenses,Koszty finansowe - Pozostałe koszty finansowe
+l10n_pl_openglobe.chart76010000,pl_chart_template,76-010-000,False,account.data_account_type_revenue,Pozostałe przychody operacyjne - Przychody ze zbycia niefinansowych aktywów trwałych
+l10n_pl_openglobe.chart76020000,pl_chart_template,76-020-000,False,account.data_account_type_revenue,Pozostałe przychody operacyjne - Otrzymane dotacje
+l10n_pl_openglobe.chart76030000,pl_chart_template,76-030-000,False,account.data_account_type_revenue,Pozostałe przychody operacyjne - Przychody z usług socjalnych
+l10n_pl_openglobe.chart76040000,pl_chart_template,76-040-000,False,account.data_account_type_revenue,Pozostałe przychody operacyjne - Przychody ze wzrostu wartości niefinansowych aktywów trwałych
+l10n_pl_openglobe.chart76090000,pl_chart_template,76-090-000,False,account.data_account_type_revenue,Pozostałe przychody operacyjne - Inne pozostałe przychody operacyjne
+l10n_pl_openglobe.chart76110000,pl_chart_template,76-110-000,False,account.data_account_type_expenses,Pozostałe koszty operacyjne - Wartość sprzedanych niefinansowych aktywów trwałych
+l10n_pl_openglobe.chart76120000,pl_chart_template,76-120-000,False,account.data_account_type_expenses,Pozostałe koszty operacyjne - Dotacje przekazane
+l10n_pl_openglobe.chart76130000,pl_chart_template,76-130-000,False,account.data_account_type_expenses,Pozostałe koszty operacyjne - Odpisy z tytułu utraty wartości aktywów niefinansowych
+l10n_pl_openglobe.chart76140000,pl_chart_template,76-140-000,False,account.data_account_type_expenses,Pozostałe koszty operacyjne - Inne pozostałe koszty operacyjne
+l10n_pl_openglobe.chart77000000,pl_chart_template,77-000-000,False,account.data_account_type_revenue,Zyski nadzwyczajne
+l10n_pl_openglobe.chart77100000,pl_chart_template,77-100-000,False,account.data_account_type_expenses,Straty nadzwyczajne
+l10n_pl_openglobe.chart79010000,pl_chart_template,79-010-000,False,account.data_account_type_expenses,Obroty wewnętrzne - Koszt wyrobów własnej produkcji wydanych do własnych sklepów
+l10n_pl_openglobe.chart79020000,pl_chart_template,79-020-000,False,account.data_account_type_expenses,Obroty wewnętrzne - Świadczenia na rzecz środków trwałych w budowie
+l10n_pl_openglobe.chart79040000,pl_chart_template,79-040-000,False,account.data_account_type_expenses,Obroty wewnętrzne - Koszt niedoborów produktów
+l10n_pl_openglobe.chart79050000,pl_chart_template,79-050-000,False,account.data_account_type_expenses,Obroty wewnętrzne - Koszt zaniechania określonego rodzaju działalności
+l10n_pl_openglobe.chart79110000,pl_chart_template,79-110-000,False,account.data_account_type_expenses,Koszt własny obrotów wewnętrznych - Koszt wytworzenia wyrobów gotowych wydanych do własnych sklepów
+l10n_pl_openglobe.chart79120000,pl_chart_template,79-120-000,False,account.data_account_type_expenses,Koszt własny obrotów wewnętrznych - Koszt wytworzenia świadczeń na rzecz środków trwałych w budowie
+l10n_pl_openglobe.chart79130000,pl_chart_template,79-130-000,False,account.data_account_type_expenses,Koszt własny obrotów wewnętrznych - Koszt wytworzenia zakończonych prac rozwojowych
+l10n_pl_openglobe.chart79140000,pl_chart_template,79-140-000,False,account.data_account_type_expenses,Koszt własny obrotów wewnętrznych - Koszt wytworzenia produktów uznanych za niedobory
+l10n_pl_openglobe.chart79150000,pl_chart_template,79-150-000,False,account.data_account_type_expenses,Koszt własny obrotów wewnętrznych - Koszt zaniechania określonego rodzaju działalności
+l10n_pl_openglobe.chart80000000,pl_chart_template,80-000-000,False,account.data_account_type_equity,Kapitał podstawowy
+l10n_pl_openglobe.chart81100000,pl_chart_template,81-100-000,False,account.data_account_type_non_current_liabilities,Pozostałe kapitały i fundusze - Kapitał zapasowy
+l10n_pl_openglobe.chart81200000,pl_chart_template,81-200-000,False,account.data_account_type_non_current_liabilities,Pozostałe kapitały i fundusze - Kapitał rezerwowy
+l10n_pl_openglobe.chart81300000,pl_chart_template,81-300-000,False,account.data_account_type_non_current_liabilities,Pozostałe kapitały i fundusze - Kapitał z aktualizacji wyceny
+l10n_pl_openglobe.chart81400000,pl_chart_template,81-400-000,False,account.data_account_type_non_current_liabilities,Pozostałe kapitały i fundusze - Kapitały wydzielone w jednostce statutowej i zakładach (oddziałach) samodzielnie sporządzających bilans
+l10n_pl_openglobe.chart82000000,pl_chart_template,82-000-000,False,account.data_account_type_current_liabilities,Rozliczenia wyniku finansowego
+l10n_pl_openglobe.chart83010000,pl_chart_template,83-010-000,False,account.data_account_type_current_liabilities,Rezerwa z tytułu odroczonego podatku dochodowego
+l10n_pl_openglobe.chart83020100,pl_chart_template,83-020-100,False,account.data_account_type_non_current_liabilities,Rezerwy na świadczenia - Rezerwa długoterminowa na świadczenia emerytalne i podobne
+l10n_pl_openglobe.chart83020200,pl_chart_template,83-020-200,False,account.data_account_type_current_liabilities,Rezerwy na świadczenia - Rezerwa krótkoterminowa na świadczenia emerytalne i podobne
+l10n_pl_openglobe.chart83090100,pl_chart_template,83-090-100,False,account.data_account_type_non_current_liabilities,Pozostałe rezerwy - Pozostałe rezerwy długoterminowe
+l10n_pl_openglobe.chart83090200,pl_chart_template,83-090-200,False,account.data_account_type_current_liabilities,Pozostałe rezerwy - Pozostałe rezerwy krótkoterminowe
+l10n_pl_openglobe.chart84010000,pl_chart_template,84-010-000,False,account.data_account_type_current_liabilities,Rozliczenia międzyokresowe - Ujemna wartość firmy
+l10n_pl_openglobe.chart84020100,pl_chart_template,84-020-100,False,account.data_account_type_non_current_liabilities,Rozliczenia międzyokresowe - Inne - Inne rozliczenia międzyokresowe długoterminowe
+l10n_pl_openglobe.chart84020200,pl_chart_template,84-020-200,False,account.data_account_type_current_liabilities,Rozliczenia międzyokresowe - Inne - Inne rozliczenia międzyokresowe krótkoterminowe
+l10n_pl_openglobe.chart85010000,pl_chart_template,85-010-000,False,account.data_account_type_current_liabilities,Fundusze specjalne - Zakładowy fundusz świadczeń socjalnych
+l10n_pl_openglobe.chart85020100,pl_chart_template,85-020-100,False,account.data_account_type_current_liabilities,Fundusze specjalne - Inne - Zakładowy fundusz rehabilitacji osób niepełnosprawnych
+l10n_pl_openglobe.chart85020200,pl_chart_template,85-020-200,False,account.data_account_type_current_liabilities,Fundusze specjalne - Inne - Fundusz nagród
+l10n_pl_openglobe.chart85020300,pl_chart_template,85-020-300,False,account.data_account_type_current_liabilities,Fundusze specjalne - Inne - Fundusz na remont zasobów mieszkaniowych
+l10n_pl_openglobe.chart86000000,pl_chart_template,86-000-000,False,account.data_unaffected_earnings,Wynik finansowy
+l10n_pl_openglobe.chart87010000,pl_chart_template,87-010-000,False,account.data_account_type_current_liabilities,Podatek dochodowy i inne obciążenia wyniku - Podatek dochodowy od osób prawnych
+l10n_pl_openglobe.chart87020000,pl_chart_template,87-020-000,False,account.data_account_type_current_liabilities,Podatek dochodowy i inne obciążenia wyniku - Inne obowiązkowe obciążenia wyniku finansowego

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!--Extended downpayment invoice form view-->
+        <record id="invoice_downpayment_form_view" model="ir.ui.view">
+            <field name="name">invoice.downpayment.form.view</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook/page[last()]" position="after">
+                    <page id="invoice_downpayment" string="Downpayment">
+                        <group>
+                            <group name="downpayment_details" string="Downpayment Details">
+                                <field name="is_downpayment"/>
+                            </group>
+
+                            <group name="invoice_details" string="Invoice Details">
+                                <field name="main_so_id"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <!--Extended downpayment invoice list view-->
+        <record id="invoice_downpayment_tree_view" model="ir.ui.view">
+            <field name="name">invoice.downpayment.tree.view</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_invoice_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="/tree/field[@name='invoice_origin']" position="after">
+                    <field name="main_so_id" optional="show" widget="many2onebutton"/>
+                </xpath>
+
+                <xpath expr="/tree/field[last()]" position="after">
+                    <field name="is_downpayment"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

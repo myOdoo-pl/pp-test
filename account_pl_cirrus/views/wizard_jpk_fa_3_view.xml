@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="view_wizard_jpk_fa_3_records" model="ir.ui.view">
+      <field name="name">Wygeneruj JPK-FA(3)</field>
+      <field name="model">wizard.jpk.fa.3</field>
+      <field name="type">form</field>
+      <field name="arch" type="xml">
+      <form>
+        <group>
+          <group>
+            <field name="company_id" readonly="0" required="1"/>
+            <field name="period"/>
+            <field name="jpk_fa_file" filename="jpk_fa_filename"/>
+            <!-- <field name="error_message"/> -->
+            <field name="jpk_fa_filename" invisible="1"/>
+          </group>
+          <group>
+            <field name="date_from" required="1"/>
+            <field name="date_to" required="1"/>
+            <field name="cash_basis_pl"/>
+          </group>
+        </group>
+        <footer>
+           <button special="cancel"  string="Cancel" />
+           <button name="check_report" string="Wygeneruj" colspan="1" type="object" class="oe_highlight"/>
+        </footer>
+      </form>
+      </field>
+    </record>
+
+    <record id="action_jpk_fa_3_report" model="ir.actions.act_window">
+      <field name="name">JPK-FA (3)</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">wizard.jpk.fa.3</field>
+      <field name="view_mode">form</field>
+      <field name="target">new</field>
+      <field name="help">Wygeneruj Jednolity Plik Kontrolny do faktur.</field>
+    </record>
+
+    <menuitem
+            action="action_jpk_fa_3_report"
+            id="menu_wizard_jpk_fa_3_records"
+            parent="account_pl_cirrus.menu_finance_legal_reports"
+            sequence="46"/>
+  </data>
+</odoo>

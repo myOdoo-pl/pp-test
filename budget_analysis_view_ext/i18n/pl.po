@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* budget_analysis_view_ext
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20211201\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-13 12:21+0000\n"
+"PO-Revision-Date: 2022-01-13 13:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: pl\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. module: budget_analysis_view_ext
+#: model:ir.model,name:budget_analysis_view_ext.model_crossovered_budget_lines
+msgid "Budget Line"
+msgstr "Pozycja budżetu"
+
+#. module: budget_analysis_view_ext
+#: model:ir.model.fields,field_description:budget_analysis_view_ext.field_crossovered_budget_lines__company_group_id
+msgid "Company Group"
+msgstr "Grupa Firm"
+
+#. module: budget_analysis_view_ext
+#: model:ir.model.fields,field_description:budget_analysis_view_ext.field_crossovered_budget_lines__contractor_id
+msgid "Contractor"
+msgstr "Kontrahent"
+
+#. module: budget_analysis_view_ext
+#: model:ir.model.fields,field_description:budget_analysis_view_ext.field_crossovered_budget_lines__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: budget_analysis_view_ext
+#: model:ir.model.fields,field_description:budget_analysis_view_ext.field_crossovered_budget_lines__id
+msgid "ID"
+msgstr ""
+
+#. module: budget_analysis_view_ext
+#: model:ir.model.fields,field_description:budget_analysis_view_ext.field_crossovered_budget_lines____last_update
+msgid "Last Modified on"
+msgstr "Data ostatniej modyfikacji"
+
+#. module: budget_analysis_view_ext
+#: model:ir.model.fields,field_description:budget_analysis_view_ext.field_crossovered_budget_lines__salesman_id
+msgid "Salesman"
+msgstr "Sprzedawca"

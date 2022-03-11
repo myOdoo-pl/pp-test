@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Adding new user group -->
+    <record id="group_adcookie_account_user" model="res.groups">
+        <field name="name">Standard User</field>
+        <field name="category_id" ref="base.module_category_accounting_accounting"/>
+    </record>
+
+    <!-- Adding record rules to analytic accounts -->
+    <record id="access_non_sensitive_analytic_accounts" model="ir.rule">
+        <field name="name">Sensitive Analytic Accounts</field>
+        <field name="model_id" ref="analytic.model_account_analytic_account"/>
+        <field name="domain_force">[('sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+    </record>
+
+    <!-- Adding record rules to analytic lines -->
+    <record id="access_non_sensitive_analytic_lines" model="ir.rule">
+        <field name="name">Sensitive Analytic Lines</field>
+        <field name="model_id" ref="analytic.model_account_analytic_line"/>
+        <field name="domain_force">[('account_id.sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+    </record>
+
+    <!-- Adding record rules to account moves -->
+    <record id="access_non_sensitive_account_moves" model="ir.rule">
+        <field name="name">Sensitive Account Moves</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="domain_force">[('sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+    </record>
+
+    <!-- Adding record rules to budgets -->
+    <record id="access_non_sensitive_budgets" model="ir.rule">
+        <field name="name">Sensitive Budgets</field>
+        <field name="model_id" ref="account_budget.model_crossovered_budget"/>
+        <field name="domain_force">[('sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+    </record>
+
+    <!-- Adding record rules to budget lines -->
+    <record id="access_non_sensitive_budget_lines" model="ir.rule">
+        <field name="name">Sensitive Budget Lines</field>
+        <field name="model_id" ref="account_budget.model_crossovered_budget_lines"/>
+        <field name="domain_force">[('crossovered_budget_id.sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+    </record>
+
+    <!-- Updating existing account move rules in sales module  -->
+    <function name="write" model="ir.model.data">
+        <function name="search" model="ir.model.data">
+            <value
+              eval="[('module', '=', 'sale'), ('name', '=', 'account_invoice_rule_see_all')]"
+              />
+        </function>
+        <value eval="{'noupdate': False}" />
+    </function>
+
+    <record id="sale.account_invoice_rule_see_all" model="ir.rule">
+        <field name="name">All Invoices</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="domain_force">[('sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4, ref('sales_team.group_sale_salesman_all_leads'))]"/>
+    </record>
+
+    <function name="write" model="ir.model.data">
+        <function name="search" model="ir.model.data">
+            <value
+              eval="[('module', '=', 'sale'), ('name', '=', 'account_invoice_rule_see_all')]"
+              />
+        </function>
+        <value eval="{'noupdate': True}" />
+    </function>
+
+    <!-- Updating existing account move rules in purchase module  -->
+    <function name="write" model="ir.model.data">
+        <function name="search" model="ir.model.data">
+            <value
+              eval="[('module', '=', 'purchase'), ('name', '=', 'purchase_user_account_move_rule')]"
+              />
+        </function>
+        <value eval="{'noupdate': False}" />
+    </function>
+
+    <record id="purchase.purchase_user_account_move_rule" model="ir.rule">
+        <field name="name">Purchase User Account Move</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="domain_force">[('sensitive_data', '=', False)]</field>
+        <field name="groups" eval="[(4, ref('purchase.group_purchase_user'))]"/>
+    </record>
+
+    <function name="write" model="ir.model.data">
+        <function name="search" model="ir.model.data">
+            <value
+              eval="[('module', '=', 'purchase'), ('name', '=', 'purchase_user_account_move_rule')]"
+              />
+        </function>
+        <value eval="{'noupdate': True}" />
+    </function>
+
+</odoo>

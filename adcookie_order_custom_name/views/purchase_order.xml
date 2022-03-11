@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="view_purchase_order_form_ext" model="ir.ui.view">
+            <field name="name">purchase.order.form.ext</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='date_planned_div']" position="after">
+                    <field name="custom_name"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,60 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* adcookie_order_custom_name
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 10:21+0000\n"
+"PO-Revision-Date: 2021-12-01 10:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_purchase_order__custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_sale_order__custom_name
+msgid "Custom Name"
+msgstr "Nazwa niestandardowa"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_purchase_order__id
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: adcookie_order_custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Data ostatniej modyfikacji"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_purchase_order__po_name
+msgid "Po Name"
+msgstr "Nazwa PO"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model,name:adcookie_order_custom_name.model_purchase_order
+msgid "Purchase Order"
+msgstr "Zamówienie zakupu"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model,name:adcookie_order_custom_name.model_sale_order
+msgid "Sales Order"
+msgstr "Zamówienie sprzedaży"
+
+#. module: adcookie_order_custom_name
+#: model:ir.model.fields,field_description:adcookie_order_custom_name.field_sale_order__so_name
+msgid "So Name"
+msgstr "Nazwa SO"

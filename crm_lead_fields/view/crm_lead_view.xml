@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <record id="crm_lead_form_modification" model="ir.ui.view">
+            <field name="name">crm.lead.form.modification</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='opportunity_partner']/div[2]" position="after">
+                    <field name="scoring"/>
+                </xpath>
+                <xpath expr="//field[@name='tag_ids']" position="after">
+                    <field name="pipedrive_id"/>
+                    <field name="pipedrive_url" widget="url"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

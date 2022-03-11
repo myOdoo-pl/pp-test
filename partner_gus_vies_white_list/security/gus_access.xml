@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<data noupdate="0">
+
+    <record id="gus_update_user_access" model="ir.model.access">
+        <field name="name">GUS Update User Access</field>
+        <field name="model_id" ref="partner_gus_vies_white_list.model_partner_gus_wizard"/>
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+    </record>
+
+</data>
+
+</odoo>

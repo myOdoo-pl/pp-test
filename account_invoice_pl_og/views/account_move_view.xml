@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<odoo>
+<data>
+
+    #---------------------------------------------------------
+    # Original invoice num
+    #---------------------------------------------------------
+<!--  -->
+    <record model="ir.ui.view" id="view_account_pl_invoice_form">
+        <field name="name">account.invoice.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+
+<!--          <field name="invoice_date" position="after">-->
+<!--              <field name="date" attrs="{'readonly':['|', ('state', '=', 'posted'), ('posted_before', '=', 'True')]}"/>-->
+<!--          </field>-->
+
+          <xpath expr="//field[@name='date']" position="attributes">
+              <attribute name="attrs"></attribute>
+          </xpath>
+
+            <field name="invoice_incoterm_id" position="after">
+                <field name='vat' invisible="1"/>
+            </field>
+
+            <field name="fiscal_position_id" position="after">
+                <field name='reversed_entry_id'/>
+            </field>
+
+            <field name="price_subtotal" position="after">
+                <field name="invoice_line_tax"/>
+<!--                <field name="invoice_line_gross"/>  -->
+                <field name="price_total" string="Brutto"/>
+            </field>
+            <field name="date" position="after">
+                <field name="date_recived" attrs="{'invisible': [('move_type', 'not in', ('in_refund', 'in_invoice','in_receipt'))]}"/>
+            </field>
+<!--            <xpath expr="//field[@name='invoice_date']" position="replace">-->
+<!--                <field name="invoice_date" />-->
+<!--            </xpath>-->
+            <xpath expr="//field[@name='invoice_payment_term_id']" position="attributes">
+                <attribute name="options">{'no_create': True}</attribute>
+            </xpath>
+            <field name="partner_bank_id" position="replace">
+              <field domain="[('partner_id.ref_company_ids', 'in', [company_id])]" name="partner_bank_id"/>
+            </field>
+
+            <xpath expr="//notebook/page[2]/field/tree/field[@name='amount_currency']" position="before">
+              <field name="currency_rate_inversion_line" string='Currency Rate' optional="hide"/>
+            </xpath>
+
+            <!-- VIEWS FOR CORRECTIONS -->
+
+            <xpath expr="//field[@name='ref']" position="after">
+    					<field name="current_country_code" invisible="1"/>
+              <field name="reversed_entry_id" invisible="1"/>
+              <field name="display_original_refund" invisible="1"/>
+    				</xpath>
+
+    				<field name="invoice_line_ids" position="attributes">
+    						<attribute name="attrs">{'readonly': [('move_type', 'in', ['out_refund', 'in_refund']), ('current_country_code', '=', 'PL'), ('reversed_entry_id','!=', False)]}</attribute>
+    				</field>
+
+    				<!-- <xpath expr="//field[@name='move_name']" position="after">
+
+    				</xpath>
+
+    				<xpath expr="//field[@name='move_name']" position="after">
+    					<field name="display_original_refund" invisible="1"/>
+    				</xpath> -->
+
+
+            <xpath expr="//notebook/page[1]" position="before">
+    					<page name='correction_line' string="After refund" attrs="{'invisible':['|', ('reversed_entry_id','=', False), ('current_country_code', '!=', 'PL')]}">
+    						<field name="correction_invoice_line_ids"
+                                   nolabel="1"
+                                   widget="section_and_note_one2many"
+                                   mode="tree,kanban"
+                                   context="{'move_type': move_type, 'journal_id': journal_id, 'default_invoice_id': id}">
+    							<tree string="Correction Invoice Lines" editable="bottom" create="0">
+    								<field name="sequence" widget="handle"/>
+    								<field name="product_id"/>
+    								<field name="name" widget="section_and_note_text"/>
+    								<field name="account_id" readonly="1"/>
+    								<field name="quantity"/>
+    								<field name="product_uom_id" groups="uom.group_uom" readonly="1"/>
+    								<field name="price_unit"/>
+    								<field name="discount" readonly="1"/>
+    								<field name="invoice_line_tax_ids"
+                                           widget="many2many_tags"
+                                           context="{'move_type':parent.move_type}"
+                                           domain="[('type_tax_use','=','sale'),('company_id', '=', parent.company_id)]"
+                                           options="{'no_create': True}"/>
+    								<field name="price_subtotal" force_save="1"/>
+    								<field name="invoice_line_tax" force_save="1"/>
+    								<field name="price_total" force_save="1"/>
+    								<field name="currency_id" invisible="1"/>
+                                    <field name="display_type" force_save="1" invisible="1"/>
+    							</tree>
+    						</field>
+    						<group class="oe_subtotal_footer oe_right">
+    								<field name="correction_untaxed"/>
+    								<field name="correction_tax"/>
+    								<field name="correction_total" class="oe_subtotal_footer_separator"/>
+                    <field name='correction_due' invisible='1'/>
+					          <field name="correction_residual" class="oe_subtotal_footer_separator" attrs="{'invisible': [('state', '=', 'draft'),('correction_due', '=', True)]}"/>
+                    <field name="correction_residual" class="oe_subtotal_footer_separator" attrs="{'invisible': [('state', '=', 'draft'),('correction_due', '=', False)]}" string='Amount Due'/>
+    						</group>
+    					</page>
+    				</xpath>
+
+            <xpath expr="//field[@name='narration']" position="replace">
+    				  <field name="narration" placeholder="Terms and conditions..."/>
+    				</xpath>
+
+
+        </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="view_account_pl_invoice_line_tree">
+        <field name="name">account.invoice.line.tree</field>
+        <field name="model">account.move.line</field>
+        <field name="inherit_id" ref="account.view_move_line_tree"/>
+        <field name="arch" type="xml">
+            <field name="amount_currency" position="after">
+                <field name="invoice_line_tax"/>
+<!--                <field name="invoice_line_gross"/>  -->
+                <field name="price_total" string="Brutto"/>
+            </field>
+        </field>
+    </record>
+
+<!--      -->
+    <!-- <record model="ir.ui.view" id="view_account_pl_invoice_tree">
+        <field name="name">account.invoice.tree</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_tree"/>
+        <field name="arch" type="xml">
+            <field name="date" position="after">
+                <field name="date_issue"/>
+            </field>
+        </field>
+    </record> -->
+
+<!--      -->
+    <record id="view_account_pl_invoice_filter_dates" model="ir.ui.view">
+        <field name="name">account.invoice.select</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_account_invoice_filter"/>
+        <field name="arch" type="xml">
+            <!-- <xpath expr="//group/filter[@name='duedate']" position="after">
+                <filter string="Issue Date" name="issue_date" domain="[]" context="{'group_by':'date_issue'}"/>
+            </xpath> -->
+            <xpath expr="//field[@name='name']" position="replace">
+               <field name="name" string="Invoice" filter_domain="['|','|','|','|','|', ('name','ilike',self), ('invoice_origin','ilike',self), ('ref', 'ilike', self), ('partner_id', 'child_of', self),('vat', 'ilike', self),('payment_reference', 'ilike', self)]"/>
+            </xpath>
+        </field>
+    </record>
+
+</data>
+</odoo>

@@ -1,0 +1,201 @@
+.oe_point_desc {
+    font-size: 10px;
+    font-weight: bold;
+}
+.oe_point_desc_normal {
+    font-size: 10.5px;
+    font-weight: normal;
+}
+.oe_title_text {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 3px;
+    line-height: 90%;
+}
+.oe_title_text_no_bold {
+    font-size: 18px;
+    padding: 3px;
+    line-height: 90%;
+}
+.oe_margin_reset > div > p {
+    margin: 0 0 0 0;
+}
+.oe_cell_content {
+    font-size: 16px;
+    font-weight: normal;
+}
+.oe_cell_desc {
+    padding-top: 5px !important;
+    background-color: #E4E4E4;
+    height: 36px;
+    line-height: 100%;
+}
+.oe_cell_desc_small {
+    padding-top: 5px !important;
+    background-color: #E4E4E4;
+    /*height: 36px;*/
+    line-height: 100%;
+}
+.oe_cell_desc_info {
+    padding-top: 4px;
+    background-color: #E4E4E4;
+    height: 35px;
+}
+.oe_cell_fix_margin{
+  margin-bottom: -1px;
+}
+.oe_cell_even{
+  padding-top: 5px !important;
+  height: 36px;
+  line-height: 100%;
+}
+.oe_helper_text {
+    font-size: 11px;
+}
+.oe_row_border {
+    border: 1px solid black;
+    padding: 0px 5px 0px 5px;
+}
+.oe_row_separator {
+    border-top: 2px solid black;
+}
+.oe_side_borders {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.oe_height_plus {
+    height: 42px;
+}
+.oe_footer_page {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+.oe_bottom_border {
+    border-bottom: 1px solid;
+}
+.oe_cell_white_bgr {
+    background-color: white;
+    height: 36px;
+}
+.oe_adendum_height {
+   height: 75px;
+}
+.oe_adendum_color {
+    background-color: #B9B9B9;
+    min-height: 35px;
+}
+.oe_square_font {
+    font-size: 10px;
+    min-height: 24px;
+    text-align: center;
+}
+.oe_empty_cell_content {
+    min-height: 23px;
+}
+p.oe_cell_content {
+    text-align: right;
+}
+
+.oe_cell_small{
+  padding: 2px;
+}
+
+/* Invoice register */
+.oe_openglobe {
+    font-size: 11px;
+}
+.oe_inv_reg_desc {
+    font: bold 28px serif;
+}
+.oe_date_page {
+    margin-right: -20px;
+}
+.oe_inv_reg_table {
+    font-size: 12px;
+}
+.oe_inv_reg_table_header {
+    font: bold 13px serif;
+}
+.oe_inv_reg_table_header p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.oe_inv_reg_table_header th {
+    padding: 4px 4px 4px 4px !important;
+}
+/* Invoice register end*/
+
+/* VAT-EU */
+
+.oe_vatue_date_min_height {
+    min-height: 35px;
+}
+.oe_desc_padding_fix {
+    padding-left: 3px !important;
+}
+
+.oe_cell_content_center {
+    text-align: center;
+}
+.oe_vatue_table_header {
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+}
+.oe_vatue_table_header_small {
+    height: 15px;
+    background-color: #E4E4E4;
+}
+.oe_vatue_min_height {
+    min-height: 35px;
+}
+.oe_vatue_desc_color {
+    background-color: #E4E4E4;
+}
+.oe_report_text_format {
+    margin-top: 6px !important;
+    text-align: right;
+}
+
+/* VAT-EU end */
+
+/* Trial balance */
+
+/*th, tbody {
+    font-size: 13px;
+}*/
+
+/* Trial balance end */
+
+/*Balance and Pls*/
+.oe_pls_header_small {
+  font-weight: bold;
+  font-size: 12px;
+}
+.oe_pls_header_big {
+  font-weight: bold;
+  font-size: 16px;
+}
+.oe_pls_center{
+  text-align: center;
+}
+.oe_pls_right {
+  text-align: right;
+}
+.oe_pls_main_table{
+  font-size: 10px;
+  border: 1px solid black;
+}
+.oe_pls_main_table td {
+  padding: 3px 3px;
+}
+.oe_pls_preserve_spaces{
+  white-space: pre-wrap;
+}
+.oe_sign_info {
+  font-size: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+/*Balance and Pls end*/

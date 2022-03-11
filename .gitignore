@@ -1,0 +1,7 @@
+__pycache__/
+.idea/
+*.log
+*_copy/
+*.tar.gz
+venv/
+.vscode/

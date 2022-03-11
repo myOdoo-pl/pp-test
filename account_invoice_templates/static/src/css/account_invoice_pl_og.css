@@ -1,0 +1,20 @@
+.margin-fix {
+    margin-bottom: 0 !important;
+}
+.oe_no_border_but_right {
+    border-top-style: hidden !important;
+    border-left-style: hidden !important;
+    border-bottom-style: hidden !important;
+}
+.oe_no_margin {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.oe_fixed_width {
+    width: 20% !important;
+}
+.oe_no_border td {
+    border: 0 !important;
+    border-right-style: hidden !important;
+    border-left-style: hidden !important;
+}

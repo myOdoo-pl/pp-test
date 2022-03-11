@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!--
+        pack_folder_structure:
+                This is the folder structure.
+                It should be the actual names of fields to be used.
+                Example: partner_id.name,date,name
+
+                Use parts of a date like this: date_invoice|%Y%m%s
+
+        For more complex processing, you can redefine the
+            pack_define_folder_structure method
+        -->
+        <act_window id="account_invoice_download_pack_action"
+                    name="Pack invoices (ZIP)"
+                    binding_model="account.move"
+                    res_model="ir.model.download_pack"
+                    binding_views="list,form"
+                    view_mode="form"
+                    target="new"
+                    context="{'pack_folder_structure':'invoice_date|%Y,invoice_date|%m,invoice_date|%d,partner_id.name,name'}"/>
+    </data>
+</odoo>

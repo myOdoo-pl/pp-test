@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* adcookie_invoice_tags
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-07 13:33+0000\n"
+"PO-Revision-Date: 2022-01-07 13:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__color
+msgid "Color Index"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model_terms:ir.actions.act_window,help:adcookie_invoice_tags.action_account_move_category_form
+msgid "Create a new invoice tag"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move__display_name
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move__id
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__id
+msgid "ID"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model_terms:ir.ui.view,arch_db:adcookie_invoice_tags.view_account_move_category_form
+msgid "Invoice Tag"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.actions.act_window,name:adcookie_invoice_tags.action_account_move_category_form
+#: model:ir.model,name:adcookie_invoice_tags.model_account_move_category
+#: model:ir.ui.menu,name:adcookie_invoice_tags.menu_account_move_category
+msgid "Invoice Tags"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model,name:adcookie_invoice_tags.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move____last_update
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model_terms:ir.ui.view,arch_db:adcookie_invoice_tags.account_move_category_view_search
+msgid "Search Invoice Tags"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move_category__name
+msgid "Tag Name"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_bank_statement_line__category_id
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_move__category_id
+#: model:ir.model.fields,field_description:adcookie_invoice_tags.field_account_payment__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: adcookie_invoice_tags
+#: model_terms:ir.ui.view,arch_db:adcookie_invoice_tags.view_move_form_tags_ext
+msgid "Tags..."
+msgstr ""

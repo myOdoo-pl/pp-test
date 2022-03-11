@@ -1,0 +1,22 @@
+<openerp>
+    <data>
+        <record id="view_currency_form_history" model="ir.ui.view">
+            <field name="model">res.currency</field>
+            <field name="inherit_id" ref="base.view_currency_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='rate']" position="after">
+                    <field name="reverse_rate"/>
+                </xpath>
+            </field>
+        </record>
+        <record id="view_currency_reverse_rate" model="ir.ui.view">
+            <field name="model">res.currency</field>
+            <field name="inherit_id" ref="base.view_currency_tree"/>
+            <field name="arch" type="xml">
+                <tree position="inside">
+                    <field name="reverse_rate"/>
+              </tree> 
+            </field>
+        </record>
+    </data>
+</openerp>

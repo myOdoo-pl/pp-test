@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+		<!-- <report
+            id="account_invoices"
+            model="account.invoice"
+            string="Invoices"
+            report_type="qweb-pdf"
+            name="account_invoice_pl_og.report_invoice_pl_og"
+            file="account_invoice_pl_og.report_invoice_pl_og"
+            attachment_use="True"
+            attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+        /> -->
+
+    <report
+        id="account_invoice_action_report_duplicate"
+        model="account.move"
+        string="Duplicates"
+        report_type="qweb-pdf"
+        name="account_invoice_pl_og.report_invoice_document_duplicate_main"
+        file="account_invoice_pl_og.report_invoice_document_duplicate_main"
+        attachment_use="False"
+    />
+
+
+    </data>
+</odoo>

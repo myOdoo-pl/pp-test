@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="res_config_settings_view_gus_code" model="ir.ui.view">
+        <field name="name">res.config.settings.form.gus.code</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="10"/>
+        <field name="inherit_id" ref="product.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+          <xpath expr="//div[@id='module_auth_oauth']" position="after">
+            <div class="col-12 col-lg-6 o_setting_box">
+                  <div class="o_setting_left_pane">
+                      <field name="use_gus_code"/>
+                  </div>
+                  <div class="o_setting_right_pane">
+                      <label for="use_gus_code"/>
+                      <span class="fa fa-lg fa-building-o" title="Values set here are company-specific." aria-label="Values set here are company-specific." groups="base.group_multi_company" role="img"/>
+                      <div class="text-muted">
+                          Use GUS data autofill for partners
+                          How to get access to GUS database, under following address https://api.stat.gov.pl/Home/RegonApi
+                      </div>
+                      <div class="content-group" attrs="{'invisible': [('use_gus_code','=',False)]}">
+                          <div class="mt16">
+                              <field name="gus_code" placeholder="Write gus authentication code here"/>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </xpath>
+        </field>
+      </record>
+</odoo>

@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* comceptplus_pack_records_ext
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 09:51+0000\n"
+"PO-Revision-Date: 2019-08-06 11:54+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+
+#. module: comceptplus_pack_records_ext
+#: code:addons/comceptplus_pack_records_ext/wizard/ir_model_download_pack.py:160
+#, python-format
+msgid "%s files processed"
+msgstr "przerobiono %s plików"
+
+#. module: comceptplus_pack_records_ext
+#: code:addons/comceptplus_pack_records_ext/wizard/ir_model_download_pack.py:229
+#: code:addons/comceptplus_pack_records_ext/wizard/ir_model_download_pack.py:230
+#, python-format
+msgid ""
+"A ZIP file was not created:\n"
+"%s"
+msgstr ""
+"Plik ZIP nie został utworzony:\n"
+"%s"
+
+#. module: comceptplus_pack_records_ext
+#: model:ir.model.fields,field_description:comceptplus_pack_records_ext.field_ir_model_download_pack__comment
+msgid "Comment"
+msgstr "Komentarz"
+
+#. module: comceptplus_pack_records_ext
+#: model:ir.model.fields,field_description:comceptplus_pack_records_ext.field_ir_model_download_pack__name
+msgid "File Name"
+msgstr "Nazwa pliku"
+
+#. module: comceptplus_pack_records_ext
+#: code:addons/comceptplus_pack_records_ext/wizard/ir_model_download_pack.py:44
+#, python-format
+msgid "No records found"
+msgstr "Nie znaleziono rekordów"
+
+#. module: comceptplus_pack_records_ext
+#: model:ir.model,name:comceptplus_pack_records_ext.model_ir_model_download_pack
+msgid "Wizard to download a pack of records"
+msgstr "Kreator pobrania paczki rekordów"
+
+#. module: comceptplus_pack_records_ext
+#: code:addons/comceptplus_pack_records_ext/wizard/ir_model_download_pack.py:40
+#, python-format
+msgid ""
+"You are about to pack %s records and %s files                            \n"
+"(records with no attachments are ignored)"
+msgstr ""
+"Planujesz spakować %s rekordów i %s plików                            \n"
+"(rekordy bez załączników są ignorowane)"

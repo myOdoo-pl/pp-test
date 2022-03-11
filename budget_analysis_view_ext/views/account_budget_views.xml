@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_crossovered_budget_line_tree_ext" model="ir.ui.view">
+            <field name="name">crossovered.budget.line.tree.ext</field>
+            <field name="model">crossovered.budget.lines</field>
+            <field name="inherit_id" ref="account_budget.view_crossovered_budget_line_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='analytic_account_id']" position="after">
+                    <field name="contractor_id"/>
+                    <field name="company_group_id"/>
+                    <field name="salesman_id"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_crossovered_budget_line_search_ext" model="ir.ui.view">
+            <field name="name">crossovered.budget.line.search.ext</field>
+            <field name="model">crossovered.budget.lines</field>
+            <field name="inherit_id" ref="account_budget.view_crossovered_budget_line_search"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='analytic_account_id']" position="after">
+                    <field name="contractor_id"/>
+                    <field name="company_group_id"/>
+                    <field name="salesman_id"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

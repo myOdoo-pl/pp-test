@@ -1,0 +1,31 @@
+.line_items_tree [data-name="product_id"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="name"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="account_id"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="analytic_account_id"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="quantity"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="pprice_unit"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="tax_ids"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="price_subtotal"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="discount"]{
+    min-width: 15% !important;
+}
+.line_items_tree [data-name="analytic_tag_ids"]{
+    min-width: 15% !important;
+}
+

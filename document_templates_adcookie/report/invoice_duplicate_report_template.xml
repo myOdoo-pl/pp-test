@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_invoice_duplicate_document" primary="True"
+              inherit_id="document_templates_adcookie.report_invoice_document_adcookie">
+        <xpath expr="//div[hasclass('page')]/h2" position="after">
+            <h3 style="text-align: center; color: #f37224; margin-top: 0">
+                <span>DUPLICATE</span>
+            </h3>
+        </xpath>
+
+        <xpath expr="//div[hasclass('row', 'mt32', 'mb32')]//span[@name='invoice_date']" position="after">
+            <span class="col-auto" name="duplicate_invoice_date">
+                <strong>Duplicate Date:</strong>
+                <p t-esc="o.get_duplicate_invoice_date()" t-options="{'widget': 'date'}"/>
+            </span>
+        </xpath>
+    </template>
+
+    <template id="report_invoice_duplicate">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="document_templates_adcookie.report_invoice_duplicate_document"
+                   t-lang="o.partner_id.lang"/>
+            </t>
+        </t>
+    </template>
+</odoo>

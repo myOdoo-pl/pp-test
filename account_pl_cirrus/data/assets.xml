@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="assets_common" name="account assets" inherit_id="web.report_assets_common">
+      <xpath expr="." position="inside">
+      <link rel="stylesheet" href="/account_pl_cirrus/static/src/css/main.css"/>
+      </xpath>
+    </template>
+  </data>
+</odoo>

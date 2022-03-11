@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="paperformat_pls_bal" model="report.paperformat">
+      <field name="name">Bilans i RZiS</field>
+      <field name="orientation">Portrait</field>
+      <field name="margin_top">4</field>
+      <field name="margin_bottom">2</field>
+    </record>
+
+    <record id="paperformat_invoice_register" model="report.paperformat">
+      <field name="name">Rejestr Faktur</field>
+      <field name="orientation">Landscape</field>
+      <field name="margin_bottom">0</field>
+    </record>
+
+    <record id="paperformat_trial_balance" model="report.paperformat">
+      <field name="name">Trial Balance</field>
+      <field name="orientation">Landscape</field>
+      <field name="margin_bottom">3</field>
+    </record>
+
+    <record id="paperformat_tax_reports" model="report.paperformat">
+      <field name="name">Tax reports</field>
+      <field name="orientation">Portrait</field>
+      <field name="margin_bottom">2</field>
+
+    </record>
+
+
+    <!-- Pls report declaration -->
+    <report
+      id="report_pls"
+      model="account.report.pls.bal"
+      string="Rachunek Zysków i Strat"
+      report_type="qweb-pdf"
+      name="account_pl_cirrus.pls_bal_report"
+      file="account_pl_cirrus.pls_bal_report"
+      />
+
+    <record id="report_pls" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_pls_bal"/>
+    </record>
+
+      <!-- balance report declaration -->
+    <report
+      id="report_balance"
+      model="account.report.pls.bal"
+      string="Bilans"
+      report_type="qweb-pdf"
+      name="account_pl_cirrus.pls_bal_report"
+      file="account_pl_cirrus.pls_bal_report"/>
+
+    <record id="report_balance" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_pls_bal"/>
+    </record>
+
+    <report
+        id="account_vat_7_18"
+        model="account.report.vat.7.18"
+        string="VAT-7(18)"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_vat_7_18"
+        file="account_pl_cirrus.report_vat_7_18"/>
+
+      <record id="account_vat_7_18" model="ir.actions.report">
+        <field name="paperformat_id" ref="paperformat_tax_reports"/>
+      </record>
+
+    <report
+        id="account_vat_7k_12"
+        model="account.report.vat.7k.12"
+        string="VAT-7k(12)"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_vat_7k_12"
+        file="account_pl_cirrus.report_vat_7k_12"/>
+
+    <record id="account_vat_7k_12" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_tax_reports"/>
+    </record>
+
+    <report
+        id="account_vat_7_20"
+        model="account.report.vat.7.20"
+        string="VAT-7(20)"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_vat_7_20"
+        file="account_pl_cirrus.report_vat_7_20"/>
+
+      <record id="account_vat_7_20" model="ir.actions.report">
+        <field name="paperformat_id" ref="paperformat_tax_reports"/>
+      </record>
+
+    <report
+        id="account_vat_7k_14"
+        model="account.report.vat.7.20"
+        string="VAT-7k(14)"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_vat_7k_14"
+        file="account_pl_cirrus.report_vat_7k_14"/>
+
+    <record id="account_vat_7k_14" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_tax_reports"/>
+    </record>
+
+    <report
+        id="account_jpk_vat3_pdf"
+        model="wizard.jpk.vat.3"
+        string="Jpk-Vat3-PDF"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_jpk_vat3_pdf"
+        file="account_pl_cirrus.report_jpk_vat3_pdf"/>
+
+
+    <record id="account_jpk_vat3_pdf" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_tax_reports"/>
+    </record>
+
+    <report
+        id="account_jpk_vat_2020_pdf"
+        model="wizard.jpk.vat.3"
+        string="Jpk-Vat3-PDF"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_jpk_vat_2020_pdf"
+        file="account_pl_cirrus.report_jpk_vat_2020_pdf"/>
+
+
+    <record id="account_jpk_vat_2020_pdf" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_tax_reports"/>
+    </record>
+
+    <report
+        id="account_invoice_register"
+        model="account.report.invoice_register"
+        string="Invoice Register"
+        report_type="qweb-pdf"
+        name="account_pl_cirrus.report_invoice_register"
+        file="account_pl_cirrus.report_invoice_register"/>
+
+    <record id="account_invoice_register" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_invoice_register"/>
+    </record>
+
+
+    <report
+      id="account_vat_ue_4"
+      model="account.report.vat.ue4"
+      string="VAT-UE(4)"
+      report_type="qweb-pdf"
+      name="account_pl_cirrus.report_vat_ue_4"
+      file="account_pl_cirrus.report_vat_ue_4"/>
+
+    <record id="account_vat_ue_4" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_tax_reports"/>
+    </record>
+
+    <report
+          id="account_trial_balance"
+          model="account.report.trial_balance"
+          string="Trial Report"
+          report_type="qweb-pdf"
+          name="account_pl_cirrus.report_trial_balance"
+          file="account_pl_cirrus.report_trial_balance"/>
+
+    <record id="account_trial_balance" model="ir.actions.report">
+      <field name="paperformat_id" ref="paperformat_trial_balance"/>
+    </record>
+
+  </data>
+</odoo>

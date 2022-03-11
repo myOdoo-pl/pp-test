@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="view_wizard_vat_2020_records" model="ir.ui.view">
+      <field name="name">Wydruk JPK ewidencji VAT</field>
+      <field name="model">wizard.jpk.vat.2020</field>
+      <field name="arch" type="xml">
+      <form>
+        <group>
+          <group>
+            <field name="company_id" readonly="0" required="1"/>
+            <field name="period"/>
+            <field name="vat_file" filename="vat_filename"/>
+            <field name="vat_filename" invisible="1"/>
+            <field name="declaration_data" invisible="1"/>
+            <field name="pdf_file" filename="vat_filename"/>
+            <field name="pdf_filename" invisible="1"/>
+            <field name="correction_number"/>
+            <field name="correction_record"/>
+            <field name="correction_declaration"/>
+          </group>
+          <group>
+            <field name="date_from" required="1"/>
+            <field name="date_to" required="1"/>
+            <field name="cash_basis_pl"/>
+            <field name="natural_person"/>
+            <field name="no_declaration_data"/>
+          </group>
+        </group>
+        <notebook>
+          <page string="Dodatkowe pola deklaracji">
+            <group>
+              <group>
+                <field string="P_39 - Wysokość nadwyżki podatku naliczonego nad należnym z poprzedniej deklaracji" name="p_39_vdek"/>
+                <field string="P_49 - Ulga na zakup kasy fiskalnej do odliczenia w bieżącym okresie" name="p_49_vdek"/>
+                <field string="P_50 - Kwota podatku objęta zaniechaniem poboru zgodnie z art. 22 ustawy Ordynacja podatkowa" name="p_50_vdek"/>
+                <field string="P_52 - Nieodliczona w danym okresie ulga za zakup kasy fiskalnej przeniesiona na następny okres" name="p_52_vdek"/>
+                <!--<field string="P_63 - Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w art. 119 ustawy" name="p_63_vdek"/>
+                <field string="P_63 - Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w art. 119 ustawy" name="p_63_vdek"/>
+                <field string="P_64 - Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w art. 120 ust. 4 lub 5 ustawy" name="p_64_vdek"/>
+                <field string="P_65 - Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w art. 122 ustawy" name="p_65_vdek"/>
+                <field string="P_66 - Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w art. 136 ustawy" name="p_66_vdek"/>
+                <field string="P_67 - Podatnik korzysta z obniżenia zobowiązania podatkowego, o którym mowa w art. 108d ustawy" name="p_67_vdek"/>-->
+              </group>
+              <group>
+                <field string="P_53 - Wysokość nadwyżki podatku naliczonego nad należnym." name="p_53_vdek" attrs="{'invisible': [('declaration_data', '==', False)]}"/>
+                <field string="P_54 - Wysokość nadwyżki podatku naliczonego nad należnym do zwrotu na rachunek wskazany przez podatnika" name="p_54_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}" />
+                <field string="P_55 - Zwrot na rachunek VAT, o którym mowa w art. 87 ust. 6a ustawy" name="p_55_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_56 - Zwrot w terminie, o którym mowa w art. 87 ust. 6 ustawy" name="p_56_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_57 - Zwrot w terminie, o którym mowa w art. 87 ust. 2 ustawy" name="p_57_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_58 - Zwrot w terminie, o którym mowa w art. 87 ust. 5a zdanie pierwsze ustawy" name="p_58_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_59 - Zaliczenie zwrotu podatku na poczet przyszłych zobowiązań podatkowych" name="p_59_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_60 - Wysokość zwrotu do zaliczenia na poczet przyszłych zobowiązań podatkowych." name="p_60_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_61 - Rodzaj przyszłego zobowiązania podatkowego" name="p_61_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+                <field string="P_62 - Wysokość nadwyżki podatku naliczonego nad należnym do przeniesienia na następny okres rozliczeniowy" name="p_62_vdek" attrs="{'invisible': [('p_53_vdek', '==', 0)]}"/>
+              </group>
+            </group>
+          </page>
+        </notebook>
+        <footer>
+           <button name="get_data" string="Pobierz dane" colspan="1" type="object" class="oe_highlight"/>
+          <button name="check_report" string="Wygeneruj XML" colspan="1" type="object" class="oe_highlight" attrs="{'invisible': [('declaration_data', '==', False)]}"/>
+          <button name="print_pdf_report" string="Wygeneruj PDF" colspan="1" type="object" class="oe_highlight" attrs="{'invisible': [('declaration_data', '==', False)]}"/>
+           <!--<button name="print_pdf_report" string="Wygeneruj PDF" colspan="1" type="object" class="oe_highlight"/>-->
+        </footer>
+      </form>
+      </field>
+    </record>
+
+    <record id="action_vat_2020_report" model="ir.actions.act_window">
+      <field name="name">JPK-VDEK 2020</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">wizard.jpk.vat.2020</field>
+      <field name="view_mode">form</field>
+      <field name="target">new</field>
+      <field name="help">Wydruk raportu ewidencji zakupu i sprzedaży VAT.</field>
+    </record>
+
+    <menuitem
+            action="action_vat_2020_report"
+            id="menu_wizard_vat_2020_records"
+            parent="account_pl_cirrus.menu_finance_legal_reports"
+            sequence="30"/>
+  </data>
+</odoo>

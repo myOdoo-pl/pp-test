@@ -1,0 +1,421 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_pl_og
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20200318\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-21 16:01+0000\n"
+"PO-Revision-Date: 2020-03-21 16:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.report_invoice_document_duplicate
+msgid "<span>Duplicate</span>"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.report_invoice_document_duplicate
+msgid "<strong>Duplicate date:</strong>"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__account_id
+msgid "Account"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.view_account_pl_invoice_form
+msgid "After refund"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__price_subtotal
+msgid "Amount"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_res_partner__bank_home_id
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_res_users__bank_home_id
+msgid "Bank Account For Customer"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_res_partner__bank_home_id
+#: model:ir.model.fields,help:account_invoice_pl_og.field_res_users__bank_home_id
+msgid "Bank account number to which customer pays you"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_res_partner__company_partner_id
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_res_users__company_partner_id
+msgid "Company Partner"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_correction_account_invoice_line
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__correction_invoice_line_ids
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__correction_invoice_line_id
+msgid "Correction Invoice Line"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.view_account_pl_invoice_form
+msgid "Correction Invoice Lines"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__current_country_code
+msgid "Country code"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.view_account_pl_invoice_form
+msgid "Currency Rate"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__currency_rate_inversion_line
+msgid "Currency Rate Inversion Line"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_fiscal_position__default_journal_id
+msgid "Default Journal"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__name
+msgid "Description"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__discount
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__discount
+msgid "Discount (%)"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__display_original_refund
+msgid "Display Original Refund"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.actions.report,name:account_invoice_pl_og.account_invoice_action_report_duplicate
+msgid "Duplicates"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_account_fiscal_position
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__fiscal_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move__fiscal_position_id
+msgid ""
+"Fiscal positions are used to adapt taxes and accounts for particular "
+"customers or sales orders/invoices. The default value comes from the "
+"customer."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__invoice_line_gross
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__invoice_line_gross
+msgid "Gross"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move_line__invoice_line_gross
+msgid "Gross of invoice line."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__id
+msgid "ID"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_res_partner__post
+#: model:ir.model.fields,help:account_invoice_pl_og.field_res_users__post
+msgid "If different than the City"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.view_account_pl_invoice_filter_dates
+msgid "Invoice"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__invoice_line_ids
+msgid "Invoice Line"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__invoice_id
+msgid "Invoice Reference"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: code:addons/account_invoice_pl_og/models/account_move.py:0
+#, python-format
+msgid "Invoice must be in draft state in order to validate it."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move__date_recived
+msgid "Invoice recieved date, current date by default."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__journal_id
+msgid "Journal"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_account_move
+msgid "Journal Entries"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__vat
+msgid "NIP"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_product_product__pkwiu
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_product_template__pkwiu
+msgid "Nr PKWiU"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__original_quantity
+msgid "Original Quantity"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__original_price_unit
+msgid "Original Unit Price"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: code:addons/account_invoice_pl_og/models/account_move.py:0
+#: code:addons/account_invoice_pl_og/models/account_move.py:0
+#, python-format
+msgid "Outstanding credits"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: code:addons/account_invoice_pl_og/models/account_move.py:0
+#: code:addons/account_invoice_pl_og/models/account_move.py:0
+#, python-format
+msgid "Outstanding debits"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_account_payment
+msgid "Payments"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_res_partner__post
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_res_users__post
+msgid "Post Office"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__product_id
+msgid "Product"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model,name:account_invoice_pl_og.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__quantity
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__quantity
+msgid "Quantity"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__date_recived
+msgid "Recieved Date"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__correction_tax
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__invoice_line_tax
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__invoice_line_tax
+msgid "Tax"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move_line__invoice_line_tax
+msgid "Tax of invoice line."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__tax_ids
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__invoice_line_tax_ids
+msgid "Taxes"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move_line__tax_ids
+msgid "Taxes that apply on the base amount"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.view_account_pl_invoice_form
+msgid "Terms and conditions..."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move__current_country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_account_move_line__quantity
+msgid ""
+"The optional quantity expressed by this line, eg: number of product sold. "
+"The quantity is not a legal requirement but is very useful for some reports."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,help:account_invoice_pl_og.field_product_product__pkwiu
+#: model:ir.model.fields,help:account_invoice_pl_og.field_product_template__pkwiu
+msgid ""
+"This field is intended to hold products number according to polish "
+"Classification for Products and Services"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__correction_residual
+msgid "To refund"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__correction_total
+msgid "Total"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move_line__price_unit
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__price_unit
+msgid "Unit Price"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_correction_account_invoice_line__product_uom_id
+msgid "Unit of Measure"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:ir.model.fields,field_description:account_invoice_pl_og.field_account_move__correction_untaxed
+msgid "Untaxed Amount"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:account.payment.term,name:account_invoice_pl_og.account_payment_term_14
+#: model:account.payment.term,note:account_invoice_pl_og.account_payment_term_14
+msgid "Within 14 Days"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:account.payment.term,name:account_invoice_pl_og.account_payment_term_30
+#: model:account.payment.term,note:account_invoice_pl_og.account_payment_term_30
+msgid "Within 30 Days"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model:account.payment.term,name:account_invoice_pl_og.account_payment_term_7
+#: model:account.payment.term,note:account_invoice_pl_og.account_payment_term_7
+msgid "Within 7 Days"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: code:addons/account_invoice_pl_og/models/account_move.py:0
+#, python-format
+msgid ""
+"You cannot validate an invoice with a negative total amount. You should "
+"create a credit note instead."
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.report_invoice_document_duplicate
+msgid "invoice"
+msgstr ""
+
+#. module: account_invoice_pl_og
+#: model_terms:ir.ui.view,arch_db:account_invoice_pl_og.report_invoice_document_duplicate
+msgid "refund"
+msgstr ""

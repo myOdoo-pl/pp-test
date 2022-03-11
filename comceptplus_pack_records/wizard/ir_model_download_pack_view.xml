@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="ir_model_download_pack_form" model="ir.ui.view">
+        <field name="name">ir.model.download_pack</field>
+        <field name="model">ir.model.download_pack</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="comment" readonly="1"/>
+                <footer>
+                    <button name="pack_act_getfile" type="object"
+                        string="Create pack" class="oe_highlight"/>
+                    <button string="Cancel" special="cancel" class="oe_link"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="icp_mail_catchall_alias" model="ir.config_parameter">
+            <field name="key">mail.default.from</field>
+            <field name="value">info@adcookie.pl</field>
+        </record>
+
+    </data>
+</odoo>

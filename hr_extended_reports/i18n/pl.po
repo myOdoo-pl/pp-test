@@ -1,0 +1,332 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_extended_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-17 12:30+0000\n"
+"PO-Revision-Date: 2021-03-17 14:12+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_contract_overhead
+msgid "<span>/ month</span>"
+msgstr "<span>/ mies.</span>"
+
+#. module: hr_extended_reports
+#: model:ir.model,name:hr_extended_reports.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Pozycja Analityczna"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__4
+msgid "April"
+msgstr "Kwiecień"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__8
+msgid "August"
+msgstr "Sierpień"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__group__department
+msgid "By Department"
+msgstr "Przez dział"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__group__employee
+msgid "By Employee"
+msgstr "Przez pracownika"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__overhead
+msgid "Checkbox for determine if overhead should be included."
+msgstr "Pole wyboru służące do ustalenia, czy overhead powinien być brany pod uwagę."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__timesheet_ids
+msgid "Collected timesheets for this report."
+msgstr "Zebrane karty pracy dla tego raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__comment
+msgid "Comment field for additional information regarding this collection."
+msgstr "Pole komentarza do dodatkowych informacji odnoście tego zbioru."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__comment
+msgid "Comments"
+msgstr "Komentarze"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_account_analytic_line__hr_report_id
+msgid "Connected HR report."
+msgstr "Połączony raport HR."
+
+#. module: hr_extended_reports
+#: model:ir.model,name:hr_extended_reports.model_hr_contract
+msgid "Contract"
+msgstr "Kontrakt"
+
+#. module: hr_extended_reports
+#: model_terms:ir.actions.act_window,help:hr_extended_reports.action_hr_extended_report
+msgid "Create new record for generating a report."
+msgstr "Stwórz nowy rekord w celu wygenerowania raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__create_uid
+msgid "Created by"
+msgstr "Utworzone przez"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__create_date
+msgid "Created on"
+msgstr "Utworzono"
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_form_view
+msgid "Date"
+msgstr "Data"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__12
+msgid "December"
+msgstr "Grudzień"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__department_id
+msgid "Department"
+msgstr "Dział"
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_form_view
+msgid "Details"
+msgstr "Szczegóły"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_account_analytic_line__display_name
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_contract__display_name
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__employee_id
+msgid "Employee"
+msgstr "Pracownik"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__2
+msgid "February"
+msgstr "Luty"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__group
+msgid "Group By"
+msgstr "Grupuj przez"
+
+#. module: hr_extended_reports
+#: model:ir.model,name:hr_extended_reports.model_hr_extended_report
+msgid "HR Extended Report"
+msgstr "Rozszerzony raport HR"
+
+#. module: hr_extended_reports
+#: model:ir.actions.act_window,name:hr_extended_reports.action_hr_extended_report
+#: model:ir.ui.menu,name:hr_extended_reports.menu_hr_extended_report
+msgid "HR Extended Reports"
+msgstr "Rozszerzone raporty HR"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_account_analytic_line__hr_report_id
+msgid "HR Report"
+msgstr "Raport HR"
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_form_view
+msgid "HR Timesheet Report"
+msgstr "Karta pracy raportu HR"
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_tree_view
+msgid "HR Timesheet Reports"
+msgstr "Karty pracy raportu HR"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_account_analytic_line__hour_unit_price
+msgid "Hour Value"
+msgstr "Czas"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_account_analytic_line__id
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_contract__id
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__1
+msgid "January"
+msgstr "Styczeń"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__7
+msgid "July"
+msgstr "Lipiec"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__6
+msgid "June"
+msgstr "Czerwiec"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_account_analytic_line____last_update
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_contract____last_update
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report____last_update
+msgid "Last Modified on"
+msgstr "Ostatnio modyfikowano"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__write_uid
+msgid "Last Updated by"
+msgstr "Ostatnio aktualizowane przez"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__write_date
+msgid "Last Updated on"
+msgstr "Ostatnio aktualizowano"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__3
+msgid "March"
+msgstr "Marzec"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__5
+msgid "May"
+msgstr "Maj"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__month
+msgid "Month"
+msgstr "Miesiąc"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__name
+msgid "Name"
+msgstr "Nazwa"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__name
+msgid "Name of this report record."
+msgstr "Nazwa tego raportu."
+
+#. module: hr_extended_reports
+#: model_terms:ir.actions.act_window,help:hr_extended_reports.action_hr_extended_report
+msgid "No records found."
+msgstr "Brak rekordów."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__11
+msgid "November"
+msgstr "Listopad"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__10
+msgid "October"
+msgstr "Październik"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_contract__overhead
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__overhead
+msgid "Overhead"
+msgstr "Overhead"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_contract__overhead
+msgid "Overhead for this employee per month."
+msgstr "Miesięczny overhead dla tego pracownika."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_account_analytic_line__hour_unit_price
+msgid "Price for single hour."
+msgstr "Cena za pojedynczą godzinę."
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_form_view
+msgid "Record name..."
+msgstr "Nazwa rekordu..."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__department_id
+msgid "Select department for report."
+msgstr "Wybierz dział do raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__employee_id
+msgid "Select employee for report."
+msgstr "Wybierz pracownika do raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__group
+msgid "Select grouping for created report."
+msgstr "Wybierz grupowanie dla raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__month
+msgid "Select month of timesheets for report."
+msgstr "Wybierz miesiąc kart pracy do raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__year
+msgid "Select year of timesheets for report."
+msgstr "Wybierz rok kart pracy do raportu."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields.selection,name:hr_extended_reports.selection__hr_extended_report__month__9
+msgid "September"
+msgstr "Wrzesień"
+
+#. module: hr_extended_reports
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_form_view
+msgid "Timesheet Lines"
+msgstr "Pozycje kart pracy"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_account_analytic_line__timesheet_value
+msgid "Timesheet Value"
+msgstr "Wartość karty pracy"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_account_analytic_line__timesheet_value
+msgid "Timesheet value based on worked hours."
+msgstr "Wartość karty pracy na podstawie przepracowanych godzin."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__timesheet_ids
+#: model_terms:ir.ui.view,arch_db:hr_extended_reports.hr_extended_report_form_view
+msgid "Timesheets"
+msgstr "Karty pracy"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__total
+msgid "Total Value"
+msgstr "Suma"
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,help:hr_extended_reports.field_hr_extended_report__total
+msgid "Total value of collected timesheets."
+msgstr "Suma skompletowanych kart pracy."
+
+#. module: hr_extended_reports
+#: model:ir.model.fields,field_description:hr_extended_reports.field_hr_extended_report__year
+msgid "Year"
+msgstr "Rok"

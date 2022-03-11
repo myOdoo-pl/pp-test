@@ -1,0 +1,101 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#875A7B;">Pack records</h2>
+        <h3 class="oe_slogan">Export record attachments into a compressed file</h3>
+        <div class="oe_span12" style="text-align:center;margin-left:18px;">
+            <img src="comceptplus_pack_records.png">
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <p>
+            This is an easy way for you to export document attachments for one specific data model.
+            </p>
+            <p/>
+            <p style="text-align:center;">
+                <br/>
+            <h4 style="color:red;">WARNING:</h4>
+            Make sure you have the right permissions to create files on disk.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <p>
+            This is a generic module that sets the feature but you'll need to call it by creating an action.
+            Here's an example, applied to sale orders:
+            <br/>
+
+            <pre>
+                &lt;act_window id="sale_order_download_pack_action"
+                            name="Pack sale orders (ZIP)"
+                            res_model="ir.model.download_pack"
+                            binding_model="sale.order"
+                            view_mode="form"
+                            target="new"
+                            context="{'pack_folder_structure':'date_order|%Y,date_order|%m,date_order|%d,partner_id.name,name'}"/&gt;
+            </pre>
+
+            <br/><br/>
+            In context, you tell the program the folder structure you want to use.
+            In this example, you're going to get something like this:<br/>
+            <ul>
+                <li>
+                    2018
+                    <ul>
+                        <li>
+                            10
+                            <ul>
+                                <li>
+                                    05
+                                    <ul>
+                                        <li>
+                                            KlausSchneider
+                                            <ul>
+                                                <li>XPTO/0002</li>
+                                                <li>XPTO/0123</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Jo&atilde;oSilva
+                                            <ul>
+                                                <li>XPTO/0777</li>
+                                                <li>XPTO/0755</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </p>
+            <p/>
+        </div>
+    </div>
+</section>
+
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced" style="background-color:#3ab098;color:#fff;">
+        <div class="oe_span2">
+            <img src="logo.jpg" height="80">
+        </div>
+        <div class="oe_span10">
+            <h2 style="padding-top:12px;">
+                For support / information, please write to odoo@comceptplus.com
+            <h2/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_separator">
+</section>

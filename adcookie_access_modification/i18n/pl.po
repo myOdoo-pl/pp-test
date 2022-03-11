@@ -1,0 +1,169 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* adcookie_access_modification
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-04 10:51+0000\n"
+"PO-Revision-Date: 2022-01-04 10:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: adcookie_access_modification
+#: model:ir.model,name:adcookie_access_modification.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Konto analityczne"
+
+#. module: adcookie_access_modification
+#: model:ir.model,name:adcookie_access_modification.model_crossovered_budget
+msgid "Budget"
+msgstr "Budżet"
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.view_account_analytic_account_form_inherit_budget_ext
+msgid "Budget Items"
+msgstr "Pozycje budżetu"
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.sensitive_data_modifier_view
+msgid "Cancel"
+msgstr "Anuluj"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_analytic_account__display_name
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_move__display_name
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__display_name
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_crossovered_budget__display_name
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_project_project__display_name
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_analytic_account__id
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_move__id
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__id
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_crossovered_budget__id
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_project_project__id
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model:ir.model,name:adcookie_access_modification.model_account_move
+msgid "Journal Entry"
+msgstr "Zapis dziennika"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_analytic_account____last_update
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_move____last_update
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard____last_update
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_crossovered_budget____last_update
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_project_project____last_update
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Data ostatniej modyfikacji"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.sensitive_data_modifier_view
+msgid "Mark all"
+msgstr "Zaznacz wszystkim"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_sensitive_data_modifier_wizard__move_ids
+msgid "Move"
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.view_account_analytic_account_form_inherit_budget_ext
+msgid "Practical Amount"
+msgstr "Kwota w praktyce"
+
+#. module: adcookie_access_modification
+#: model:ir.model,name:adcookie_access_modification.model_project_project
+msgid "Project"
+msgstr "Projekt"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_analytic_account__user_id
+msgid "Responsible"
+msgstr "Sprzedawca"
+
+#. module: adcookie_access_modification
+#: model:ir.model,name:adcookie_access_modification.model_sale_order
+msgid "Sales Order"
+msgstr "Zamówienie sprzedaży"
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.sensitive_data_modifier_view
+msgid "Save"
+msgstr "Zapisz"
+
+#. module: adcookie_access_modification
+#: model:ir.actions.act_window,name:adcookie_access_modification.action_sensitive_data_modifier
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.sensitive_data_modifier_view
+msgid "Sensitive Data Modifier"
+msgstr "Modyfikator Wrażliwych Danych"
+
+#. module: adcookie_access_modification
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_analytic_account__sensitive_data
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_bank_statement_line__sensitive_data
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_move__sensitive_data
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_account_payment__sensitive_data
+#: model:ir.model.fields,field_description:adcookie_access_modification.field_crossovered_budget__sensitive_data
+msgid "Sensitive data"
+msgstr "Wrażliwe dane"
+
+#. module: adcookie_access_modification
+#: model:res.groups,name:adcookie_access_modification.group_adcookie_account_user
+msgid "Standard User"
+msgstr "Użytkownik Standardowy"
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.view_account_analytic_account_form_inherit_budget_ext
+msgid "Theoritical Amount"
+msgstr "Kwota teoretyczna"
+
+#. module: adcookie_access_modification
+#: model_terms:ir.ui.view,arch_db:adcookie_access_modification.sensitive_data_modifier_view
+msgid "Unmark all"
+msgstr "Odznacz wszystkim"
+
+#. module: adcookie_access_modification
+#: code:addons/adcookie_access_modification/models/account_move.py:0
+#, python-format
+msgid ""
+"You cannot create a move already in the posted state. Please create a draft "
+"move and post it after."
+msgstr ""
+
+#. module: adcookie_access_modification
+#: model:ir.model,name:adcookie_access_modification.model_account_sensitive_data_modifier_wizard
+msgid "account.sensitive_data_modifier.wizard"
+msgstr ""

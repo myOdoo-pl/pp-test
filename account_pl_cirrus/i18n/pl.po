@@ -1,0 +1,2972 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_pl_cirrus
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20180205\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 08:56+0000\n"
+"PO-Revision-Date: 2019-10-01 14:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"* - dotyczy podmiotów niebędących osobami fizycznymi                ** - "
+"dotyczy podmiotów będących osobami fizycznymi"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "0% Netto"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"1) Zgodnie z art. 81 ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa "
+"(Dz. U. z 2017r. poz. 201, z późn. zm.)."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"1. Dostawa towarów oraz świadczenie usług na terytorium kraju zwolnione od "
+"podatku"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "1. Identyfikator podatkowy NIP podatnika"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "10"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "10."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "10. Import towarów podlegający rozliczeniu zgodnie z art. 33a ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "10. Nazwisko"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "11"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "11."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"11. Import usług z wyłączeniem usług nabywanych od podatników podatku od "
+"wartości dodanej, do których stosuje się art. 28b ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "11. Telefon kontaktowy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "12."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "12. Data wypełnienia (dzień - miesiąc - rok)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"12. Import usług nabywanych od podatników podatku odwartości dodanej, do "
+"których stosuje się art. 28b ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "13."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"13. Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest "
+"nabywca zgodnie z art.17 ust. 1 pkt 7 lub 8 ustawy (wypełnia dostawca)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "13. Podpis podatnika lub osoby reprezentującej podatnika"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "14."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"14. Dostawa towarów, dla których podatnikiem jest nabywca zgodnie z art. 17 "
+"ust. 1 pkt 5 ustawy (wypełnia nabywca)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "15."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"15. Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest "
+"nabywca zgodnie z art. 17 ust. 1 pkt 7 lub 8 ustawy (wypełnia nabywca)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "16."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"16. Kwota podatku należnego od towarów i usług objętych spisem z natury, o "
+"którym mowa w art. 14 ust. 5 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "17."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"17. Zwrot odliczonej lub zwróconej kwoty wydatkowanej na zakup kas "
+"rejestrujących, o którym mowa w art. 111 ust. 6 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "18."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"18. Kwota podatku należnego od wewnątrzwspólnotowego nabycia środków "
+"transportu, wykazanego w poz. 24, podlegająca wpłacie w terminie, o którym "
+"mowa w art. 103 ust. 3, w związku z ust. 4 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "19."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"19. Kwota podatku od wewnątrzwspólnotowego nabycia paliw silnikowych, "
+"podlegająca wpłacie w terminach, o których mowa w art. 103 ust. 5a i 5b "
+"ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,period:0
+#: selection:account.report.vat.7.19,period:0
+#: selection:wizard.jpk.fa.1,period:0 selection:wizard.jpk.fa.2,period:0
+#: selection:wizard.jpk.vat.3,period:0 selection:wizard.jpk.wb,period:0
+msgid "1st Quarter"
+msgstr "1 Kwartał"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "2. Dostawa towarów oraz świadczenie usług poza terytorium kraju"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "2. Nr dokumentu"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "20."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "21."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "22."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "23% (22%) Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "23."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "24."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "25."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "26."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "27."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "28."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "29."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"2a. w tym świadczenie usług, o których mowa w art. 100 ust. 1 pkt 4 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,period:0
+#: selection:account.report.vat.7.19,period:0
+#: selection:wizard.jpk.fa.1,period:0 selection:wizard.jpk.fa.2,period:0
+#: selection:wizard.jpk.vat.3,period:0 selection:wizard.jpk.wb,period:0
+msgid "2nd Quarter"
+msgstr "2 Kwartał"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"3. Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane "
+"stawką 0%"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "3.Status"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "30."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "31."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "32."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "33."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "34."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "35."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "36."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "37."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "38."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "39."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "3a. w tym dostawa towarów, o której mowa w art. 129 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,period:0
+#: selection:account.report.vat.7.19,period:0
+#: selection:wizard.jpk.fa.1,period:0 selection:wizard.jpk.fa.2,period:0
+#: selection:wizard.jpk.vat.3,period:0 selection:wizard.jpk.wb,period:0
+msgid "3rd Quarter"
+msgstr "3 Kwartał"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"4. Dostawa towarów oraz świadczenie usług na terytorium kraju opodatkowane "
+"stawką 5%"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "4. Kwartał"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "4. Miesiąc"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "40."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "41."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "42."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "43."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "44."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "45."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "46."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "47."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "48."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "49."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,period:0
+#: selection:account.report.vat.7.19,period:0
+#: selection:wizard.jpk.fa.1,period:0 selection:wizard.jpk.fa.2,period:0
+#: selection:wizard.jpk.vat.3,period:0 selection:wizard.jpk.wb,period:0
+msgid "4th Quarter"
+msgstr "4 Kwartał"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "5% (3%) Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"5. Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane "
+"stawką 7% albo 8%"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "5. Rok"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "50."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "51."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "52."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "53."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "54."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "55."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "56."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "57."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "58. na rachunek VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "59. w terminie 25 dni (art. 87 ust. 6)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"6. Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane "
+"stawką 22% albo 23%"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "6. Urząd skarbowy, do którego adresowana jest deklaracja"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "6. Urząd skarbowy, do którego adresowana jest informacja<sup>1)</sup>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "60. w terminie 60 dni"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "61. w terminie 180 dni"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "62."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "63."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "64."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "65."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "66."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"67. Podatnik korzysta z obniżenia zobowiązania podatkowego, o którym mowa w "
+"art. 108 d ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"68. Podatnik wnioskuje o zwrot podatku na rachunek VAT <span class="
+"\"oe_point_desc_normal\">(wykazany w poz. 58)</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "69. Wniosek o zwrot podatku (VAT-ZZ)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "7. Cel złożenia formularza (zaznaczyć właściwy kwadrat):"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "7. Rodzaj podatnika (zaznaczyć właściwy kwadrat):"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "7. Wewnątrzwspólnotowa dostawa towarów"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "70. Wniosek o przyspieszenie terminu zwrotu podatku (VAT-ZT)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"71. Zawiadomienie o skorygowaniu podstawy opodatkowania oraz kwoty podatku "
+"należnego (VAT-ZD)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "72. Imię"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "73. Nazwisko"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "74. Adres e-mail"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "75. Telefon kontaktowy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"76. Data wypełnienia <span class=\"oe_point_desc_normal\">(dzień – miesiąc – "
+"rok)</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "8% (7%) Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "8. Eksport towarów"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "8. Nazwa pełna, REGON * / Nazwisko, pierwsze imię, data urodzenia **"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "8. Rodzaj podatnika (zaznaczyć właściwy kwadrat):"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "9. Imię"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "9. Nazwa pełna, REGON * / Nazwisko, pierwsze imię, data urodzenia **"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "9. Wewnątrzwspólnotowe nabycie towarów"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid ""
+"<b>Suma netto:\n"
+"                </b>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid ""
+"<br/>\n"
+"                <b>Suma VAT należny:\n"
+"                </b>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid ""
+"<br/>\n"
+"                <b>Suma VAT naliczony:\n"
+"                </b>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid ""
+"<br/>\n"
+"                <b>Suma VAT:\n"
+"                </b>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+msgid ""
+"<br/><span style=\"font-size: 10px\">Uwzględniono bilans otwarcia w obrotach "
+"narastająco oraz saldach.</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "<i class=\"fa fa-square-o\"/> art. 119 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "<i class=\"fa fa-square-o\"/> art. 120 ust. 4 lub 5 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "<i class=\"fa fa-square-o\"/> art. 122 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "<i class=\"fa fa-square-o\"/> art. 136 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.res_config_settings_view_form_cash_basis
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"<span><i class=\"fa fa-check-square-o\"/> 1. podatnik niebędący osobą "
+"fizyczną</span>\n"
+"                        <span style=\"margin-left: 20px;\"><i class=\"fa fa-"
+"square-o\"/> 2. osoba fizyczna</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"<span><i class=\"fa fa-check-square-o\"/> 1. złożenie deklaracji</span>\n"
+"                        <span style=\"margin-left: 10px;\"><i class=\"fa fa-"
+"square-o\"/> 2. korekta deklaracji <sup>1)</sup></span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "<span><i class=\"fa fa-square-o\"/> tak</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"<span><i class=\"fa fa-square-o\"> 1. tak </i></span>\n"
+"                        <span style=\"margin-left: 20px;\"><i class=\"fa fa-"
+"check-square-o\"/> 2. nie</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "<span><strong>Suma razem</strong></span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "<span>Kod</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "<span>Ma</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "<span>Nazwa</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "<span>Wn</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"<sup>1)</sup> Przez urząd, do którego jest adresowana informacja rozumie się "
+"urząd skarbowy, przy pomocy którego właściwy dla podatnika naczelnik urzędu "
+"skarbowego wykonuje swoje zadania."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "A. MIEJSCE I CEL SKŁADANIA DEKLARACJI"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.trial_balance,display_account:0
+msgid "All"
+msgstr "Wszystko"
+
+#. module: account_pl_cirrus
+#: selection:account.report.trial_balance,target_move:0
+#: selection:account.report.vat.7.18,target_move:0
+#: selection:account.report.vat.7.19,target_move:0
+#: selection:account.report.vat.ue4,target_move:0
+#: selection:wizard.jpk.fa.1,target_move:0
+#: selection:wizard.jpk.fa.2,target_move:0
+#: selection:wizard.jpk.vat.3,target_move:0
+#: selection:wizard.jpk.wb,target_move:0
+msgid "All Entries"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.trial_balance,target_move:0
+#: selection:account.report.vat.7.18,target_move:0
+#: selection:account.report.vat.7.19,target_move:0
+#: selection:account.report.vat.ue4,target_move:0
+#: selection:wizard.jpk.fa.1,target_move:0
+#: selection:wizard.jpk.fa.2,target_move:0
+#: selection:wizard.jpk.vat.3,target_move:0
+#: selection:wizard.jpk.wb,target_move:0
+msgid "All Posted Entries"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/report/report_jpk_fa_2.py:41
+#: code:addons/account_pl_cirrus/report/report_jpk_vat_3.py:43
+#, python-format
+msgid ""
+"An error occured. Please check your internet connection.\n"
+"%s"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+msgid ""
+"Art. 99 ust. 1 ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług "
+"(Dz. U. z 2017 r. poz. 1221, z późn. zm.),  zwanej dalej „ustawą”."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Art. 99 ust. 2 lub 3 ustawy z dnia 11 marca 2004 r. o podatku od towarów i "
+"usług (Dz. U. z 2017 r. poz. 1221, z późn. zm.),  zwanej dalej „ustawą”."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"Art.100 ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. "
+"z 2016 r. poz.710, z późn. zm.), zwanej dalej ”ustawą”."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "B. DANE IDENTYFIKACYJNE PODATNIKA"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.invoice_register,journal_type:0
+msgid "Bank"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__journal_id
+msgid "Bank Statement Journal"
+msgstr "Dziennik Rachunku Bankowego"
+
+#. module: account_pl_cirrus
+#: model:ir.actions.report,name:account_pl_cirrus.report_balance
+msgid "Bilans"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "Bilans otwarcia"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "C. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYCH DOSTAWACH TOWARÓW"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "C. ROZLICZENIE PODATKU NALEŻNEGO"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_invoice_register
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_ue_4
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_jpk_fa_1_records
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_jpk_fa_2_records
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_jpk_wb_records
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_vat_3_records
+msgid "Cancel"
+msgstr "Anuluj"
+
+#. module: account_pl_cirrus
+#: selection:account.report.invoice_register,journal_type:0
+msgid "Cash"
+msgstr "Gotówka"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_res_company__cash_basis_pl
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_res_config_settings__cash_basis_pl
+msgid "Cash Basis PL"
+msgstr "Metoda kasowa PL"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__cash_basis_pl
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__cash_basis_pl
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__cash_basis_pl
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__cash_basis_pl
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__cash_basis_pl
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__cash_basis_pl
+msgid "Cash basis"
+msgstr "Metoda kasowa"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_invoice_register.py:70
+#, python-format
+msgid "Choose journal type"
+msgstr "Wybierz typ dziennika"
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_res_company
+msgid "Companies"
+msgstr "Firmy"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__company_id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__company_id
+msgid "Company"
+msgstr "Firma"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__ob_sum_all
+#, fuzzy
+#| msgid "Opening Balance Journal"
+msgid "Compute opening balance from all journals"
+msgstr "Dziennik bilansu otwarcia"
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_res_config_settings
+#, fuzzy
+#| msgid "Configuration"
+msgid "Config Settings"
+msgstr "Konfiguracja"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__create_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__create_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/report/report_trial_balance.py:48
+#, python-format
+msgid ""
+"Current Year Earnings account type is not found. Please add account."
+"data_unaffected_earnings ID to account type or use Opening Journal."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "D. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYCH NABYCIACH TOWARÓW"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "D. ROZLICZENIE PODATKU NALICZONEGO"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "D.1. PRZENIESIENIA"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"D.2. NABYCIE TOWARÓW I USŁUG ORAZ PODATEK NALICZONY Z UWZGLĘDNIENIEM KOREKT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "D.3. PODATEK NALICZONY – DO ODLICZENIA (w zł)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "DEKLARACJA DLA PODATKU OD TOWARÓW I USŁUG"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "Data księgowania<br/>Data wystawienia"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__display_account
+msgid "Display Accounts"
+msgstr "Pokaż konta"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_invoice_register__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_trial_balance__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7_18__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7_19__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7k_12__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7k_13__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_ue_4__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__display_name
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Do niniejszej deklaracji dołączono (zaznaczyć właściwy kwadrat):"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_invoice_register
+msgid "Drukuj Rejestr faktur"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_trial_balance
+msgid "Drukuj ZOiS (JPK KR)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "E. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYM ŚWIADCZENIU USŁUG"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"E. OBLICZENIE WYSOKOŚCI ZOBOWIĄZANIA PODATKOWEGO LUB KWOTY ZWROTU (w zł)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__date_to
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__date_to
+msgid "End Date"
+msgstr "Data końcowa"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:566
+#, python-format
+msgid ""
+"Error ocured while JPK taxes validation. Please correct taxes in Journal "
+"Entry %s"
+msgstr ""
+"Podczas sprawdzania poprawności podatków, wystąpił błąd. Popraw podatki w "
+"zapisie %s"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "F. INFORMACJE DODATKOWE"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "F. PODPIS PODATNIKA LUB OSOBY REPREZENTUJĄCEJ PODATNIKA"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,help:account_pl_cirrus.field_account_invoice__date_vat_tax
+msgid "Field for Polish accouting functionality"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/report/report_trial_balance.py:54
+#, python-format
+msgid ""
+"Financial Result account not found. Please add {0} account type to financial "
+"result account or use Opening Journal"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_layout_header
+msgid "Firma:"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "G. INFORMACJA O ZAŁĄCZNIKACH"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_ue_4
+msgid "Generate XML"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+#, fuzzy
+#| msgid "Generate XML for VAT-7K"
+msgid "Generate XML (JPK KR)"
+msgstr "Wygeneruj XML dla VAT-7K"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+msgid "Generate XML for VAT-7"
+msgstr "Wygeneruj XML dla VAT-7"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+msgid "Generate XML for VAT-7K"
+msgstr "Wygeneruj XML dla VAT-7K"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.res_config_settings_view_form_cash_basis
+msgid "Generate polish tax reports using cash basis method"
+msgstr "Wygeneruj polskie raporty podatkowe wykorzystująć metodę kasową"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "H. DANE KONTAKTOWE PODATNIKA LUB OSOBY REPREZENTUJĄCEJ PODATNIKA"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_invoice_register__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_trial_balance__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7_18__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7_19__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7k_12__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7k_13__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_ue_4__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__id
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils__id
+msgid "ID"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "IMT Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"INFORMACJA PODSUMOWUJĄCA O DOKONANYCH <br/>WEWNĄTRZWSPÓLNOTOWYCH TRANSAKCJACH"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "IU Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "IU wył. Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_invoice
+#, fuzzy
+#| msgid "Invoice Register"
+msgid "Invoice"
+msgstr "Rejestr faktur"
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_account_invoice_register
+#: model:ir.actions.report,name:account_pl_cirrus.account_invoice_register
+msgid "Invoice Register"
+msgstr "Rejestr faktur"
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_report_invoice_register
+msgid "Invoice Register Report"
+msgstr "Raport rejestr faktur"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__vat_filename
+msgid "JPK VAT filename"
+msgstr "Nazwa pliku JPK"
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_jpk_fa_1_report
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_wizard_jpk_fa_1_records
+msgid "JPK-FA (1)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_jpk_fa_2_report
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_wizard_jpk_fa_2_records
+msgid "JPK-FA (2)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__jpk_fa_filename
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__jpk_fa_filename
+msgid "JPK-FA filename"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_vat_3_report
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_wizard_vat_3_records
+msgid "JPK-VAT (3)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_jpk_wb_report
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_wizard_jpk_wb_records
+msgid "JPK-WB"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__jpk_wb_file
+msgid "JPK-WB file"
+msgstr "Plik JPK_WB"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__jpk_wb_filename
+msgid "JPK-WB filename"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Jeżeli różnica kwot pomiędzy poz. 41 i 51 jest mniejsza lub równa 0, wówczas "
+"należy wpisać 0."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Jeżeli różnica kwot pomiędzy poz. 41 i 51 jest większa od 0, wówczas poz. "
+"54=poz. 41 - poz. 51 - poz. 52 - poz. 53 w przeciwnym wypadku należy wpisać "
+"0."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Jeżeli różnica kwot pomiędzy poz. 41 i 51, pomniejszona o kwotę z poz. 52 "
+"jest mniejsza od 0, wówczas należy wpisać 0."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Jeżeli różnica kwot pomiędzy poz. 51 i 41 jest większa lub równa 0, wówczas "
+"poz. 56=poz. 51 – poz. 41 + poz. 55, w przeciwnym wypadku należy wpisać 0."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_move
+#, fuzzy
+#| msgid "Journals"
+msgid "Journal Entries"
+msgstr "Dzienniki"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:373
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:653
+#, python-format
+msgid "Journal Entry %s has multiple partners set in its Journal Items."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_move_line
+msgid "Journal Item"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__journal_type
+msgid "Journal Type"
+msgstr "Typ dziennika"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__register_journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__journal_ids
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__journal_ids
+msgid "Journals"
+msgstr "Dzienniki"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Kod <br/>kraju"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "Konta<br/>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Korekta podatku naliczonego od nabycia środków trwałych"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Korekta podatku naliczonego od pozostałych nabyć"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Korekta podatku naliczonego, o której mowa w art. 89b ust. 1 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Korekta podatku naliczonego, o której mowa w art. 89b ust. 4 ustawy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Kwota do przeniesienia na następny okres rozliczeniowy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Kwota do zwrotu na rachunek bankowy wskazany przez podatnika"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Kwota nadwyżki z poprzedniej deklaracji"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Kwota podatku objęta zaniechaniem poboru"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Kwota podatku podlegającego wpłacie do urzędu skarbowego"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Kwota ta nie może być wyższa niż różnica pomiędzy kwotą z poz. 41 a sumą "
+"kwot z poz. 51 i 52."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Kwota transakcji w zł"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Kwota wydatkowana na zakup kas rejestrujących, do odliczenia w danym okresie "
+"rozliczeniowym"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Kwota wydatkowana na zakup kas rejestrujących, przysługująca do zwrotu w "
+"danym okresie rozliczeniowym"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Kwota wykazana w poz. 52 nie może być wyższa od różnicy kwot z poz. 41 i 51."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Kwota z poz. „Kwota do przeniesienia na następny okres rozliczeniowy” z "
+"poprzedniej deklaracji lub wynikająca z decyzji."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "LP<br/>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_invoice_register____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_trial_balance____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7_18____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7_19____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7k_12____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_7k_13____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_account_pl_cirrus_report_vat_ue_4____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb____last_update
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__write_uid
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_1__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_fa_2__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_vat_3__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_report_jpk_wb__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__write_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_vat_utils__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Mali podatnicy, o których mowa w art. 2 pkt 25 ustawy, obowiązani do "
+"składania deklaracji za okresy kwartalne zgodnie z art. 99ust. 2 lub 3 "
+"ustawy."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__error_message
+msgid "Message"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.invoice_register,journal_type:0
+msgid "Miscellaneous"
+msgstr "Różne"
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,period:0
+#: selection:account.report.vat.7.19,period:0
+#: selection:wizard.jpk.fa.1,period:0 selection:wizard.jpk.fa.2,period:0
+#: selection:wizard.jpk.vat.3,period:0 selection:wizard.jpk.wb,period:0
+msgid "Monthly"
+msgstr "Miesięczny"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Nabycie towarów i usług pozostałych"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Nabycie towarów i usług zaliczanych u podatnika do środków trwałych"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "Nabycie<br/>VAT Nal."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Nadwyżka podatku naliczonego nad należnym"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Należy wpisać sumę kwot z poz. 42, 44, 46, 47, 48, 49 i 50."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:985
+#, python-format
+msgid "No data to display."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Numer Identyfikacyjny VAT kontrahenta"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "Numer<br/>Nr u partnera"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "O.O. nab. Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Objaśnienia"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "Obroty narastająco od początku roku"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "Obroty za"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Od kwoty z poz. 56 należy odjąć kwotę z poz. 57."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+msgid "Opening Balance"
+msgstr "Bilans otwarcia"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__ob_journal_id
+msgid "Opening Balance Journal"
+msgstr "Dziennik bilansu otwarcia"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__ob_in_sales
+msgid "Opening balance in yearly turnover"
+msgstr "Bilans otwarcia w rocznym obrocie"
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,person_type:0
+#: selection:account.report.vat.7.19,person_type:0
+#: selection:account.report.vat.ue4,person_type:0
+msgid "Osoba fizyczna"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.vat.7.18,person_type:0
+#: selection:account.report.vat.7.19,person_type:0
+#: selection:account.report.vat.ue4,person_type:0
+msgid "Osoba niefizyczna"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "POLTAX"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "Partner<br/>NIP"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__period
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__period
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__period
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__period
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__period
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__period
+msgid "Period Type"
+msgstr "Typ okresu"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,help:account_pl_cirrus.field_account_move__tax_date
+#: model:ir.model.fields,help:account_pl_cirrus.field_account_move_line__tax_date
+msgid ""
+"Period for tax accounting (when different than period for financial "
+"accounting)"
+msgstr "Okres księgowania (jeżeli inny niż na zapisie)"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__person_type
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__person_type
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__person_type
+msgid "Person Type"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:45
+#, fuzzy, python-format
+#| msgid "Please add partner to %s Journal Entry"
+msgid "Please add account number to journal {}"
+msgstr "Dodaj partnera do zapisu %s"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:672
+#, python-format
+msgid "Please add address of %s vendor."
+msgstr "Dodaj adres do dostawcy %s"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:122
+#, python-format
+msgid "Please add address of {}"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:375
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:655
+#, python-format
+msgid "Please add partner to %s Journal Entry"
+msgstr "Dodaj partnera do zapisu %s"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:70
+#, python-format
+msgid "Please add vat number of customer %s"
+msgstr "Dodaj numer NIP do klienta %s"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:987
+#, fuzzy, python-format
+#| msgid "Please check if the details e.g., dates you provided are correct!"
+msgid ""
+"Please check if the details e.g., dates you provided are correct or at least "
+"one bank statement is present for the given date!"
+msgstr "Sprawdź czy wprowadzone daty są poprawne!"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_7_18.py:65
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_7_19.py:65
+#, python-format
+msgid ""
+"Please choose correct starting date for given quarter (use period field)!"
+msgstr ""
+"Wybierz odpowiednią datę początkową dla danego kwartału (wykorzystaj pole "
+"Okres)"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:27
+#, python-format
+msgid "Please define VAT number on the company!"
+msgstr "Dodaj numer NIP w ustawieniach firmy"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:660
+#, python-format
+msgid "Please define Vat no. for vendor %s."
+msgstr "Dodaj numer NIP do dostawcy %s"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:77
+#, python-format
+msgid ""
+"Please enter correct VAT number for partner {0} - is has to begin with "
+"country-specific characters."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__vat_file
+msgid "Plik JPK ewidencji VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__jpk_fa_file
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__jpk_fa_file
+msgid "Plik JPK-FA"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Podatek do odliczenia w zł"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Podatek należny w zł"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Podatek naliczony w zł"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"Podatnicy podatku od towarów i usług oraz osoby prawne niebędące podatnikami "
+"w rozumieniu art.15 ustawy - zarejestrowani jako podatnicy VAT UE, "
+"dokonujący wewnątrzwspólnotowej dostawy towarów, wewnątrzwspólnotowego "
+"nabycia towarów lub wewnątrzwspólnotowego świadczenia usług."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+msgid ""
+"Podatnicy, o których mowa  w art. 15 ustawy, obowiązani do składania "
+"deklaracji za okresy miesięczne zgodnie z art. 99 ust. 1 ustawy."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w "
+"<span class=\"oe_point_desc_normal\">(zaznaczyć właściwe kwadraty):</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Podstawa opodatkowania w zł"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Podstawa prawna:"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Pouczenia"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Pouczenie"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_invoice_register
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_ue_4
+msgid "Print"
+msgstr "Drukuj"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+msgid "Print VAT-7"
+msgstr "Drukuj VAT-7"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+msgid "Print VAT-7K"
+msgstr "Drukuj VAT-7K"
+
+#. module: account_pl_cirrus
+#: selection:account.report.invoice_register,journal_type:0
+msgid "Purchase"
+msgstr "Zakup"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:29
+#, python-format
+msgid ""
+"Pusty Urzad Skarbowy IS/US. Wybierz urzad skarbowy w profilu twojej firmy"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:31
+#, python-format
+msgid "Pusty kod IS/US. Uzupelnij kod IS/US w twoim urzedzie skarbowym"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.report,name:account_pl_cirrus.report_pls
+msgid "Rachunek Zysków i Strat"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_finance_legal_reports
+msgid "Raporty Ustawowe"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "Razem"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Razem kwota podatku naliczonego do odliczenia"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Razem: (Poz. 40 =suma kwot z poz. 10, 11, 13, 15, 17, 19, 21, 22, 23, 25, "
+"27, 29, 31, 32 i 34. Poz. 41= suma kwot z poz. 16, 18, 20, 24, 26, 28, 30, "
+"33, 35, 36 i 37 pomniejszona o kwotę z poz. 38 i 39)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_layout_header
+msgid "Rejestr faktur: od"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_invoice_register
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_ue_4
+msgid "Report Options"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "ST Netto<br/>VAT Nal."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_trial_balance
+msgid "Salda na dzień"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.invoice_register,journal_type:0
+msgid "Sale"
+msgstr "Sprzedaż"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,help:account_pl_cirrus.field_account_report_invoice_register__cash_basis_pl
+#: model:ir.model.fields,help:account_pl_cirrus.field_account_report_vat_7_18__cash_basis_pl
+#: model:ir.model.fields,help:account_pl_cirrus.field_account_report_vat_7_19__cash_basis_pl
+#: model:ir.model.fields,help:account_pl_cirrus.field_wizard_jpk_fa_1__cash_basis_pl
+#: model:ir.model.fields,help:account_pl_cirrus.field_wizard_jpk_fa_2__cash_basis_pl
+#: model:ir.model.fields,help:account_pl_cirrus.field_wizard_jpk_vat_3__cash_basis_pl
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.res_config_settings_view_form_cash_basis
+msgid ""
+"Select this if you are using chash basis method speciffic for polish "
+"accounting."
+msgstr ""
+"Zaznacz, jeżeli używasz metody kasowej wykorzystywanej w polskiej "
+"księgowości."
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Składający:"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_invoice_register__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__date_from
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__date_from
+msgid "Start Date"
+msgstr "Data początkowa"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_trial_balance.py:55
+#, python-format
+msgid "Start date must be before End Date!"
+msgstr "Data początkowa musi być wcześniejsza niż data końcowa!"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_layout_header
+msgid ""
+"Strona\n"
+"              <span class=\"page\"/>\n"
+"              z\n"
+"              <span class=\"topage\"/>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+msgid "Strona <span class=\"page\"/> z <span class=\"topage\"/>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_1__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_fa_2__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_vat_3__target_move
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_wizard_jpk_wb__target_move
+msgid "Target Moves"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_move__tax_date
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_move_line__tax_date
+msgid "Tax Period"
+msgstr "Okres podatkowy"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_move_line__tax_value
+msgid "Tax Value"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Transakcje <br/>trójstronne"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_account_trial_balance
+msgid "Trial Balance"
+msgstr "Zestawienie Obrotów i Sald"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__trial_balance_file
+msgid "Trial Balance File"
+msgstr "Plik JPK_KR dla ZOiS"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_trial_balance__trial_balance_filename
+msgid "Trial Balance Filename"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_report_trial_balance
+msgid "Trial Balance Report"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.report,name:account_pl_cirrus.account_trial_balance
+msgid "Trial Report"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_account_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+msgid "VAT-7"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_vat_7_18
+#, fuzzy
+#| msgid "VAT-7 File"
+msgid "VAT-7 (18)"
+msgstr "Plik VAT-7"
+
+#. module: account_pl_cirrus
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_vat_7_19
+#, fuzzy
+#| msgid "VAT-7 File"
+msgid "VAT-7 (19)"
+msgstr "Plik VAT-7"
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_account_vat_7_19
+msgid "VAT-7 19 (VAT-7K 13)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__vat7_file
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__vat7_file
+msgid "VAT-7 File"
+msgstr "Plik VAT-7"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__vat7_filename
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__vat7_filename
+msgid "VAT-7 Filename"
+msgstr "Nazwa pliku VAT-7"
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_report_vat_7_18
+#: model:ir.model,name:account_pl_cirrus.model_account_report_vat_7_19
+msgid "VAT-7 Report"
+msgstr "Raport VAT-7"
+
+#. module: account_pl_cirrus
+#: model:ir.actions.report,name:account_pl_cirrus.account_vat_7_18
+msgid "VAT-7(18)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+msgid "VAT-7<span style=\"font-size: 6px;\">(18)</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+msgid "VAT-7<span style=\"font-size: 6px;\">(19)</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "VAT-7K"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__vat7k_file
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__vat7k_file
+msgid "VAT-7K File"
+msgstr "Plik VAT-7K"
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_18__vat7k_filename
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_7_19__vat7k_filename
+msgid "VAT-7K Filename"
+msgstr "Nazwa pliku VAT-7K"
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+msgid "VAT-7K<span style=\"font-size: 6px;\">(12)</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "VAT-7K<span style=\"font-size: 6px;\">(13)</span>"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.report,name:account_pl_cirrus.account_vat_7k_12
+msgid "VAT-7k(12)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.act_window,name:account_pl_cirrus.action_account_vat_ue_4
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "VAT-UE"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.ui.menu,name:account_pl_cirrus.menu_vat_ue_4
+msgid "VAT-UE (4)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__vatue_file
+msgid "VAT-UE File"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__vatue_filename
+msgid "VAT-UE Filename"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_account_report_vat_ue4
+msgid "VAT-UE Report"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.actions.report,name:account_pl_cirrus.account_vat_ue_4
+msgid "VAT-UE(4)"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_invoice__date_vat_tax
+msgid "Vat tax date"
+msgstr "Data podatku Vat"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_ue_4.py:34
+#, python-format
+msgid ""
+"Version 4 of VAT-UE accepts only monthly declarations. Choose range of one "
+"month only."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"W przypadku niewpłacenia w obowiązującym terminie kwoty z poz. 54 lub "
+"wpłacenia jej w niepełnej wysokości, niniejsza deklaracja stanowi podstawę "
+"do wystawienia tytułu wykonawczego zgodnie z przepisami ustawy z dnia 17 "
+"czerwca 1966 r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2017 "
+"r. poz. 1201, z późn. zm.)."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "WDT Netto<br/>Eksport tow. Netto"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "WDU+EXU Netto<br/>WDU Netto"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "WERSJA POGLĄDOWA, DO WYSŁANIA DEKLARACJI SKORZYSTAJ Z WERSJI XML"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "WNT Netto<br/>VAT"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "Waluta:"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "Wartość netto w zł"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid "Wiersze w części C, D i E stanowią listę rozwijalną."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: selection:account.report.trial_balance,display_account:0
+msgid "With balance is not equal to 0"
+msgstr "Z saldem innym niz zero"
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/report/report_jpk_fa_1.py:40
+#: code:addons/account_pl_cirrus/report/report_jpk_wb.py:37
+#: code:addons/account_pl_cirrus/report/report_trial_balance.py:197
+#: code:addons/account_pl_cirrus/report/report_vat_7_18.py:106
+#: code:addons/account_pl_cirrus/report/report_vat_7_19.py:106
+#: code:addons/account_pl_cirrus/report/report_vat_7k_12.py:91
+#: code:addons/account_pl_cirrus/report/report_vat_7k_13.py:91
+#: code:addons/account_pl_cirrus/report/report_vat_ue_4.py:53
+#, python-format
+msgid ""
+"Wrong Data in XML file!\n"
+"Try to solve the problem according to message below:\n"
+"\n"
+"%s"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: code:addons/account_pl_cirrus/wizard/wizard_vat_utils.py:66
+#, python-format
+msgid "Wrong Vat no. of Your company. Please check it."
+msgstr "Nieprawidłowy numer NIP Twojej firmy."
+
+#. module: account_pl_cirrus
+#: model_terms:ir.actions.act_window,help:account_pl_cirrus.action_vat_3_report
+msgid "Wydruk raportu ewidencji zakupu i sprzedaży VAT."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_layout_header
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+msgid ""
+"Wydruk z Odoo – Systemu ERP o darmowej licencji. Zaprojektowano przez www."
+"openglobe.pl"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_jpk_fa_1_records
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_jpk_fa_2_records
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_jpk_wb_records
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.view_wizard_vat_3_records
+msgid "Wygeneruj"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.actions.act_window,help:account_pl_cirrus.action_jpk_wb_report
+msgid "Wygeneruj Jednolity Plik Kontrolny dla Wyciągu Bankowego."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.actions.act_window,help:account_pl_cirrus.action_jpk_fa_1_report
+#: model_terms:ir.actions.act_window,help:account_pl_cirrus.action_jpk_fa_2_report
+msgid "Wygeneruj Jednolity Plik Kontrolny do faktur."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model.fields,field_description:account_pl_cirrus.field_account_report_vat_ue4__xml
+msgid "XML"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_invoice_register
+msgid "ZW. Netto<br/>O.O."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+msgid "Za okres od"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_ue_4
+msgid ""
+"Za podanie nieprawdy lub zatajenie prawdy grozi odpowiedzialność "
+"przewidziana w Kodeksie karnym skarbowym."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid ""
+"Za podanie nieprawdy lub zatajenie prawdy i przez to narażenie podatku na "
+"uszczuplenie grozi odpowiedzialność przewidziana w Kodeksie karnym skarbowym."
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+msgid "Zestawienie obrotów i sald"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_layout_header
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_trial_balance_header
+msgid "do"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_invoice_register
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_trial_balance
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.account_report_vat_ue_4
+msgid "or"
+msgstr "lub"
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_invoice_register
+msgid "report.account_pl_cirrus.report_invoice_register"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_trial_balance
+msgid "report.account_pl_cirrus.report_trial_balance"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_vat_7_18
+msgid "report.account_pl_cirrus.report_vat_7_18"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_vat_7_19
+msgid "report.account_pl_cirrus.report_vat_7_19"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_vat_7k_12
+msgid "report.account_pl_cirrus.report_vat_7k_12"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_vat_7k_13
+msgid "report.account_pl_cirrus.report_vat_7k_13"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_account_pl_cirrus_report_vat_ue_4
+msgid "report.account_pl_cirrus.report_vat_ue_4"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_jpk_fa_1
+msgid "report.jpk.fa.1"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_jpk_fa_2
+msgid "report.jpk.fa.2"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_jpk_vat_3
+msgid "report.jpk.vat.3"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_report_jpk_wb
+msgid "report.jpk.wb"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.custom_layout_header
+msgid "typ dziennika:"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "w tym kwota do zwrotu"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_wizard_jpk_fa_1
+msgid "wizard.jpk.fa.1"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_wizard_jpk_fa_2
+msgid "wizard.jpk.fa.2"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_wizard_jpk_vat_3
+msgid "wizard.jpk.vat.3"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_wizard_jpk_wb
+msgid "wizard.jpk.wb"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model:ir.model,name:account_pl_cirrus.model_wizard_vat_utils
+msgid "wizard.vat.utils"
+msgstr ""
+
+#. module: account_pl_cirrus
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_18
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7_19
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_12
+#: model_terms:ir.ui.view,arch_db:account_pl_cirrus.report_vat_7k_13
+msgid "za"
+msgstr ""
+
+#~ msgid "Balance"
+#~ msgstr "Bilans"
+
+#~ msgid "Code"
+#~ msgstr "Kod"
+
+#~ msgid "Computation method"
+#~ msgstr "Metoda przeliczania"
+
+#~ msgid "Credit only"
+#~ msgstr "Wyłącznie Ma"
+
+#~ msgid "Debit only"
+#~ msgstr "Wyłącznie Winien"
+
+#~ msgid ""
+#~ "Define, which entry is considered when printing a report. If Balance is "
+#~ "selected, then both entries will be included in report. Works only when "
+#~ "Accounts or Account Type is selected in Type field."
+#~ msgstr ""
+#~ "Ustal, które zapisy są brane pod uwagę podczas drukowania raportu. Jeżeli "
+#~ "Bilans jest wybrany, wtedy obydwa zapisy będą brane pod uwagę. Działa "
+#~ "wyłącznie, gdy w polu typ jest wybrana wartość Konta lub Typ konta."
+
+#~ msgid "From Date"
+#~ msgstr "Data początkowa"
+
+#~ msgid "Generate XML for Trial Balance"
+#~ msgstr "Wygeneruj XML"
+
+#~ msgid "Please choose Report Balance Code"
+#~ msgstr "Wybierz kod kod bilansu"
+
+#~ msgid "Please choose Report Pls Code"
+#~ msgstr "Wybierz kod kod RZiS"
+
+#~ msgid "Preserve sign to parent"
+#~ msgstr "Zachowaj znak"
+
+#~ msgid "Report Balance Code"
+#~ msgstr "Kod bilansu"
+
+#~ msgid "Report Pls Code"
+#~ msgstr "Kod RZiS"
+
+#~ msgid "Reverse sign to parent"
+#~ msgstr "Zwrot oznaczenia"
+
+#~ msgid "Select periods and Journals"
+#~ msgstr "Wybierz okresy w dzienniki"
+
+#~ msgid "Show on report"
+#~ msgstr "Pokaż na raporcie"
+
+#~ msgid "Sign to parent"
+#~ msgstr "Znak względem nadrzędnej pozycji"
+
+#~ msgid "To Date"
+#~ msgstr "Data końcowa"
+
+#~ msgid ""
+#~ "When printing a report it defines, if parent should add or substract this "
+#~ "position"
+#~ msgstr ""
+#~ "Podczas drukowania raportu, to pole określa, czy pozycja nadrzędna "
+#~ "powinna dodawać, czy odejmować daną pozycję."
+
+#~ msgid "Please add address of customer %s"
+#~ msgstr "Podaj adres do klienta %s"

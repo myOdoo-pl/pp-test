@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="custom_jpk_vat3_layout">
+      <t t-if="o and 'company_id' in o">
+        <t t-set="company" t-value="o.company_id"></t>
+      </t>
+      <t t-if="not o or not 'company_id' in o">
+        <t t-set="company" t-value="res_company"></t>
+      </t>
+
+      <t t-call="account_pl_cirrus.jpk_vat3_layout_header"/>
+      <div class="article">
+        <t t-raw="0"/>
+      </div>
+
+    </template>
+    <template id="jpk_vat3_layout_header">
+      <div class="header">
+        <p class="oe_openglobe">Wydruk z Odoo – Systemu ERP o darmowej licencji. Zaprojektowano przez www.openglobe.pl</p>
+        <div class="row">
+          <div class="col-10">
+            <p class="oe_inv_reg_desc">
+              Raport JPK VAT3: od
+              <span t-esc="data['date_from']"/>
+              do
+              <span t-esc="data['date_to']"/>
+            </p>
+          </div>
+          <div class="col-2">
+            <p class="pull-right">Strona
+              <span class="page"/>
+              z
+              <span class="topage"/></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h4>Firma:
+              <span t-field="company.name"/>,
+              <span t-field="company.street"/>,
+              <span t-field="company.zip"/>
+              <span t-field="company.city"/></h4>
+          </div>
+        </div>
+      </div>
+    </template>
+    <template id="report_jpk_vat3_pdf">
+        <t t-call="web.html_container">
+          <t t-call="account_pl_cirrus.custom_jpk_vat3_layout">
+            <div class="page" style='font-size : 12px;'>
+              <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+              <p class="pull-left" style='margin-top: 35px;'>Sprzedaż:</p>
+                <table class="table table-sm"  style='font-size : 9px;'>
+                  <thead>
+                    <tr>
+                      <th>
+                        <p>LP<br/></p>
+                      </th>
+                      <th style="white-space: nowrap;">
+                        <p>Nazwa Kontrahenta</p>
+                      </th>
+                      <th>
+                        <p>NIP</p>
+                      </th>
+                      <th style="min-width:20%; max-width: 25%">
+                        <p>Adres Kontrahenta</p>
+                      </th>
+                      <th>
+                        <p>Dowód Sprzedaży</p>
+                      </th>
+                      <th>
+                        <p>Data Wystawienia</p>
+                      </th>
+                      <th>
+                        <p>Data Sprzedaży</p>
+                      </th>
+                      <th>
+                        <p>Podatki</p><br/>
+                      </th>
+                      <th>
+                      </th>
+                      <th>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <t t-set="sale_dict" t-value="data['vat_dict']['sale_dict']"/>
+                    <t t-foreach="sorted(sale_dict, key=lambda x: strptime(sale_dict[x]['original_move_date'], '%Y-%m-%d'))" t-as="lp">
+                      <tr style="page-break-inside: avoid !important;">
+                        <td><span t-esc="lp_index+1"/></td>
+                        <td class="text-center"><span t-esc="sale_dict[lp]['partner_data']['name']"/></td>
+                        <td class="text-center"><span t-esc="sale_dict[lp]['partner_data']['vat']"/></td>
+                        <td><span t-esc="sale_dict[lp]['partner_data']['address']"/></td>
+                        <td><span t-esc="sale_dict[lp]['main_reference']"/></td>
+                        <td align='right'><span t-esc="sale_dict[lp]['date_issue']"/></td>
+                        <td align='right'><span t-esc="sale_dict[lp]['display_date']"/></td>
+                        <td>
+                        <t t-foreach="sorted(sale_dict[lp]['tax_values'])" t-as='tax'>
+                          <span t-esc="tax"/>:&#160;<span t-esc="sale_dict[lp]['tax_values'][tax]"/>
+                        </t>
+                      </td>
+                      </tr>
+                    </t>
+                  </tbody>
+
+                <table class="table table-condensed"  style='font-size : 9px;width: 40%;'>
+                  <t t-set="tax_control" t-value="data['vat_dict']['sale_ctrl']['taxes_check_sum']"/>
+                  <thead>
+                    <t t-foreach="sorted(tax_control)" t-as='tax_name'>
+                      <th><span t-esc="tax_name"/></th>
+                    </t>
+                  </thead>
+                  <tbody>
+                    <t t-foreach="tax_control" t-as='tax_name'>
+                      <td><span t-esc="'%.2f'% tax_control[tax_name]"/></td>
+                    </t>
+                  </tbody>
+                </table>
+
+                </table>
+                <div style='margin : 30px;'>
+                  <t t-set="sale_ctrl" t-value="data['vat_dict']['sale_ctrl']"/>
+                  <b>Liczba Sprzedaży:
+                  </b><span t-esc="sale_ctrl['lp']"/>
+                  <br/>
+                  <b>Suma Netto:
+                  </b><span t-esc="sale_ctrl['sum_base']"/>
+                  <br/>
+                  <b>Suma VAT:
+                  </b><span t-esc="sale_ctrl['sum_taxes']"/>
+                </div>
+
+
+                <p class="pull-left" style='margin-top: 35px;'>Zakupy:</p>
+                <table class="table table-sm" style='font-size : 10px'>
+                  <thead>
+                    <tr>
+                      <th>
+                        <p>LP<br/></p>
+                      </th>
+                      <th style="white-space: nowrap;">
+                        <p>Nazwa Dostawcy</p>
+                      </th>
+                      <th>
+                        <p>NIP</p>
+                      </th>
+                      <th style="min-width:20%; max-width: 25%">
+                        <p>Adres Dostawcy</p>
+                      </th>
+                      <th>
+                        <p>Dowód Zakupu</p>
+                      </th>
+                      <th>
+                        <p>Data Zakupu</p>
+                      </th>
+
+                      <th>
+                        <p>Kwota Netto</p>
+                      </th>
+                      <th>
+                        <p>Podatek</p><br/>
+                      </th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <t t-set="purchase_dict" t-value="data['vat_dict']['purchase_dict']"/>
+                    <t t-foreach="sorted(purchase_dict, key=lambda x: strptime(purchase_dict[x]['original_move_date'], '%Y-%m-%d'))" t-as="lp">
+                      <tr style="page-break-inside: avoid !important;">
+                        <td><span t-esc="lp_index+1"/></td>
+                        <td class="text-center"><span t-esc="purchase_dict[lp]['partner_name']"/></td>
+                        <td class="text-center"><span t-esc="purchase_dict[lp]['vat']"/></td>
+                        <td><span t-esc="purchase_dict[lp]['address']"/></td>
+                        <td><span t-esc="purchase_dict[lp]['main_reference']"/></td>
+                        <td align='right'><span t-esc="purchase_dict[lp]['purchase_date']"/></td>
+                        <td align='right'><span t-esc="purchase_dict[lp]['tax_values']['K_45']"/></td>
+                        <td align='right'><span t-esc="purchase_dict[lp]['tax_values']['K_46']"/></td>
+                      </tr>
+                    </t>
+                  </tbody>
+
+                </table>
+
+                <div style='margin : 30px;'>
+                  <t t-set="purchase_ctrl" t-value="data['vat_dict']['purchase_ctrl']"/>
+                  <b>Liczba Zakupów:
+                  </b><span t-esc="purchase_ctrl['lp']"/>
+                  <br/>
+                  <b>Suma Netto:
+                  </b><span t-esc="purchase_ctrl['sum_base']"/>
+                  <br/>
+                  <b>Suma VAT:
+                  </b><span t-esc="purchase_ctrl['sum_taxes']"/>
+                </div>
+
+            </div>
+          </t>
+        </t>
+      </template>
+  </data>
+</odoo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="invoice_template_2_bank_sale" model="ir.ui.view">
+            <field name="name">invoice.template.2.bank.sale</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="company_bank_id"/>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/tree//field[@name='price_unit']" position="attributes">
+                    <attribute name="attrs">{"readonly":[('qty_invoiced', '=', -1)]}</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

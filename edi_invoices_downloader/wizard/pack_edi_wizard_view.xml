@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="pack_edi_wizard_form_view" model="ir.ui.view">
+            <field name="name">pack.edi.wizard.form.view</field>
+            <field name="model">pack_edi_wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name="vendor_bill_check"/>
+                        </group>
+
+                        <group>
+                            <field name="start_date"/>
+                            <field name="end_date"/>
+                        </group>
+                    </group>
+
+                    <footer>
+                        <button special="cancel" string="Cancel"/>
+                        <button name="pack_edi_files" string="Pack EDI files" type="object" class="oe_highlight"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_pack_edi" model="ir.actions.act_window">
+            <field name="name">Pack EDI</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pack_edi_wizard</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+            <field name="help">Generate zip file with EDI files.</field>
+        </record>
+
+        <menuitem id="menu_pack_edi" action="action_pack_edi" sequence="100"
+                  parent="account_reports.account_reports_audit_reports_menu"/>
+    </data>
+</odoo>

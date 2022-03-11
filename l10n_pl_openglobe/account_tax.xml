@@ -1,0 +1,2403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data noupdate="0">
+
+    <!-- Account Tags -->
+
+        <record id="tax_V23" model="account.account.tag">
+            <field name="name">V23</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_V22" model="account.account.tag">
+            <field name="name">V22</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_V8" model="account.account.tag">
+            <field name="name">V8</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+	</record>
+        <record id="tax_v7" model="account.account.tag">
+            <field name="name">V7</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_v5" model="account.account.tag">
+            <field name="name">V5</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+	</record>
+        <record id="tax_v3" model="account.account.tag">
+            <field name="name">V3</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_V0" model="account.account.tag">
+            <field name="name">V0</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_VZW" model="account.account.tag">
+            <field name="name">VZW</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_VU23" model="account.account.tag">
+            <field name="name">VU23</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_VU22" model="account.account.tag">
+            <field name="name">VU22</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+
+        <record id="tax_Z23" model="account.account.tag">
+            <field name="name">Z23</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_Z22" model="account.account.tag">
+            <field name="name">Z22</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_Z8" model="account.account.tag">
+            <field name="name">Z8</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_Z7" model="account.account.tag">
+            <field name="name">Z7</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_Z5" model="account.account.tag">
+            <field name="name">Z5</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_Z3" model="account.account.tag">
+            <field name="name">Z3</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZU23" model="account.account.tag">
+            <field name="name">ZU23</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZU22" model="account.account.tag">
+            <field name="name">ZU22</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_Z0" model="account.account.tag">
+            <field name="name">Z0</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZZW" model="account.account.tag">
+            <field name="name">ZZW</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_zst23" model="account.account.tag">
+            <field name="name">ZST23</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_z_st_wnt" model="account.account.tag">
+            <field name="name">ZST-WNT</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_z_st_wnt_1" model="account.account.tag">
+            <field name="name">ZST-WNT-1</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_z_st_wnt_2" model="account.account.tag">
+            <field name="name">ZST-WNT-2</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+
+        <record id="tax_ZSO" model="account.account.tag">
+            <field name="name">ZSO</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZSO-V_purchase" model="account.account.tag">
+            <field name="name">ZSO-V</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZSO-N_purchase" model="account.account.tag">
+            <field name="name">ZSO-N</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZSO-K_purchase" model="account.account.tag">
+            <field name="name">ZSO-K</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_ZSO8" model="account.account.tag">
+            <field name="name">ZSO8</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZSO8-V_purchase" model="account.account.tag">
+            <field name="name">ZSO8-V</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZSO8-N_purchase" model="account.account.tag">
+            <field name="name">ZSO8-N</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZSO8-K_purchase" model="account.account.tag">
+            <field name="name">ZSO8-K</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_VOO" model="account.account.tag">
+            <field name="name">VOO</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_zoo" model="account.account.tag">
+            <field name="name">ZOO</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_ZOO1" model="account.account.tag">
+            <field name="name">ZOO1</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_ZOO2" model="account.account.tag">
+            <field name="name">ZOO2</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_wdt" model="account.account.tag">
+            <field name="name">WDT</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_WSU" model="account.account.tag">
+            <field name="name">WSU</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_wnt" model="account.account.tag">
+            <field name="name">WNT</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_WNT1" model="account.account.tag">
+            <field name="name">WNT1</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_WNT2" model="account.account.tag">
+            <field name="name">WNT2</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_WNU" model="account.account.tag">
+            <field name="name">WNU</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_WNU1" model="account.account.tag">
+            <field name="name">WNU1</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_WNU2" model="account.account.tag">
+            <field name="name">WNU2</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_EXT" model="account.account.tag">
+            <field name="name">EXT</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_EXU" model="account.account.tag">
+            <field name="name">EXU</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+
+        <record id="tax_IMT" model="account.account.tag">
+            <field name="name">IMT</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_IMT1" model="account.account.tag">
+            <field name="name">IMT1</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_IMT2" model="account.account.tag">
+            <field name="name">IMT2</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_IMU" model="account.account.tag">
+            <field name="name">IMU</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_IMU1" model="account.account.tag">
+            <field name="name">IMU1</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tax_IMU2" model="account.account.tag">
+            <field name="name">IMU2</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+        <record id="tax_ZSAD" model="account.account.tag">
+            <field name="name">ZSAD</field>
+            <field name="country_id" ref="base.pl"/>
+            <field name="applicability">taxes</field>
+        </record>
+
+
+# VAT domestic sale
+
+        <record id="vs_kraj_23" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 23% {V23}</field>
+                <field name="description">V23</field>
+                <field name="amount">23</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+                <field name="sequence" eval="0"/>
+<!--                <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                <field name="account_id" ref="chart22030400"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_V23')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_23_included" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 23% - wliczony {V23}</field>
+                <field name="description">V23W</field>
+                <field name="amount">18.70</field>
+                <field name="amount_type">division</field>
+                <field name="price_include" eval="1"/>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                <field name="account_id" ref="chart22030400"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_V23')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                        'tag_ids': [ref('tax_V23')],
+                        }),
+                        ]"/>
+        </record>
+
+
+        <record id="vs_kraj_22" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 22% {V22}</field>
+                <field name="description">V22</field>
+                <field name="amount">22</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030100"/>-->
+<!--                <field name="account_id" ref="chart22030100"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_V22')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030100'),
+                        'tag_ids': [ref('tax_V22')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030100'),
+                        'tag_ids': [ref('tax_V22')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_8" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 8% {V8}</field>
+                <field name="description">V8</field>
+                <field name="amount">8</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030500"/>-->
+<!--                <field name="account_id" ref="chart22030500"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_V8')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030500'),
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030500'),
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_8_included" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 8% - wliczony {V8}</field>
+                <field name="description">V8W</field>
+                <field name="amount">7.41</field>
+                <field name="amount_type">division</field>
+                <field name="price_include" eval="1"/>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030500"/>-->
+<!--                <field name="account_id" ref="chart22030500"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_V8')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030500'),
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030500'),
+                        'tag_ids': [ref('tax_V8')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_7" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 7% {V7}</field>
+                <field name="description">V7</field>
+                <field name="amount">7</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030200"/>-->
+<!--                <field name="account_id" ref="chart22030200"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_v7')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v7')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030200'),
+                        'tag_ids': [ref('tax_v7')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v7')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030200'),
+                        'tag_ids': [ref('tax_v7')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_5" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 5% {V5}</field>
+                <field name="description">V5</field>
+                <field name="amount">5</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030600"/>-->
+<!--                <field name="account_id" ref="chart22030600"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_v5')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030600'),
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030600'),
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_5_included" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 5% - wliczony {V5}</field>
+                <field name="description">V5W</field>
+                <field name="amount">4.76</field>
+                <field name="amount_type">division</field>
+                <field name="price_include" eval="1"/>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030600"/>-->
+<!--                <field name="account_id" ref="chart22030600"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_v5')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030600'),
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030600'),
+                        'tag_ids': [ref('tax_v5')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_3" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 3% {V3}</field>
+                <field name="description">V3</field>
+                <field name="amount">3</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030300"/>-->
+<!--                <field name="account_id" ref="chart22030300"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_v3')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v3')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030300'),
+                        'tag_ids': [ref('tax_v3')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_v3')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030300'),
+                        'tag_ids': [ref('tax_v3')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_0" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 0% {V0}</field>
+                <field name="description">V0</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_V0')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V0')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_V0')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_V0')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_V0')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_zw" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT ZW {VZW}</field>
+                <field name="description">VZW</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_VZW')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_VZW')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_VZW')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_VZW')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_VZW')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_usl_23" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 23% - usługi {VU23}</field>
+                <field name="description">VU23</field>
+                <field name="amount">23</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                <field name="account_id" ref="chart22030400"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_VU23')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_VU23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                        'tag_ids': [ref('tax_VU23')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_VU23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                        'tag_ids': [ref('tax_VU23')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vs_kraj_usl_22" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 22% - usługi {VU22}</field>
+                <field name="description">VU22</field>
+                <field name="amount">22</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="refund_account_id" ref="chart22030100"/>-->
+<!--                <field name="account_id" ref="chart22030100"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_VU22')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_VU22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030100'),
+                        'tag_ids': [ref('tax_VU22')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_VU22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22030100'),
+                        'tag_ids': [ref('tax_VU22')],
+                        }),
+                        ]"/>
+        </record>
+
+# VAT domestic purchase
+
+        <record id="vz_kraj_23" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 23% - naliczony {Z23}</field>
+                <field name="description">Z23</field>
+                <field name="amount">23</field>
+                <field name="amount_type">percent</field>
+                <field name="sequence" eval="0"/>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                <field name="account_id" ref="chart22020400"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z23')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                        'tag_ids': [ref('tax_Z23')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                        'tag_ids': [ref('tax_Z23')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_22" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 22% - naliczony {Z22}</field>
+                <field name="description">Z22</field>
+                <field name="amount">22</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020100"/>-->
+<!--                <field name="account_id" ref="chart22020100"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z22')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020100'),
+                        'tag_ids': [ref('tax_Z22')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020100'),
+                        'tag_ids': [ref('tax_Z22')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_8" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 8% - naliczony {Z8}</field>
+                <field name="description">Z8</field>
+                <field name="amount">8</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020500"/>-->
+<!--                <field name="account_id" ref="chart22020500"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z8')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z8')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020500'),
+                        'tag_ids': [ref('tax_Z8')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z8')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020500'),
+                        'tag_ids': [ref('tax_Z8')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_7" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 7% - naliczony {Z7}</field>
+                <field name="description">Z7</field>
+                <field name="amount">7</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020200"/>-->
+<!--                <field name="account_id" ref="chart22020200"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z7')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z7')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020200'),
+                        'tag_ids': [ref('tax_Z7')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z7')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020200'),
+                        'tag_ids': [ref('tax_Z7')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_5" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 5% - naliczony {Z5}</field>
+                <field name="description">Z5</field>
+                <field name="amount">5</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020600"/>-->
+<!--                <field name="account_id" ref="chart22020600"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z5')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z5')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020600'),
+                        'tag_ids': [ref('tax_Z5')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z5')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020600'),
+                        'tag_ids': [ref('tax_Z5')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_3" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 3% - naliczony {Z3}</field>
+                <field name="description">Z3</field>
+                <field name="amount">3</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020300"/>-->
+<!--                <field name="account_id" ref="chart22020300"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z3')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z3')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020300'),
+                        'tag_ids': [ref('tax_Z3')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z3')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020300'),
+                        'tag_ids': [ref('tax_Z3')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_0" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT 0% - naliczony {Z0}</field>
+                <field name="description">Z0</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_Z0')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z0')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_Z0')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_Z0')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_Z0')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_zw" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT ZW - naliczony {ZZW}</field>
+                <field name="description">ZZW</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZZW')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_ZZW')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_ZZW')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_ZZW')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'tag_ids': [ref('tax_ZZW')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_usl_23" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT usługi 23% - naliczony {ZU23}</field>
+                <field name="description">ZU23</field>
+                <field name="amount">23</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                <field name="account_id" ref="chart22020400"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZU23')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_ZU23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                        'tag_ids': [ref('tax_ZU23')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_ZU23')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                        'tag_ids': [ref('tax_ZU23')],
+                        }),
+                        ]"/>
+        </record>
+
+        <record id="vz_kraj_usl_22" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT usługi 22% - naliczony {ZU22}</field>
+                <field name="description">ZU22</field>
+                <field name="amount">22</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020100"/>-->
+<!--                <field name="account_id" ref="chart22020100"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZU22')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_ZU22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020100'),
+                        'tag_ids': [ref('tax_ZU22')],
+                        }),
+                        ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'base',
+                        'tag_ids': [ref('tax_ZU22')],
+                        }),
+                (0, 0, {
+                        'factor_percent': 100,
+                        'repartition_type': 'tax',
+                        'account_id': ref('l10n_pl_openglobe.chart22020100'),
+                        'tag_ids': [ref('tax_ZU22')],
+                        }),
+                        ]"/>
+        </record>
+
+# Vehicle leasing
+#================================================
+
+                <record id="vp_leas_purchase_1" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">ZSO-V {ZSO-V}</field>
+                        <field name="description">ZSO-V</field>
+                        <field name="amount" eval="11.50"/>
+                        <field name="sequence" eval="10"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO-V_purchase')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO-V_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_ZSO-V_purchase')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO-V_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_ZSO-V_purchase')],
+                                }),
+                                ]"/>
+                </record>
+                <record id="vp_leas_purchase_2" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">ZSO-N {ZSO-N}</field>
+                        <field name="description">ZSO-N</field>
+                        <field name="amount" eval="2.875"/>
+                        <field name="sequence" eval="20"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart40020900"/>-->
+<!--                        <field name="account_id" ref="chart40020900"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO-N_purchase')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO-N_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO-N_purchase')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO-N_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO-N_purchase')],
+                                }),
+                                ]"/>
+                </record>
+                <record id="vp_leas_purchase_3" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">ZSO-K {ZSO-K}</field>
+                        <field name="description">ZSO-K</field>
+                        <field name="amount" eval="8.625"/>
+                        <field name="sequence" eval="30"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart40020900"/>-->
+<!--                        <field name="account_id" ref="chart40020900"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO-K_purchase')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO-K_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO-K_purchase')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO-K_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO-K_purchase')],
+                                }),
+                                ]"/>
+                </record>
+                <record id="vp_leas_purchase" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Zakupy do samoch. {ZSO}</field>
+                        <field name="description">ZSO</field>
+                        <field name="amount">1.00</field>
+                        <field name="sequence" eval="1"/>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vp_leas_purchase_1'), ref('vp_leas_purchase_2'), ref('vp_leas_purchase_3')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_ZSO')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_ZSO')],
+                                }),
+                                ]"/>
+                </record>
+
+
+
+                <record id="vp_leas_8_purchase_1" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">ZSO8-V {ZSO8-V}</field>
+                        <field name="description">ZSO8-V</field>
+                        <field name="amount" eval="11.50"/>
+                        <field name="sequence" eval="10"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO8-V_purchase')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8-V_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_ZSO8-V_purchase')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8-V_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_ZSO8-V_purchase')],
+                                }),
+                                ]"/>
+                </record>
+                <record id="vp_leas_8_purchase_2" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">ZSO8-N {ZSO8-N}</field>
+                        <field name="description">ZSO8-N</field>
+                        <field name="amount" eval="2.875"/>
+                        <field name="sequence" eval="20"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart40020900"/>-->
+<!--                        <field name="account_id" ref="chart40020900"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO8-N_purchase')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8-N_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO8-N_purchase')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8-N_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO8-N_purchase')],
+                                }),
+                                ]"/>
+                </record>
+                <record id="vp_leas_8_purchase_3" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">ZSO8-K {ZSO8-K}</field>
+                        <field name="description">ZSO8-K</field>
+                        <field name="amount" eval="8.625"/>
+                        <field name="sequence" eval="30"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart40020900"/>-->
+<!--                        <field name="account_id" ref="chart40020900"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO8-K_purchase')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8-K_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO8-K_purchase')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8-K_purchase')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart40020900'),
+                                'tag_ids': [ref('tax_ZSO8-K_purchase')],
+                                }),
+                                ]"/>
+                </record>
+                <record id="vp_leas_8_purchase" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Zakupy do samoch. 8% {ZSO8}</field>
+                        <field name="description">ZSO8</field>
+                        <field name="amount">1.00</field>
+                        <field name="sequence" eval="1"/>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vp_leas_8_purchase_1'), ref('vp_leas_8_purchase_2'), ref('vp_leas_8_purchase_3')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSO8')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_ZSO8')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSO8')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_ZSO8')],
+                                }),
+                                ]"/>
+                </record>
+
+
+
+# Steel trade
+
+        <record id="vs_stal" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">Odwrotne obciążenie {VOO}</field>
+                <field name="description">VOO</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_VOO')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_VOO')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_VOO')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_VOO')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_VOO')],
+                                }),
+                                ]"/>
+        </record>
+
+                <record id="vz_stal_podatek_naliczony" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Odwrotne obciążenie - podatek naliczony {ZOO1}</field>
+                        <field name="description">ZOO1</field>
+                        <field name="amount" eval="23"/>
+                        <field name="sequence" eval="100"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZOO1')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZOO1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_ZOO1')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZOO1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_ZOO1')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_stal_podatek_nalezny" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Odwrotne obciążenie - podatek należny {ZOO2}</field>
+                        <field name="description">ZOO2</field>
+                        <field name="amount" eval="-23"/>
+                        <field name="sequence" eval="110"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                        <field name="account_id" ref="chart22030400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZOO2')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZOO2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_ZOO2')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZOO2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_ZOO2')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_stal" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Odwrotne obciążenie {ZOO}</field>
+                        <field name="description">ZOO</field>
+                        <field name="amount">1.0</field>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vz_stal_podatek_naliczony'), ref('vz_stal_podatek_nalezny')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_zoo')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_zoo')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_zoo')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_zoo')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_zoo')],
+                                }),
+                                ]"/>
+                </record>
+
+
+# Fixed assets
+#===========================================================
+
+        <record id="vz_fixed_assets_domestic_23" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">VAT środki trwałe 23% - naliczony {ZST23}</field>
+                <field name="description">ZST23</field>
+                <field name="amount">23</field>
+                <field name="amount_type">percent</field>
+                <field name="sequence" eval="10"/>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                <field name="account_id" ref="chart22020400"/>-->
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_zst23')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_zst23')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_zst23')],
+                                }),
+                                ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_zst23')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_zst23')],
+                                }),
+                                ]"/>
+        </record>
+
+                <record id="vz_fixed_assets_input_23" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNT środki trwałe - naliczony {ZST-WNT-1}</field>
+                        <field name="description">ZST-WNT-1</field>
+                        <field name="amount" eval="23"/>
+                        <field name="sequence" eval="100"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_z_st_wnt_1')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_z_st_wnt_1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_z_st_wnt_1')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_z_st_wnt_1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_z_st_wnt_1')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_fixed_assets_output_23" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNT środki trwałe - należny {ZST-WNT-2}</field>
+                        <field name="description">ZST-WNT-2</field>
+                        <field name="amount" eval="-23"/>
+                        <field name="sequence" eval="110"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                        <field name="account_id" ref="chart22030400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_z_st_wnt_2')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_z_st_wnt_2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_z_st_wnt_2')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_z_st_wnt_2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_z_st_wnt_2')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_fixed_assets_intra_eu_acquisition_23" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNT - środki trwałe {ZST-WNT}</field>
+                        <field name="description">ZST-WNT</field>
+                        <field name="amount">1.0</field>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vz_fixed_assets_input_23'), ref('vz_fixed_assets_output_23')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_z_st_wnt')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_z_st_wnt')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_z_st_wnt')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_z_st_wnt')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_z_st_wnt')],
+                                }),
+                                ]"/>
+                </record>
+
+
+# European Union
+#===========================================================
+
+        <record id="vs_unia" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">WDT - Wew. dostawa towarów {WDT}</field>
+                <field name="description">WDT</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_wdt')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_wdt')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_wdt')],
+                                }),
+                                ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_wdt')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_wdt')],
+                                }),
+                                ]"/>
+        </record>
+
+                <record id="vz_unia_podatek_naliczony" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNT - naliczony {WNT1}</field>
+                        <field name="description">WNT1</field>
+                        <field name="amount" eval="23"/>
+                        <field name="sequence" eval="100"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_WNT1')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNT1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_WNT1')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNT1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_WNT1')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_unia_podatek_nalezny" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNT - należny {WNT2}</field>
+                        <field name="description">WNT2</field>
+                        <field name="amount" eval="-23"/>
+                        <field name="sequence" eval="110"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                        <field name="account_id" ref="chart22030400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_WNT2')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNT2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_WNT2')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNT2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_WNT2')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_unia" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNT - Wew. nabycie towarów {WNT}</field>
+                        <field name="description">WNT</field>
+                        <field name="amount">1.0</field>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vz_unia_podatek_naliczony'), ref('vz_unia_podatek_nalezny')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_wnt')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_wnt')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_wnt')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_wnt')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_wnt')],
+                                }),
+                                ]"/>
+                </record>
+
+        <record id="vs_dostu" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">WSU - Wew. świadczenie usług {WSU}</field>
+                <field name="description">WSU</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_WSU')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WSU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_WSU')],
+                                }),
+                                ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WSU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_WSU')],
+                                }),
+                                ]"/>
+        </record>
+
+                <record id="vz_nabu_podatek_naliczony" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Nabycie usług - podatek naliczony {WNU1}</field>
+                        <field name="description">WNU1</field>
+                        <field name="amount" eval="23"/>
+                        <field name="sequence" eval="200"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_WNU1')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNU1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_WNU1')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNU1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_WNU1')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_nabu_2" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Nabycie usług - podatek należny {WNU2}</field>
+                        <field name="description">WNU2</field>
+                        <field name="amount" eval="-23"/>
+                        <field name="sequence" eval="210"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                        <field name="account_id" ref="chart22030400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_WNU2')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNU2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_WNU2')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNU2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_WNU2')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_nabu" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">WNU - Wew. nabycie usług {WNU}</field>
+                        <field name="description">WNU</field>
+                        <field name="amount">1.0</field>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vz_nabu_podatek_naliczony'), ref('vz_nabu_2')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_WNU')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_WNU')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_WNU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_WNU')],
+                                }),
+                                ]"/>
+                </record>
+
+
+# Export / Import
+#================================================
+
+        <record id="vs_eksp_tow" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">Eksport towarów {EXT}</field>
+                <field name="description">EXT</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_EXT')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_EXT')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_EXT')],
+                                }),
+                                ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_EXT')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_EXT')],
+                                }),
+                                ]"/>
+        </record>
+
+                <record id="vz_imp_tow_podatek_naliczony" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Import towarów - podatek naliczony {IMT1}</field>
+                        <field name="description">IMT1</field>
+                        <field name="amount" eval="23"/>
+                        <field name="sequence" eval="200"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_IMT1')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMT1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_IMT1')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMT1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_IMT1')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_imp_tow_podatek_nalezny" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Import towarów - podatek należny {IMT2}</field>
+                        <field name="description">IMT2</field>
+                        <field name="amount" eval="-23"/>
+                        <field name="sequence" eval="210"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                        <field name="account_id" ref="chart22030400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_IMT2')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMT2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_IMT2')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMT2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_IMT2')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_imp_tow" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Import towarów {IMT}</field>
+                        <field name="description">IMT</field>
+                        <field name="amount">1.0</field>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vz_imp_tow_podatek_naliczony'), ref('vz_imp_tow_podatek_nalezny')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_IMT')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMT')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_IMT')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMT')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_IMT')],
+                                }),
+                                ]"/>
+                </record>
+
+        <record id="vs_ekspu" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">Eksport usług {EXU}</field>
+                <field name="description">EXU</field>
+                <field name="amount">0</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">sale</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_EXU')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_EXU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_EXU')],
+                                }),
+                                ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_EXU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_EXU')],
+                                }),
+                                ]"/>
+        </record>
+
+                <record id="vz_impu_podatek_naliczony" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Import usług - podatek naliczony {IMU1}</field>
+                        <field name="description">IMU1</field>
+                        <field name="amount" eval="23"/>
+                        <field name="sequence" eval="200"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22020400"/>-->
+<!--                        <field name="account_id" ref="chart22020400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_IMU1')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMU1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_IMU1')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMU1')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22020400'),
+                                'tag_ids': [ref('tax_IMU1')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_impu_podatek_nalezny" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Import usług - podatek należny {IMU2}</field>
+                        <field name="description">IMU2</field>
+                        <field name="amount" eval="-23"/>
+                        <field name="sequence" eval="210"/>
+                        <field name="amount_type">percent</field>
+<!--                        <field name="refund_account_id" ref="chart22030400"/>-->
+<!--                        <field name="account_id" ref="chart22030400"/>-->
+                        <field name="type_tax_use">none</field>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_IMU2')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMU2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_IMU2')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMU2')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'account_id': ref('l10n_pl_openglobe.chart22030400'),
+                                'tag_ids': [ref('tax_IMU2')],
+                                }),
+                                ]"/>
+                </record>
+
+                <record id="vz_impu" model="account.tax.template">
+                        <field name="chart_template_id" ref="pl_chart_template"/>
+                        <field name="name">Import usług {IMU}</field>
+                        <field name="description">IMU</field>
+                        <field name="amount">1.00</field>
+                        <field name="amount_type">group</field>
+                        <field name="type_tax_use">purchase</field>
+                        <field name="children_tax_ids" eval="[(6, 0, [ref('vz_impu_podatek_naliczony'), ref('vz_impu_podatek_nalezny')])]"/>
+<!--                        <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_IMU')])]"/>-->
+                        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_IMU')],
+                                }),
+                                ]"/>
+                        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_IMU')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_IMU')],
+                                }),
+                                ]"/>
+                </record>
+
+        <record id="vz_sad" model="account.tax.template">
+                <field name="chart_template_id" ref="pl_chart_template"/>
+                <field name="name">ZSAD {ZSAD}</field>
+                <field name="description">ZSAD</field>
+                <field name="amount">23</field>
+                <field name="amount_type">percent</field>
+                <field name="type_tax_use">purchase</field>
+<!--                <field name="tag_ids" eval="[(6,0,[ref('l10n_pl_openglobe.tax_ZSAD')])]"/>-->
+                <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSAD')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_ZSAD')],
+                                }),
+                                ]"/>
+                <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'base',
+                                'tag_ids': [ref('tax_ZSAD')],
+                                }),
+                        (0, 0, {
+                                'factor_percent': 100,
+                                'repartition_type': 'tax',
+                                'tag_ids': [ref('tax_ZSAD')],
+                                }),
+                                ]"/>
+        </record>
+
+
+</data>
+</odoo>

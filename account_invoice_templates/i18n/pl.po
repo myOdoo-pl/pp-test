@@ -1,0 +1,203 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_templates
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20181012\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-21 22:35+0000\n"
+"PO-Revision-Date: 2020-03-21 23:44+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid ""
+"*Kwota podatku VAT w walucie PLN według średniego kursu ogłoszonego w dniu "
+"roboczym poprzedzającym datę faktury."
+msgstr ""
+"*Kwota podatku VAT w walucie PLN według średniego kursu ogłoszonego w dniu "
+"roboczym poprzedzającym datę faktury."
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<br/>PKWiU No:"
+msgstr "<br/>Nr PKWiU:"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.external_layout_standard_vat
+msgid "<span><strong>Seller:</strong></span>"
+msgstr "<span><strong>Sprzedawca:</strong></span>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<span><strong>Purchaser:</strong></span>"
+msgstr "<span><strong>Nabywca:</strong></span>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>After Refund</strong>"
+msgstr "<strong>Po korekcie:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.invoice_refund_with_payments
+msgid "<strong>Amount Due</strong>"
+msgstr "<strong>Kwota do zapłaty</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.invoice_refund_with_payments
+msgid "<strong>Amount Left to Pay</strong>"
+msgstr "<strong>Kwota do dopłaty</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>BIC:</strong>"
+msgstr "<strong>Kod SWIFT/BIC: </strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Bank account:</strong>"
+msgstr "<strong>Konto bankowe:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Before refund:</strong>"
+msgstr "<strong>Przed korektą:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Description</strong>"
+msgstr "<strong>Opis</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Disc.(%)</strong>"
+msgstr "<strong>Up.(%)</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>Termin płatności:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Gross</strong>"
+msgstr "<strong>Brutto</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Issue Date:</strong>"
+msgstr "<strong>Data wystawienia:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Order No:</strong>"
+msgstr "<strong>Nr zamówienia:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Payment Term:</strong>"
+msgstr "<strong>Warunki płatności:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Quantity</strong>"
+msgstr "<strong>Ilość</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Sale Date:</strong>"
+msgstr "<strong>Data sprzedaży:</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Suma częściowa</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Tax</strong>"
+msgstr "<strong>Podatek</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.invoice_refund_with_payments
+msgid "<strong>To Refund</strong>"
+msgstr "<strong>Do zwrotu</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>Unit Price</strong>"
+msgstr "<strong>Cena jednostkowa</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "<strong>VAT</strong>"
+msgstr "<strong>VAT</strong>"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "Amount"
+msgstr "Kwota"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "For Invoice No"
+msgstr "do faktury nr"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "From"
+msgstr "z dnia"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "Gross"
+msgstr "Brutto"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.external_layout_standard_vat
+msgid "Logo"
+msgstr ""
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "Net"
+msgstr "Netto"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "PKWiU No:"
+msgstr "Nr PKWiU:"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.invoice_refund_with_payments
+msgid "Paid on"
+msgstr "Zapłacono dnia"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.invoice_refund_with_payments
+msgid "Reconciled on"
+msgstr "Uzgodniono dnia"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "Subtotal"
+msgstr "Netto"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "Tax"
+msgstr "Podatek"
+
+#. module: account_invoice_templates
+#: model_terms:ir.ui.view,arch_db:account_invoice_templates.report_invoice_document_pl
+msgid "Tax Amount"
+msgstr "Wysokość podatku"
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<menuitem id="account_reports_pl_statements_menu" name="Polish Statements" parent="account.menu_finance_reports" sequence="3" groups="account.group_account_user"/>
+
+<data noupdate="0">
+	<!-- <record id="chart11090000" model="account.account.template">
+                <field name="code">11-090-000</field>
+                <field name="reconcile" eval="True"/>
+                <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+                <field name="name">Środki pieniężne w drodze</field>
+        </record>    -->
+    <!-- Chart template -->
+
+        <record id="pl_chart_template" model="account.chart.template">
+            <field name="name">Polska - Plan kont (by OpenGLOBE)</field>
+            <field name="code_digits">10</field>
+            <field name="currency_id" ref="base.PLN"/>
+            <field name="bank_account_code_prefix">11-000-000</field>
+            <field name="cash_account_code_prefix">12-000-000</field>
+	    			<field name="transfer_account_code_prefix">11-090-000</field>
+	</record>
+
+
+</data>
+</openerp>

@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* abs_project_po
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-24 13:26+0000\n"
+"PO-Revision-Date: 2021-11-24 13:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: abs_project_po
+#: model:ir.model.fields,field_description:abs_project_po.field_project_project__display_name
+#: model:ir.model.fields,field_description:abs_project_po.field_purchase_order__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: abs_project_po
+#: model:ir.model.fields,field_description:abs_project_po.field_project_project__id
+#: model:ir.model.fields,field_description:abs_project_po.field_purchase_order__id
+msgid "ID"
+msgstr ""
+
+#. module: abs_project_po
+#: model:ir.model.fields,field_description:abs_project_po.field_project_project____last_update
+#: model:ir.model.fields,field_description:abs_project_po.field_purchase_order____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: abs_project_po
+#: model:ir.model,name:abs_project_po.model_project_project
+#: model:ir.model.fields,field_description:abs_project_po.field_purchase_order__project_id
+msgid "Project"
+msgstr ""
+
+#. module: abs_project_po
+#: model:ir.model,name:abs_project_po.model_purchase_order
+msgid "Purchase Order"
+msgstr ""
+
+#. module: abs_project_po
+#: model:ir.model.fields,field_description:abs_project_po.field_project_project__purchase_order_ids
+#: model_terms:ir.ui.view,arch_db:abs_project_po.edit_project
+msgid "Purchase Orders"
+msgstr ""
+
+#. module: abs_project_po
+#: model_terms:ir.ui.view,arch_db:abs_project_po.edit_project
+msgid "Total Untaxed amount"
+msgstr ""
+
+#. module: abs_project_po
+#: model_terms:ir.ui.view,arch_db:abs_project_po.edit_project
+msgid "Total amount"
+msgstr ""
+
+#. module: abs_project_po
+#: model_terms:ir.ui.view,arch_db:abs_project_po.edit_project
+msgid "Untaxed"
+msgstr ""

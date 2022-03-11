@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="report_vat_7k_12">
+    <t t-call="web.html_container">
+        <t t-set="data_report_margin_top" t-value="5"/>
+        <t t-set="data_report_margin_bottom" t-value="0"/>
+        <t t-set="data_report_header_spacing" t-value="9"/>
+        <t t-set="data_report_dpi" t-value="110"/>
+        <div class="page">
+          <div class="article">
+            <div class="row" style="line-height: 90%;">
+                <p>POLTAX</p>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-5 oe_cell_even" style="border: 1px solid black;">
+                    <p>1. Identyfikator podatkowy NIP podatnika</p>
+                    <p class="oe_cell_content" t-esc="data['vat_dict']['company_data']['numeric_vat']"/>
+                </div>
+                <div class="col-4 oe_cell_desc" style="border: 1px solid black;">
+                    <p>2. Nr dokumentu</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-2 oe_cell_desc" style="border: 1px solid black;">
+                    <p>3.Status</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+            </div>
+            <div class="row oe_title_text oe_margin_reset">
+                <div class="col-2">
+                    <p>VAT-7K</p>
+                </div>
+                <div class="col-8">
+                    <p>DEKLARACJA DLA PODATKU OD TOWARÓW I USŁUG</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p class="pull-right oe_title_text">za</p>
+                </div>
+                <div class="col-4">
+                    <div class="row oe_margin_reset oe_point_desc">
+                        <div class="col-5" style="border: 1px solid black;">
+                            <p>4. Kwartał</p>
+                            <p class="oe_cell_content" t-esc="data['quarter']"/>
+                        </div>
+                        <div class="col-7" style="border: 1px solid black;">
+                            <p>5. Rok</p>
+                            <p class="oe_cell_content" t-esc="data['year']"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row oe_row_border oe_margin_reset oe_helper_text oe_cell_desc_info" style="font-size: 9px !important">
+                <div class="col-2">
+                    <p>Podstawa prawna:</p>
+                    <p>Składający:</p>
+                </div>
+                <div class="col-10">
+                    <p>Art. 99 ust. 2 lub 3 ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2017 r. poz. 1221, z późn. zm.),  zwanej dalej „ustawą”.</p>
+                    <p>Mali podatnicy, o których mowa w art. 2 pkt 25 ustawy, obowiązani do składania deklaracji za okresy kwartalne zgodnie z art. 99ust. 2 lub 3 ustawy.</p>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc oe_title_text">
+                <div class="col-12">
+                    <p>A. MIEJSCE I CEL SKŁADANIA DEKLARACJI</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_cell_fix_margin">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-6 oe_row_border" style="padding-bottom: 1px">
+                    <p>6. Urząd skarbowy, do którego adresowana jest deklaracja</p>
+                    <p class="oe_cell_content" t-esc="res_company.tax_office.name"/>
+                </div>
+                <div class="col-5 oe_row_border">
+                    <p>7. Cel złożenia formularza (zaznaczyć właściwy kwadrat):</p>
+                    <div class="oe_cell_content oe_square_font">
+                        <span><i class="fa fa-check-square-o"></i> 1. złożenie deklaracji</span>
+                        <span style="margin-left: 10px;"><i class="fa fa-square-o"></i> 2. korekta deklaracji <sup>1)</sup></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text" style="padding: 0px 0px;">B. DANE IDENTYFIKACYJNE PODATNIKA</p>
+                    <p class="oe_helper_text" style="padding: 0px 0px 0px 45px;">* - dotyczy podmiotów niebędących osobami fizycznymi                ** - dotyczy podmiotów będących osobami fizycznymi</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders" style="padding-bottom: 35px">
+                </div>
+                <div class="col-11 oe_row_border">
+                    <p>8. Rodzaj podatnika (zaznaczyć właściwy kwadrat):</p>
+                    <div class="oe_cell_content oe_square_font">
+                        <span><i class="fa fa-check-square-o"></i> 1. podatnik niebędący osobą fizyczną</span>
+                        <span style="margin-left: 20px;"><i class="fa fa-square-o"></i> 2. osoba fizyczna</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-11 oe_row_border">
+                    <p>9. Nazwa pełna, REGON * / Nazwisko, pierwsze imię, data urodzenia **</p>
+                    <p class="oe_cell_content" t-esc="res_company.name + ', ' + res_company.regon_code"/>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">C. ROZLICZENIE PODATKU NALEŻNEGO</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_cell_desc_small oe_point_desc oe_side_borders">
+                <div class="col-3 col-offset-6 oe_row_border oe_cell_small">
+                    <p>Podstawa opodatkowania w zł</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_small">
+                    <p>Podatek należny w zł</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>1. Dostawa towarów oraz świadczenie usług na terytorium kraju zwolnione od podatku</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>10.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_10']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>2. Dostawa towarów oraz świadczenie usług poza terytorium kraju</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>11.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_11']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-2 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-4 oe_row_border oe_cell_desc">
+                    <p>2a. w tym świadczenie usług, o których mowa w art. 100 ust. 1 pkt 4 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>12.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_12']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>3. Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 0%</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>13.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_13']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-2 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-4 oe_row_border oe_cell_desc">
+                    <p>3a. w tym dostawa towarów, o której mowa w art. 129 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border  oe_cell_even">
+                    <p>14.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_14']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>4. Dostawa towarów oraz świadczenie usług na terytorium kraju opodatkowane stawką 5%</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>15.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_15']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>16.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_16']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>5. Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 7% albo 8%</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>17.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_17']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>18.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_18']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>6. Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 22% albo 23%</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>19.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_19']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>20.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_20']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>7. Wewnątrzwspólnotowa dostawa towarów</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>21.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_21']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>8. Eksport towarów</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>22.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_22']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>9. Wewnątrzwspólnotowe nabycie towarów</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>23.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_23']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>24.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_24']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>10. Import towarów podlegający rozliczeniu zgodnie z art. 33a ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>25.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_25']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>26.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_26']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>11. Import usług z wyłączeniem usług nabywanych od podatników podatku od wartości dodanej, do których stosuje się art. 28b ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>27.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_27']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>28.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_28']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>12. Import usług nabywanych od podatników podatku odwartości dodanej, do których stosuje się art. 28b ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>29.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_29']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>30.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_30']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders oe_height_plus">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc oe_height_plus">
+                    <p>13. Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest nabywca zgodnie z art.17 ust. 1 pkt 7 lub 8 ustawy (wypełnia dostawca)</p>
+                </div>
+                <div class="col-3 oe_row_border oe_height_plus">
+                    <p>31.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_31']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc oe_height_plus">
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>14. Dostawa towarów, dla których podatnikiem jest nabywca zgodnie z art. 17 ust. 1 pkt 5 ustawy (wypełnia nabywca)</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>32.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_32']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>33.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_33']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders oe_height_plus">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc oe_height_plus">
+                    <p>15. Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest nabywca zgodnie z art. 17 ust. 1 pkt 7 lub 8 ustawy (wypełnia nabywca)</p>
+                </div>
+                <div class="col-3 oe_row_border oe_height_plus oe_cell_even">
+                    <p>34.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_34']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_height_plus oe_cell_even">
+                    <p>35.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_35']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>16. Kwota podatku należnego od towarów i usług objętych spisem z natury, o którym mowa w art. 14 ust. 5 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>36.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_36']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>17. Zwrot odliczonej lub zwróconej kwoty wydatkowanej na zakup kas rejestrujących, o którym mowa w art. 111 ust. 6 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>37.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_37']"/>
+                </div>
+            </div>
+
+
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>18. Kwota podatku należnego od wewnątrzwspólnotowego nabycia środków transportu, wykazanego w poz. 24, podlegająca wpłacie w terminie, o którym mowa w art. 103 ust. 3, w związku z ust. 4 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>38.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_38']"/>
+                </div>
+            </div>
+
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>19. Kwota podatku od wewnątrzwspólnotowego nabycia paliw silnikowych, podlegająca wpłacie w terminach, o których mowa w art. 103 ust. 5a i 5b ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>39.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_39']"/>
+                </div>
+            </div>
+
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders oe_height_plus">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc oe_height_plus">
+                    <p>Razem: (Poz. 40 =suma kwot z poz. 10, 11, 13, 15, 17, 19, 21, 22, 23, 25, 27, 29, 31, 32 i 34. Poz. 41= suma kwot z poz. 16, 18, 20, 24, 26, 28, 30, 33, 35, 36 i 37 pomniejszona o kwotę z poz. 38 i 39)</p>
+                </div>
+                <div class="col-3 oe_row_border oe_height_plus oe_cell_even">
+                    <p>40.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_40']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_height_plus oe_cell_even">
+                    <p>41.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_41']"/>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_row_border oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">D. ROZLICZENIE PODATKU NALICZONEGO</p>
+                </div>
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-9">
+                    <p class="oe_title_text_no_bold">D.1. PRZENIESIENIA</p>
+                </div>
+                <div class="col-3 oe_row_border oe_point_desc oe_cell_small" style="margin-top: 14px ">
+                    <p>Podatek do odliczenia w zł</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders oe_bottom_border" >
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Kwota nadwyżki z poprzedniej deklaracji</p>
+                    <p class="oe_point_desc_normal">Kwota z poz. „Kwota do przeniesienia na następny okres rozliczeniowy” z poprzedniej deklaracji lub wynikająca z decyzji.</p>
+                </div>
+                <div class="col-3 oe_row_border">
+                    <p>42.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_42']"/>
+                </div>
+            </div>
+
+            <div class="row oe_margin_reset">
+                <div class="col-2 col-offset-9 oe_row_border oe_footer_page">
+                    <p>VAT-7K<span style="font-size: 6px;">(12)</span></p>
+                </div>
+                <div class="col-1 oe_row_border oe_footer_page">
+                    <p>1<span style="font-size: 6px;">/2</span></p>
+                </div>
+            </div>
+            <!-- second page -->
+            <p style="page-break-after:always;"/>
+
+            <div class="row" style="line-height: 90%;">
+                <p>POLTAX</p>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text_no_bold">D.2. NABYCIE TOWARÓW I USŁUG ORAZ PODATEK NALICZONY Z UWZGLĘDNIENIEM KOREKT</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_cell_desc_small oe_point_desc oe_side_borders">
+                <div class="col-3 col-offset-6 oe_row_border oe_cell_small">
+                    <p>Wartość netto w zł</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_small">
+                    <p>Podatek naliczony w zł</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>Nabycie towarów i usług zaliczanych u podatnika do środków trwałych</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>43.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_43']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>44.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_44']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders oe_bottom_border">
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <p>Nabycie towarów i usług pozostałych</p>
+                </div>
+                <div class="col-3 oe_row_border  oe_cell_even">
+                    <p>45.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_45']"/>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even ">
+                    <p>46.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_46']"/>
+                </div>
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text_no_bold">D.3. PODATEK NALICZONY – DO ODLICZENIA (w zł)</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Korekta podatku naliczonego od nabycia środków trwałych</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>47.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_47']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Korekta podatku naliczonego od pozostałych nabyć</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>48.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_48']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Korekta podatku naliczonego, o której mowa w art. 89b ust. 1 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>49.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_49']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Korekta podatku naliczonego, o której mowa w art. 89b ust. 4 ustawy</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>50.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_50']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Razem kwota podatku naliczonego do odliczenia</p>
+                    <p class="oe_point_desc_normal">Należy wpisać sumę kwot z poz. 42, 44, 46, 47, 48, 49 i 50.</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>51.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_51']"/>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">E. OBLICZENIE WYSOKOŚCI ZOBOWIĄZANIA PODATKOWEGO LUB KWOTY ZWROTU (w zł)</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Kwota wydatkowana na zakup kas rejestrujących, do odliczenia w danym okresie rozliczeniowym</p>
+                    <p class="oe_point_desc_normal">Kwota wykazana w poz. 52 nie może być wyższa od różnicy kwot z poz. 41 i 51.</p>
+                    <p class="oe_point_desc_normal">Jeżeli różnica kwot pomiędzy poz. 41 i 51 jest mniejsza lub równa 0, wówczas należy wpisać 0.</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>52.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_52']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Kwota podatku objęta zaniechaniem poboru</p>
+                    <p class="oe_point_desc_normal">Kwota ta nie może być wyższa niż różnica pomiędzy kwotą z poz. 41 a sumą kwot z poz. 51 i 52.</p>
+                    <p class="oe_point_desc_normal">Jeżeli różnica kwot pomiędzy poz. 41 i 51, pomniejszona o kwotę z poz. 52 jest mniejsza od 0, wówczas należy wpisać 0.</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>53.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_53']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Kwota podatku podlegającego wpłacie do urzędu skarbowego</p>
+                    <p class="oe_point_desc_normal">Jeżeli różnica kwot pomiędzy poz. 41 i 51 jest większa od 0, wówczas poz. 54=poz. 41 - poz. 51 - poz. 52 - poz. 53 w przeciwnym wypadku należy wpisać 0.</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>54.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_54']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Kwota wydatkowana na zakup kas rejestrujących, przysługująca do zwrotu w danym okresie rozliczeniowym</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>55.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_55']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc">
+                    <p>Nadwyżka podatku naliczonego nad należnym</p>
+                    <p class="oe_point_desc_normal">Jeżeli różnica kwot pomiędzy poz. 51 i 41 jest większa lub równa 0, wówczas poz. 56=poz. 51 – poz. 41 + poz. 55, w przeciwnym wypadku należy wpisać 0.</p>
+                </div>
+                <div class="col-3 oe_row_border oe_cell_even">
+                    <p>56.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_56']"/>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc" style="background-color: #E4E4E4;">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-3 oe_row_border pull-right oe_cell_white_bgr">
+                    <p>57.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_57']"/>
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc pull-right" style="width: 65%;">
+                    <p>Kwota do zwrotu na rachunek bankowy wskazany przez podatnika</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc" style="background-color: #E4E4E4;">
+                <div class="col-1 oe_cell_desc oe_side_borders" style="min-height: 78px !important;">
+                </div>
+                <div class="col-6 pull-right">
+                  <div class="row oe_margin_reset oe_point_desc">
+                    <div class="col-6 oe_row_border oe_cell_white_bgr">
+                        <p>58. na rachunek VAT</p>
+                        <p class="oe_cell_content"/><!-- t-esc="vat_data['P_60']" -->
+                    </div>
+                    <div class="col-6 oe_row_border oe_cell_white_bgr">
+                        <p>59. w terminie 25 dni (art. 87 ust. 6)</p>
+                        <p class="oe_cell_content" /><!-- t-esc="vat_data['P_59']" -->
+                    </div>
+                  </div>
+                  <div class="row oe_margin_reset oe_point_desc">
+                    <div class="col-6 oe_row_border oe_cell_white_bgr">
+                        <p>60. w terminie 60 dni</p>
+                        <p class="oe_cell_content" /><!-- t-esc="vat_data['P_58']" -->
+                    </div>
+                    <div class="col-6 oe_row_border oe_cell_white_bgr">
+                        <p>61. w terminie 180 dni</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-5 pull-right oe_cell_desc oe_row_border" style="height: 78px; width: 38%">
+                  <p>w tym kwota do zwrotu</p>
+                  <p class="oe_cell_content oe_empty_cell_content"></p>
+              </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc" style="background-color: #E4E4E4;">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-3 oe_row_border pull-right oe_cell_white_bgr">
+                    <p>62.</p>
+                    <p class="oe_cell_content" t-esc="vat_data['P_62']"/><!-- t-esc="vat_data['P_61']" -->
+                </div>
+                <div class="col-8 oe_row_border oe_cell_desc pull-right" style="width: 60%;">
+                    <p>Kwota do przeniesienia na następny okres rozliczeniowy</p>
+                    <br/>
+                    <p class="oe_point_desc_normal">Od kwoty z poz. 56 należy odjąć kwotę z poz. 57.</p>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">F. INFORMACJE DODATKOWE</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-3 oe_row_border oe_cell_desc">
+                    <p>Podatnik wykonywał w okresie rozliczeniowym czynności, o których mowa w <span class="oe_point_desc_normal">(zaznaczyć właściwe kwadraty):</span></p>
+                </div>
+                <div class="col-2 oe_row_border  oe_cell_even">
+                    <p>63.</p>
+                    <p class="oe_cell_content oe_square_font"><i class="fa fa-square-o"></i> art. 119 ustawy</p>
+                </div>
+                <div class="col-2 oe_row_border oe_cell_even">
+                    <p>64.</p>
+                    <p class="oe_cell_content oe_square_font"><i class="fa fa-square-o"></i> art. 120 ust. 4 lub 5 ustawy</p>
+                </div>
+                <div class="col-2 oe_row_border oe_cell_even">
+                    <p>65.</p>
+                    <p class="oe_cell_content oe_square_font"><i class="fa fa-square-o"></i> art. 122 ustawy</p>
+                </div>
+                <div class="col-2 oe_row_border oe_cell_even">
+                    <p>66.</p>
+                    <p class="oe_cell_content oe_square_font"><i class="fa fa-square-o"></i> art. 136 ustawy</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+              <div class="col-1 oe_cell_desc oe_side_borders">
+              </div>
+              <div class="col-7 oe_row_border oe_cell_even">
+                  <p>67. Podatnik korzysta z obniżenia zobowiązania podatkowego, o którym mowa w art. 108 d ustawy</p>
+                  <div class="oe_cell_content oe_square_font">
+                    <span><i class="fa fa-square-o"></i> tak</span>
+                  </div>
+              </div>
+              <div class="col-4 oe_row_border oe_cell_even">
+                  <p>68. Podatnik wnioskuje o zwrot podatku na rachunek VAT <span class="oe_point_desc_normal">(wykazany w poz. 58)</span></p>
+                  <div class="oe_cell_content oe_square_font">
+                    <span><i class="fa fa-square-o"></i> tak</span>
+                  </div>
+              </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text" style="padding: 0px 0px;">G. INFORMACJA O ZAŁĄCZNIKACH</p>
+                    <p class="oe_helper_text" style="padding: 0px 0px 0px 45px;">Do niniejszej deklaracji dołączono (zaznaczyć właściwy kwadrat):</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-7 oe_row_border">
+                    <p>69. Wniosek o zwrot podatku (VAT-ZZ)</p>
+                    <div class="oe_cell_content oe_square_font">
+                        <span><i class="fa fa-square-o"> 1. tak </i></span>
+                        <span style="margin-left: 20px;"><i class="fa fa-check-square-o"></i> 2. nie</span>
+                    </div>
+                </div>
+                <div class="col-4 oe_row_border">
+                    <p>70. Wniosek o przyspieszenie terminu zwrotu podatku (VAT-ZT)</p>
+                    <div class="oe_cell_content oe_square_font">
+                        <span><i class="fa fa-square-o"> 1. tak </i></span>
+                        <span style="margin-left: 20px;"><i class="fa fa-check-square-o"></i> 2. nie</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-11 oe_row_border oe_cell_white_bgr">
+                    <p>71. Zawiadomienie o skorygowaniu podstawy opodatkowania oraz kwoty podatku należnego (VAT-ZD)</p>
+                    <div class="oe_cell_content oe_square_font">
+                        <span><i class="fa fa-square-o"> 1. tak </i></span>
+                        <span style="margin-left: 20px;"><i class="fa fa-check-square-o"></i> 2. nie</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">H. DANE KONTAKTOWE PODATNIKA LUB OSOBY REPREZENTUJĄCEJ PODATNIKA </p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc" style="min-height: 75px !important;">
+                <div class="col-1 oe_cell_desc oe_side_borders" style="min-height: 75px !important;">
+                </div>
+                <div class="col-7">
+                    <div class="row oe_margin_reset oe_point_desc">
+                        <div class="col-5 oe_row_border">
+                            <p>72. Imię</p>
+                            <p class="oe_cell_content oe_empty_cell_content"></p>
+                        </div>
+                        <div class="col-7 oe_row_border">
+                            <p>73. Nazwisko</p>
+                            <p class="oe_cell_content oe_empty_cell_content"></p>
+                        </div>
+                    </div>
+                    <div class="row oe_margin_reset oe_point_desc">
+                        <div class="col-5 oe_row_border " style="height:36px">
+                            <p>75. Telefon kontaktowy</p>
+                            <p class="oe_cell_content oe_empty_cell_content"></p>
+                        </div>
+                        <div class="col-7 oe_row_border" style="height:36px">
+                            <p>76. Data wypełnienia <span class="oe_point_desc_normal">(dzień – miesiąc – rok)</span></p>
+                            <p class="oe_cell_content oe_empty_cell_content"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 oe_row_border" style="height: 75px;">
+                    <p>74. Adres e-mail</p>
+                    <p class="oe_cell_content oe_empty_cell_content"></p>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+
+            <div class="row">
+                <div class="col-12 oe_point_desc_normal">
+                    <p>1) Zgodnie z art. 81 ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2017r. poz. 201, z późn. zm.).</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 oe_point_desc">
+                    <br/>
+                    <center><p>Pouczenia</p></center>
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 oe_point_desc_normal">
+                    <p>W przypadku niewpłacenia w obowiązującym terminie kwoty z poz. 54 lub wpłacenia jej w niepełnej wysokości, niniejsza deklaracja stanowi podstawę do wystawienia tytułu wykonawczego zgodnie z przepisami ustawy z dnia 17 czerwca 1966 r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2017 r. poz. 1201, z późn. zm.).</p>
+                    <p>Za podanie nieprawdy lub zatajenie prawdy i przez to narażenie podatku na uszczuplenie grozi odpowiedzialność przewidziana w Kodeksie karnym skarbowym.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="row oe_margin_reset">
+                <div class="col-2 oe_row_border oe_footer_page">
+                    <p>VAT-7K<span style="font-size: 6px;">(12)</span></p>
+                </div>
+                <div class="col-1 oe_row_border oe_footer_page">
+                    <p>2<span style="font-size: 6px;">/2</span></p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </t>
+</template>
+</odoo>

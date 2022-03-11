@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="report_vat_ue_4">
+    <t t-call="web.html_container">
+        <t t-set="data_report_margin_top" t-value="5"/>
+        <t t-set="data_report_margin_bottom" t-value="0"/>
+        <t t-set="data_report_header_spacing" t-value="9"/>
+        <t t-set="data_report_dpi" t-value="110"/>
+        <div class="page">
+          <div class="article">
+            <div class="row" style="line-height: 90%;">
+                <p>WERSJA POGLĄDOWA, DO WYSŁANIA DEKLARACJI SKORZYSTAJ Z WERSJI XML</p>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-6" style="border: 1px solid black;">
+                    <p>1. Identyfikator podatkowy NIP podatnika</p>
+                    <p class="oe_cell_content" t-esc="data['vat_dict']['company_data']['numeric_vat']"/>
+                </div>
+                <div class="col-3 oe_cell_desc" style="border: 1px solid black;">
+                    <p>2. Nr dokumentu</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-2 oe_cell_desc" style="border: 1px solid black;">
+                    <p>3.Status</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+            </div>
+            <img src="/account_pl_cirrus/static/src/img/eu_stars.png" style="position: absolute; left: 85px; top:70px" height="80"/>
+            <div class="row oe_title_text oe_margin_reset oe_cell_content_center" style="background-color: #6C7DF0;">
+                <br/>
+                <div class="col-2">
+                    <p>VAT-UE</p>
+                </div>
+                <div class="col-8">
+                    <p>INFORMACJA PODSUMOWUJĄCA O DOKONANYCH <br/>WEWNĄTRZWSPÓLNOTOWYCH TRANSAKCJACH</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset" style="background-color: #6C7DF0">
+                <br/>
+                <div class="col-1 offset-4 oe_margin_reset oe_point_desc oe_desc_padding_fix oe_vatue_date_min_height" style="border: 1px solid black; background-color: white; margin-bottom: 5px;">
+                    <p>4. Miesiąc</p>
+                    <p class="oe_cell_content oe_cell_content_center" t-esc="data.get('month') or ''"/>
+                </div>
+                <div class="col-2 oe_margin_reset oe_point_desc oe_desc_padding_fix oe_vatue_date_min_height" style="border: 1px solid black; background-color: white; margin-bottom: 5px;">
+                    <p>5. Rok</p>
+                    <p class="oe_cell_content oe_cell_content_center" t-esc="data['year']"/>
+                </div>
+            </div>
+            <div class="row oe_row_border oe_margin_reset oe_helper_text oe_cell_desc_info" style="height: 70px !important">
+                <div class="col-2">
+                    <p>Podstawa prawna:</p>
+                    <p>Składający:</p>
+                </div>
+                <div class="col-10">
+                    <p>Art.100 ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2016 r. poz.710, z późn. zm.), zwanej dalej ”ustawą”.</p>
+                    <p>Podatnicy podatku od towarów i usług oraz osoby prawne niebędące podatnikami w rozumieniu art.15 ustawy - zarejestrowani jako podatnicy VAT UE, dokonujący wewnątrzwspólnotowej dostawy towarów, wewnątrzwspólnotowego nabycia towarów lub wewnątrzwspólnotowego świadczenia usług.</p>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc oe_title_text">
+                <div class="col-12">
+                    <p>A. MIEJSCE I CEL SKŁADANIA DEKLARACJI</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-11 oe_row_border">
+                    <p>6. Urząd skarbowy, do którego adresowana jest informacja<sup>1)</sup></p>
+                    <p class="oe_cell_content" t-esc="wizard.company_id.tax_office.name"/>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text" style="padding: 0px 0px;">B. DANE IDENTYFIKACYJNE PODATNIKA</p>
+                    <p class="oe_helper_text" style="padding: 0px 0px 0px 45px;">* - dotyczy podmiotów niebędących osobami fizycznymi                ** - dotyczy podmiotów będących osobami fizycznymi</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-11 oe_row_border">
+                    <p>7. Rodzaj podatnika (zaznaczyć właściwy kwadrat):</p>
+                    <div class="oe_cell_content oe_square_font">
+                        <span><i class="fa fa-check-square-o"></i> 1. podatnik niebędący osobą fizyczną</span>
+                        <span style="margin-left: 20px;"><i class="fa fa-square-o"></i> 2. osoba fizyczna</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders" style="min-height: 60px;">
+                </div>
+                <div class="col-11 oe_row_border" style="min-height: 60px;">
+                    <p>8. Nazwa pełna, REGON * / Nazwisko, pierwsze imię, data urodzenia **</p>
+                    <p class="oe_cell_content" t-esc="wizard.company_id.name + ', ' + wizard.company_id.regon_code"/>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">C. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYCH DOSTAWACH TOWARÓW</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_vatue_table_header">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-1 oe_row_border oe_cell_desc">
+                    <p>Kod <br/>kraju</p>
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <br/>
+                    <p>Numer Identyfikacyjny VAT kontrahenta</p>
+                </div>
+                <div class="col-4 oe_row_border oe_cell_desc">
+                    <br/>
+                    <p>Kwota transakcji w zł</p>
+                </div>
+                <div class="col-1 oe_row_border oe_cell_desc">
+                    <p>Transakcje <br/>trójstronne</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_vatue_table_header oe_vatue_table_header_small">
+                <div class="col-1 oe_side_borders" style="min-height: 11px;">
+                    <p></p>
+                </div>
+                <div class="col-1 oe_row_border">
+                    <p>a</p>
+                </div>
+                <div class="col-5 oe_row_border">
+                    <p>b</p>
+                </div>
+                <div class="col-4 oe_row_border">
+                    <p>c</p>
+                </div>
+                <div class="col-1 oe_row_border">
+                    <p>d</p>
+                </div>
+            </div>
+            <!-- max 12 rows -->
+            <t t-set="ue_c" t-value="vat_data['UE_C']"/>
+            <t t-foreach="sorted(ue_c)" t-as="l">
+                <div class="row oe_margin_reset">
+                    <div class="col-1 oe_side_borders oe_vatue_min_height oe_vatue_desc_color">
+                        <p t-esc="l_index + 1"></p>
+                    </div>
+                    <div class="col-1 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="ue_c[l]['country_code']"/>
+                    </div>
+                    <div class="col-5 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="ue_c[l]['vat']"/>
+                    </div>
+                    <div class="col-4 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="round(ue_c[l]['amount'])"/>
+                    </div>
+                    <div class="col-1 oe_row_border oe_vatue_min_height">
+                        <p></p>
+                    </div>
+                </div>
+            </t>
+            <!-- end section c rows -->
+
+            <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">D. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYCH NABYCIACH TOWARÓW</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_vatue_table_header">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-1 oe_row_border oe_cell_desc">
+                    <p>Kod <br/>kraju</p>
+                </div>
+                <div class="col-5 oe_row_border oe_cell_desc">
+                    <br/>
+                    <p>Numer Identyfikacyjny VAT kontrahenta</p>
+                </div>
+                <div class="col-4 oe_row_border oe_cell_desc">
+                    <br/>
+                    <p>Kwota transakcji w zł</p>
+                </div>
+                <div class="col-1 oe_row_border oe_cell_desc">
+                    <p>Transakcje <br/>trójstronne</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_vatue_table_header oe_vatue_table_header_small">
+                <div class="col-1 oe_side_borders" style="min-height: 11px;">
+                    <p></p>
+                </div>
+                <div class="col-1 oe_row_border">
+                    <p>a</p>
+                </div>
+                <div class="col-5 oe_row_border">
+                    <p>b</p>
+                </div>
+                <div class="col-4 oe_row_border">
+                    <p>c</p>
+                </div>
+                <div class="col-1 oe_row_border">
+                    <p>d</p>
+                </div>
+            </div>
+            <t t-set="ue_d" t-value="vat_data['UE_D']"/>
+            <!-- d section 5 rows -->
+            <t t-foreach="sorted(ue_d)" t-as="l">
+                <div class="row oe_margin_reset">
+                    <div class="col-1 oe_side_borders oe_vatue_min_height oe_vatue_desc_color">
+                        <p t-esc="l_index + 1"></p>
+                    </div>
+                    <div class="col-1 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="ue_d[l]['country_code']"/>
+                    </div>
+                    <div class="col-5 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="ue_d[l]['vat']"/>
+                    </div>
+                    <div class="col-4 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="round(ue_d[l]['amount'])"/>
+                    </div>
+                    <div class="col-1 oe_row_border oe_vatue_min_height">
+                        <p></p>
+                    </div>
+                </div>
+            </t>
+            <div class="row oe_row_separator">
+            </div>
+            <div class="col-12 oe_point_desc_normal"><sup>1)</sup> Przez urząd, do którego jest adresowana informacja rozumie się urząd skarbowy, przy pomocy którego właściwy dla podatnika naczelnik urzędu skarbowego wykonuje swoje zadania.
+            </div>
+            <!-- end section d  5rows -->
+            <br/>
+            <!-- <div class="row oe_margin_reset">
+                <div class="col-2 col-offset-9 oe_row_border oe_footer_page">
+                    <p>VAT-UE<sub>(4)</sub></p>
+                </div>
+                <div class="col-1 oe_row_border oe_footer_page">
+                    <p>1<sub>/2</sub></p>
+                </div>
+            </div> -->
+            <div class="row" style="min-height: 15px;">
+            </div>
+
+            <!-- second page -->
+            <!-- <div class="row" style="line-height: 90%;">
+                <p>POLTAX</p>
+            </div> -->
+            <div class="row oe_row_separator">
+            </div>
+
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">E. INFORMACJA O WEWNĄTRZWSPÓLNOTOWYM ŚWIADCZENIU USŁUG</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_vatue_table_header">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-1 oe_row_border oe_cell_desc">
+                    <p>Kod <br/>kraju</p>
+                </div>
+                <div class="col-6 oe_row_border oe_cell_desc">
+                    <br/>
+                    <p>Numer Identyfikacyjny VAT kontrahenta</p>
+                </div>
+                <div class="col-4 oe_row_border oe_cell_desc">
+                    <br/>
+                    <p>Kwota transakcji w zł</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_vatue_table_header oe_vatue_table_header_small">
+                <div class="col-1 oe_side_borders" style="min-height: 11px;">
+                    <p></p>
+                </div>
+                <div class="col-1 oe_row_border">
+                    <p>a</p>
+                </div>
+                <div class="col-6 oe_row_border">
+                    <p>b</p>
+                </div>
+                <div class="col-4 oe_row_border">
+                    <p>c</p>
+                </div>
+            </div>
+            <!-- e section 12 rows -->
+            <t t-set="ue_e" t-value="vat_data['UE_E']"/>
+            <t t-foreach="sorted(ue_e)" t-as="l">
+                <div class="row oe_margin_reset">
+                    <div class="col-1 oe_side_borders oe_vatue_min_height oe_vatue_desc_color">
+                        <p t-esc="l_index + 1"></p>
+                    </div>
+                    <div class="col-1 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="ue_e[l]['country_code']"/>
+                    </div>
+                    <div class="col-6 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="ue_e[l]['vat']"/>
+                    </div>
+                    <div class="col-4 oe_row_border oe_vatue_min_height">
+                        <p class="oe_report_text_format" t-esc="round(ue_e[l]['amount'])"/>
+                    </div>
+                </div>
+            </t>
+            <div class="row oe_row_separator">
+            </div>
+            <!-- end section e  12 rows -->
+            <!-- <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text" style="padding: 0px 0px;">F. INFORMACJA O ZAŁĄCZNIKACH</p>
+                    <p class="oe_helper_text" style="padding: 0px 0px 0px 45px;">Należy podać liczbę dołączonych formularzy o podanym symbolu</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-3 oe_row_border oe_vatue_min_height">
+                    <p>10. VAT-UE/A</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-4 oe_row_border oe_vatue_min_height">
+                    <p>11. VAT-UE/B</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-4 oe_row_border oe_vatue_min_height">
+                    <p>12. VAT-UE/C</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div> -->
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">F. PODPIS PODATNIKA LUB OSOBY REPREZENTUJĄCEJ PODATNIKA</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-5 oe_row_border oe_vatue_min_height">
+                    <p>9. Imię</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-6 oe_row_border oe_vatue_min_height">
+                    <p>10. Nazwisko</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders">
+                </div>
+                <div class="col-3 oe_row_border oe_vatue_min_height">
+                    <p>11. Telefon kontaktowy</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-3 oe_row_border oe_vatue_min_height">
+                    <p>12. Data wypełnienia (dzień - miesiąc - rok)</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+                <div class="col-5 oe_row_border oe_vatue_min_height">
+                    <p>13. Podpis podatnika lub osoby reprezentującej podatnika</p>
+                    <p class="oe_cell_content"></p>
+                </div>
+            </div>
+            <!-- <div class="row oe_row_separator">
+            </div>
+            <div class="row oe_side_borders oe_margin_reset oe_cell_desc">
+                <div class="col-12">
+                    <p class="oe_title_text">H. ADNOTACJE URZĘDU SKARBOWEGO</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc oe_adendum_height oe_adendum_color">
+                <div class="col-1 oe_cell_desc oe_side_borders oe_adendum_height">
+                </div>
+                <div class="col-11 oe_row_border oe_adendum_height oe_adendum_color">
+                    <p>18. Uwagi urzędu skarbowego</p>
+                </div>
+            </div>
+            <div class="row oe_margin_reset oe_point_desc">
+                <div class="col-1 oe_cell_desc oe_side_borders" style="border-bottom: 1px solid black;">
+                </div>
+                <div class="col-6 oe_row_border oe_adendum_color">
+                    <p>19. Identyfikator przyjmującego formularz</p>
+                </div>
+                <div class="col-5 oe_row_border oe_adendum_color">
+                    <p>20. Podpis przyjmującego formularz</p>
+                </div>
+            </div>
+            <div class="row oe_row_separator">
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-12 oe_point_desc_normal">
+                    <p><sup>1)</sup> W przypadku, gdy liczba kontrahentów przekracza liczbę wierszy przeznaczonych do ich wpisania w poszczególnych częściach C- E informacji należy wypełnić odpowiednio załącznik VAT-UE/A, VAT-UE/B lub VAT-UE/C.</p>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-12 oe_point_desc">
+                    <center><p>Objaśnienia</p></center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 oe_point_desc_normal">
+                  <p>Wiersze w części C, D i E stanowią listę rozwijalną.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 oe_point_desc">
+                    <center><p>Pouczenie</p></center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 oe_point_desc_normal">
+                    <p>Za podanie nieprawdy lub zatajenie prawdy grozi odpowiedzialność przewidziana w Kodeksie karnym skarbowym.</p>
+                </div>
+            </div>
+            <!-- <div class="row oe_margin_reset">
+                <div class="col-2 oe_row_border oe_footer_page">
+                    <p>VAT-UE<sub>(4)</sub></p>
+                </div>
+                <div class="col-1 oe_row_border oe_footer_page">
+                    <p>2<sub>/2</sub></p>
+                </div>
+            </div> -->
+          </div>
+        </div>
+    </t>
+</template>
+</odoo>

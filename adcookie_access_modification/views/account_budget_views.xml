@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Add senstive data field to budget view -->
+        <record id="crossovered_budget_view_form_ext" model="ir.ui.view">
+            <field name="name">crossovered.budget.view.form.ext</field>
+            <field name="model">crossovered.budget</field>
+            <field name="inherit_id" ref="account_budget.crossovered_budget_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="sensitive_data"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

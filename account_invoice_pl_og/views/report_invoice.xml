@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <!-- duplicate -->
+    <template id="report_invoice_document_duplicate" inherit_id="account.report_invoice_document" primary="True">
+        <xpath expr="//h2" position="replace">
+            <h2>
+                <span>Duplicate</span>
+                <span t-if="o.type == 'out_refund'">refund</span>
+                <span t-if="o.type == 'out_invoice'">invoice</span>
+                <span t-field="o.name"/>
+            </h2>
+            <div class="row mt32 mb32">
+                  <div class="col-auto">
+                      <strong>Duplicate date:</strong>
+                      <p t-esc="o.duplicate_time()"/>
+                  </div>
+             </div>
+        </xpath>
+    </template>
+
+    <template id="report_invoice_document_duplicate_main">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="account_invoice_pl_og.report_invoice_document_duplicate" t-lang="o.partner_id.lang"/>
+            </t>
+        </t>
+    </template>
+
+
+  </data>
+</odoo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="product_normal_form_view_cirrus" model="ir.ui.view">
+      <field name="name">product.normal.form.inherit.cirrus</field>
+      <field name="model">product.template</field>
+      <field name="inherit_id" ref="account.product_template_form_view"/>
+      <field name="arch" type="xml">
+          <xpath expr="//group[@name='payables']" position="inside">
+            <field name="tax_marker"/>
+            <field name="split_payment_method"/>
+          </xpath>
+      </field>
+  </record>
+
+  <record id="product_category_tax_marker_view" model="ir.ui.view">
+      <field name="name">product.category.tax.marker.view</field>
+      <field name="model">product.category</field>
+      <field name="inherit_id" ref="product.product_category_form_view"/>
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='parent_id']" position="after">
+               <field name="tax_marker"/>
+          </xpath>
+      </field>
+  </record>
+
+</odoo>

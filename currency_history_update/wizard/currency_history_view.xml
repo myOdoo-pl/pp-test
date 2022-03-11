@@ -1,0 +1,41 @@
+<openerp>
+	<data>
+		<record id="view_currency_update" model="ir.ui.view">
+			<field name="name">Currency History Update</field>
+			<field name="model">currency.history.update</field>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<form string="Select period" version="7.0">
+					<group>
+						<field name="date"/>
+						<field name="force_update"/>
+					</group>
+					<footer>
+						<button name="currency_history_update" string="Update" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+					</footer>
+				</form>
+			</field>
+		</record>
+		<record id="action_currency_history" model="ir.actions.act_window">
+			<field name="name">Currency History Update</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">currency.history.update</field>
+			<!-- <field name="view_type">form</field> -->
+			<field name="view_mode">form</field>
+			<field name="target">new</field>
+		</record>
+<!--		<menuitem name="Update Currency History" parent="account.menu_config_multi_currency" action="action_currency_history" id="menu_misc_currency_history" icon="STOCK_PRINT"/> -->
+
+		<record id="currency_auto_comp_history" model="ir.ui.view">
+            <field name="model">currency.rate.update.service</field>
+            <field name="inherit_id" ref="currency_rate_update.currency_rate_update_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='button_refresh_currency']" position="after">
+                	<button name="%(action_currency_history)d" string="Fetch Currency History Rates" type='action' />
+                </xpath>
+            </field>
+        </record>
+	</data>
+</openerp>

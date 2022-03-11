@@ -1,0 +1,589 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* document_templates_adcookie
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20211201\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-27 13:19+0000\n"
+"PO-Revision-Date: 2022-01-27 14:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "% discount"
+msgstr "% zniżki"
+
+#. module: document_templates_adcookie
+#: model:ir.actions.report,print_report_name:document_templates_adcookie.action_report_invoice_duplicate
+msgid "(object.name)"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid ""
+"<br/>\n"
+"                            TIN:"
+msgstr ""
+"<br/>\n"
+"                            NIP:"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<span style=\"color: black\">Optional Products</span>"
+msgstr "<span style=\"color: black\">Produkty opcjonalne</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_duplicate_document
+msgid "<span>DUPLICATE</span>"
+msgstr "<span>DUPLIKAT</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<span>Description</span>"
+msgstr "<span>Opis</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<span>Disc.(%)</span>"
+msgstr "<span>Up.(%)</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<span>Pro-Forma Invoice</span>"
+msgstr "<span>Faktura Pro-Forma</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<span>Quantity</span>"
+msgstr "<span>Ilość</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<span>Tax</span>"
+msgstr "<span>Podatek</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<span>Unit Price</span>"
+msgstr "<span>Cena netto</span>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Suma częściowa</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid ""
+"<strong class=\"text-center\">Scan me with your banking app.</strong>\n"
+"                                <br/>\n"
+"                                <br/>"
+msgstr ""
+"<strong class=\"text-center\">Zeskanuj mnie za pomocą aplikacji bankowej.</strong>\n"
+"                                <br/>\n"
+"                                <br/>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid ""
+"<strong class=\"text-center\">The SEPA QR Code informations are not set correctly.\n"
+"                                </strong>\n"
+"                                <br/>"
+msgstr ""
+"<strong class=\"text-center\">Informacje o kodzie QR SEPA nie są ustawione prawidłowo.\n"
+"                                </strong>\n"
+"                                <br/>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>After refund</strong>"
+msgstr "<strong>Po korekcie</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Amount Left to Pay</strong>"
+msgstr "<strong>Kwota do dopłaty</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Amount</strong>"
+msgstr "<strong>Wartość netto</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Before refund</strong>"
+msgstr "<strong>Przed korektą</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Client Reference:</strong>"
+msgstr "<strong>Odnośnik klienta:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Correction Reason:</strong>"
+msgstr "<strong>Powód korekty:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Customer Code:</strong>"
+msgstr "<strong>Kod klienta:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Date Ordered:</strong>"
+msgstr "<strong>Data zamówienia:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Description:</strong>"
+msgstr "<strong>Opis:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>Termin płatności:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_duplicate_document
+msgid "<strong>Duplicate Date:</strong>"
+msgstr "<strong>Data duplikatu:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Expiration Date:</strong>"
+msgstr "<strong>Termin ważności:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>Uwaga dotycząca pozycji fiskalnej:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Invoice Date:</strong>"
+msgstr "<strong>Data wystawienia:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>No.</strong>"
+msgstr "<strong>Lp.</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Order Date:</strong>"
+msgstr "<strong>Data zamówienia:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>PKWiU No.</strong>"
+msgstr "<strong>Nr PKWiU</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Payment Terms:</strong>"
+msgstr "<strong>Warunki płatności:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Quotation Date:</strong>"
+msgstr "<strong>Data oferty:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>Odnośnik:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Sale Date:</strong>"
+msgstr "<strong>Data sprzedaży:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Salesperson:</strong>"
+msgstr "<strong>Sprzedawca:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Signature</strong>"
+msgstr "<strong>Podpis</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Source:</strong>"
+msgstr "<strong>Dokument źródłowy:</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Wartość sprzedaży netto</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Tax Amount</strong>"
+msgstr "<strong>Wartość podatku</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Tax</strong>"
+msgstr "<strong>Podatek</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Taxed Amount</strong>"
+msgstr "<strong>Wartość brutto</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Taxes</strong>"
+msgstr "<strong>Podatki</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>To Pay(gross)</strong>"
+msgstr "<strong>Do zapłaty(brutto)</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Total Price</strong>"
+msgstr "<strong>Brutto</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "<strong>Total</strong>"
+msgstr "<strong>Kwota brutto</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>Untaxed Amount</strong>"
+msgstr "<strong>Wartość netto</strong>"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "<strong>VAT [%]</strong>"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Accounting Date"
+msgstr "Data sprzedaży"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Add a line"
+msgstr "Dodaj linię"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Add a note"
+msgstr "Dodaj notkę"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Add a section"
+msgstr "Dodaj sekcję"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Amount"
+msgstr "Kwota"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "Cancelled Invoice"
+msgstr "Anulowana faktura"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Client"
+msgstr "Klient"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_bank_statement_line__correction_reason
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__correction_reason
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_payment__correction_reason
+msgid "Correction Reason"
+msgstr "Powód korekty"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_bank_statement_line__correction_ref
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__correction_ref
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_payment__correction_ref
+msgid "Correction Ref"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,help:document_templates_adcookie.field_sale_order__date_order
+msgid ""
+"Creation date of draft/sent orders,\n"
+"Confirmation date of confirmed orders."
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "Credit Note"
+msgstr "Korekta"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Description"
+msgstr "Opis"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Disc.%"
+msgstr "Up, %"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__display_name
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "Draft Invoice"
+msgstr "Projekt faktury"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Due Date"
+msgstr "Termin płatności"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_bank_statement_line__duplicate_date
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__duplicate_date
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_payment__duplicate_date
+msgid "Duplicate Date"
+msgstr "Data wystawienia duplikatu"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.external_layout_standard_adcookie
+msgid "Email:"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "For Invoice No"
+msgstr "Dla faktury"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__id
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model:ir.actions.report,name:document_templates_adcookie.action_report_invoice_duplicate
+msgid "Invoice Duplicate"
+msgstr "Duplikat faktury"
+
+#. module: document_templates_adcookie
+#: model:ir.model,name:document_templates_adcookie.model_account_move
+msgid "Journal Entry"
+msgstr "Zapis dziennika"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Journal Items"
+msgstr "Pozycje dziennika"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Klient"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move____last_update
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Data ostatniej modyfikacji"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.external_layout_standard_adcookie
+msgid "Logo"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "Nabywca"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "No."
+msgstr "Lp."
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Order"
+msgstr "Zamówienie"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_sale_order__date_order
+msgid "Order Date"
+msgstr "Data zamówienia"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.external_layout_standard_adcookie
+msgid ""
+"Page:\n"
+"                            <span class=\"page\"/>\n"
+"                            /\n"
+"                            <span class=\"topage\"/>"
+msgstr ""
+"Strona:\n"
+"                            <span class=\"page\"/>\n"
+"                            /\n"
+"                            <span class=\"topage\"/>"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_bank_statement_line__invoice_payment_term_id
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__invoice_payment_term_id
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_payment__invoice_payment_term_id
+msgid "Payment Terms"
+msgstr "Warunki płatności"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.external_layout_standard_adcookie
+msgid "Phone:"
+msgstr "Telefon:"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Price"
+msgstr "Cena"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Quantity"
+msgstr "Ilość"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Quotation"
+msgstr "Oferta"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_bank_statement_line__invoice_sale_date
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_move__invoice_sale_date
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_account_payment__invoice_sale_date
+msgid "Sale Date"
+msgstr "Data sprzedaży"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,help:document_templates_adcookie.field_account_bank_statement_line__invoice_sale_date
+#: model:ir.model.fields,help:document_templates_adcookie.field_account_move__invoice_sale_date
+#: model:ir.model.fields,help:document_templates_adcookie.field_account_payment__invoice_sale_date
+msgid "Sale date for this invoice."
+msgstr "Data sprzedaży dla tej faktury."
+
+#. module: document_templates_adcookie
+#: model:ir.model,name:document_templates_adcookie.model_sale_order
+msgid "Sales Order"
+msgstr "Zamówienie sprzedaży"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Seller"
+msgstr "Sprzedawca"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Sprzedawca"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Subtotal"
+msgstr "Cena częściowa"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "TIN:"
+msgstr "NIP:"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "Total"
+msgstr "Kwota brutto"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Total Price"
+msgstr "Kwota brutto"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "Unit Price"
+msgstr "Cena netto"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.adcookie_extended_account_move_form_view
+msgid "UoM"
+msgstr "JM"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "VAT Invoice"
+msgstr "Faktura VAT"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_saleorder_document_adcookie
+msgid "VAT [%]"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "Vendor Bill"
+msgstr "Faktura dostawcy"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "Vendor Credit Note"
+msgstr "Korekta dostawcy"
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.external_layout_standard_adcookie
+msgid "Web:"
+msgstr "Strona:"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,field_description:document_templates_adcookie.field_sale_order__company_bank_id
+msgid "Your Bank Account"
+msgstr "Twoje konto bankowe"
+
+#. module: document_templates_adcookie
+#: model:ir.model.fields,help:document_templates_adcookie.field_sale_order__company_bank_id
+msgid "Your bank account number."
+msgstr "Numer Twojego rachunku bankowego."
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.external_layout_standard_adcookie
+msgid "faktury@adcookie.pl"
+msgstr ""
+
+#. module: document_templates_adcookie
+#: model_terms:ir.ui.view,arch_db:document_templates_adcookie.report_invoice_document_adcookie
+msgid "from"
+msgstr "z dnia"

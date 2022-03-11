@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="adcookie_extended_account_move_form_view" model="ir.ui.view">
+            <field name="name">adcookie.extended.account.move.form.view</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//label[@for='invoice_payment_term_id']" position="replace">
+                    <label for="invoice_payment_term_id" string="Due Date"
+                           attrs="{'invisible': [('move_type', 'not in', ('out_invoice', 'out_refund', 'in_invoice', 'in_refund', 'out_receipt', 'in_receipt'))]}"/>
+                </xpath>
+                <xpath expr="//field[@name='invoice_date']" position="after">
+                    <field name="invoice_sale_date" attrs="{'invisible': True}"/>
+                    <field name="date" string="Accounting Date"
+                           attrs="{'invisible': [('move_type', 'in', ('entry', 'in_invoice', 'in_refund', 'in_receipt'))],
+                                        'readonly': [('state', '!=', 'draft')]}"/>
+                </xpath>
+                <xpath expr="//field[@name='date']" position="replace">
+
+                </xpath>
+                <xpath expr="//notebook/page[2]/field/tree" position="replace">
+                    <tree class="line_items_tree" editable="bottom" string="Journal Items"
+                          default_order="sequence, date desc, move_name desc, id">
+                        <control>
+                            <create name="add_line_control" string="Add a line"/>
+                            <create name="add_section_control" string="Add a section"
+                                    context="{'default_display_type': 'line_section'}"/>
+                            <create name="add_note_control" string="Add a note"
+                                    context="{'default_display_type': 'line_note'}"/>
+                        </control>
+
+                        <!-- Displayed fields -->
+                        <field name="sequence" widget="handle"/>
+                        <field name="move_name" invisible="1"/>
+                        <field name="product_id" optional="show"
+                               domain="                                                     context.get('default_move_type') in ('out_invoice', 'out_refund', 'out_receipt')                                                     and [('sale_ok', '=', True), '|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]                                                     or [('purchase_ok', '=', True), '|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]                                                "/>
+                        <field name="name" widget="section_and_note_text"
+                               attrs="{'required': [('parent.move_type', 'not in', ('in_invoice', 'in_refund','in_receipt'))]}"/>
+                        <field name="account_id" groups="account.group_account_readonly" options="{'no_create': True}"
+                               domain="[('deprecated', '=', False), ('user_type_id.type', 'not in', ('receivable', 'payable')), ('company_id', '=', parent.company_id), ('is_off_balance', '=', False)]"
+                               attrs="{'required': [('display_type', '=', False)]}"/>
+                        <field name="analytic_account_id"
+                               domain="['|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]"
+                               groups="analytic.group_analytic_accounting" optional="show"/>
+                        <field name="analytic_tag_ids"
+                               domain="['|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]"
+                               groups="analytic.group_analytic_tags" optional="show" widget="many2many_tags"/>
+                        <field name="quantity"/>
+                        <field name="product_uom_category_id" invisible="1"/>
+                        <field name="product_uom_id" string="UoM" groups="uom.group_uom" optional="show"/>
+                        <field name="price_unit" string="Price"/>
+                        <field name="discount" string="Disc.%" optional="hide"/>
+                        <field name="tax_ids" widget="many2many_tags"
+                               domain="[('type_tax_use', '=?', parent.invoice_filter_type_domain), ('company_id', '=', parent.company_id)]"
+                               context="{'append_type_to_tax_name': not parent.invoice_filter_type_domain}"
+                               options="{'no_create': True}" optional="show"/>
+                        <field name="price_subtotal" string="Subtotal"
+                               groups="account.group_show_line_subtotals_tax_excluded"/>
+                        <field name="price_total" string="Total"
+                               groups="account.group_show_line_subtotals_tax_included"/>
+
+                        <!-- Others fields -->
+                        <field name="partner_id" invisible="1"/>
+                        <field name="amount_currency" invisible="1"/>
+                        <field name="currency_id" invisible="1"/>
+                        <field name="debit" invisible="1"/>
+                        <field name="credit" invisible="1"/>
+                        <field name="date" invisible="1"/>
+                        <field name="date_maturity" invisible="1"/>
+
+                        <field name="tax_line_id" invisible="1"/>
+                        <field name="tax_repartition_line_id" invisible="1"/>
+                        <field name="tax_tag_ids" invisible="1"/>
+                        <field name="tax_base_amount" invisible="1"/>
+                        <field name="tax_exigible" invisible="1"/>
+                        <field name="company_id" invisible="1"/>
+                        <field name="company_currency_id" invisible="1"/>
+                        <field name="recompute_tax_line" invisible="1" force_save="1"/>
+                        <field name="display_type" force_save="1" invisible="1"/>
+                        <field name="is_rounding_line" invisible="1"/>
+                        <field name="exclude_from_invoice_tab" invisible="1"/>
+                        <field name="account_internal_type" invisible="1"/>
+                        <field name="account_internal_group" invisible="1"/>
+                    </tree>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

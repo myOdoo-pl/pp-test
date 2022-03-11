@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_payment_package" model="ir.actions.report">
+        <field name="name">Payment Package</field>
+        <field name="model">account.move</field>
+        <field name="report_type">qweb-text</field>
+        <field name="report_name">adcookie_payment_package.payment_package_report</field>
+        <field name="report_file">adcookie_payment_package.payment_package_report</field>
+        <field name="print_report_name">'Payment Package'</field>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

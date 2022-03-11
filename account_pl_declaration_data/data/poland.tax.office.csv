@@ -1,0 +1,424 @@
+id,name,post_code,city,street,us_code
+us_1602,Urząd Skarbowy w Brzegu,49-305,Brzeg,Składowa 2,1602
+us_1603,Urząd Skarbowy w Głubczycach,48-100,Głubczyce,Fabryczna 2,1603
+us_1604,Urząd Skarbowy w Kędzierzynie-Koźlu,47-224,Kędzierzyn-Koźle,Piotra Skargi 19,1604
+us_1605,Urząd Skarbowy w Kluczborku,46-200,Kluczbork,Sienkiewicza 22 A,1605
+us_1606,Urząd Skarbowy w Namysłowie,46-100,Namysłów,Plac Wolności 1,1606
+us_1607,Urząd Skarbowy w Nysie ,48-300,Nysa,Bolesława Krzywoustego 23,1607
+us_1608,Urząd Skarbowy w Oleśnie,46-300,Olesno,Jana Pieloka 21,1608
+us_1609,Pierwszy Urząd Skarbowy w Opolu,45-331,Opole,Tadeusza Rejtana 3B,1609
+us_1610,Drugi Urząd Skarbowy w Opolu,45-358,Opole,Cementowa 6,1610
+us_1611,Urząd Skarbowy w Prudniku,48-200,Prudnik,Kopernika 1A,1611
+us_1612,Urząd Skarbowy w Strzelcach Opolskich,47-100,Strzelce Opolskie,Opolska 13,1612
+us_2002,Urząd Skarbowy w Augustowie,16-300,Augustów,Żabia 7,2002
+us_2003,Pierwszy Urząd Skarbowy w Białymstoku,15-219 ,Białystok,Świętojańska 13,2003
+us_2004,Drugi Urząd Skarbowy w Białymstoku,15-502 ,Białystok,Plażowa 17,2004
+us_2005,Urząd Skarbowy w Bielsku Podlaskim,17-100,Bielsk Podlaski,Adama Mickiewicza 33,2005
+us_2006,Urząd Skarbowy w Grajewie,19-200,Grajewo,Elewatorska 8,2006
+us_2007,Urząd Skarbowy w Kolnie,18-500,Kolno,Wojska Polskiego 20,2007
+us_2008,Urząd Skarbowy w Łomży,18-400,Łomża,Polowa 47,2008
+us_2009,Urząd Skarbowy w Mońkach,19-100,Mońki,Ełcka 41a,2009
+us_2010,Urząd Skarbowy w Siemiatyczach,17-300,Siemiatycze,Pałacowa 18,2010
+us_2011,Urząd Skarbowy w Sokółce,16-100,Sokółka,Białostocka 47,2011
+us_2012,Urząd Skarbowy w Suwałkach,16-400 ,Suwałki,1 Maja 2A,2012
+us_2013,Urząd Skarbowy w Wysokiem Mazowieckiem,18-200,Wysokie Mazowieckie,Ludowa 21,2013
+us_2014,Urząd Skarbowy w Zambrowie,18-300,Zambrów,Jantarowa 16,2014
+us_2212,Urząd Skarbowy w Kwidzynie,82-500,Kwidzyn,3 Maja 6,2212
+us_2213,Urząd Skarbowy w Lęborku,84-300,Lębork,Słupska 23,2213
+us_2402,Urząd Skarbowy w Będzinie,42-500,Będzin,I Armii Wojska Polskiego 1,2402
+us_2403,Pierwszy Urząd Skarbowy w Bielsku-Białej,43-300,Bielsko-Biała,Teodora Sixta 17,2403
+us_2404,Drugi Urząd Skarbowy w Bielsku-Białej,43-300,Bielsko-Biała,Gen. Stanisława Maczka 73,2404
+us_2405,Urząd Skarbowy w Bytomiu,41-902,Bytom,Wrocławska 92,2405
+us_2406,Urząd Skarbowy w Chorzowie,41-506,Chorzów,Armii Krajowej 5,2406
+us_2407,Urząd Skarbowy w Cieszynie,43-400,Cieszyn,Ignacego Kraszewskiego 4,2407
+us_2408,Urząd Skarbowy w Czechowicach-Dziedzicach,43-502,Czechowice-Dziedzice,Nad Białką 1a,2408
+us_2409,Pierwszy Urząd Skarbowy w Częstochowie,42-200,Częstochowa,Filomatów 18/20,2409
+us_2410,Drugi Urząd Skarbowy w Częstochowie,42-200,Częstochowa,Tkacka 3,2410
+us_2411,Urząd Skarbowy w Dąbrowie Górniczej,41-300,Dąbrowa Górnicza,Zygmunta Krasińskiego 33a,2411
+us_2412,Pierwszy Urząd Skarbowy w Gliwicach,44-100,Gliwice,Góry Chełmskiej 15,2412
+us_2413,Drugi Urząd Skarbowy w Gliwicach,44-100,Gliwice,Młodego Hutnika 2,2413
+us_2414,Urząd Skarbowy w Jastrzębiu-Zdroju,44-335,Jastrzębie-Zdrój,11 Listopada 13,2414
+us_2415,Urząd Skarbowy w Jaworznie,43-600,Jaworzno,Grunwaldzka 274,2415
+us_2416,Pierwszy Urząd Skarbowy w Katowicach,40-063,Katowice,Żwirki i Wigury 17,2416
+us_2417,Drugi Urząd Skarbowy w Katowicach,40-282,Katowice,Ignacego Paderewskiego 32b,2417
+us_2418,Urząd Skarbowy w Kłobucku,42-100,Kłobuck,Rynek im Jana Pawła II 13,2418
+us_2419,Urząd Skarbowy w Lublińcu,42-700,Lubliniec,Ignacego Paderewskiego 7b,2419
+us_2420,Urząd Skarbowy w Mikołowie,43-190,Mikołów,Maksymiliana Hubera 4,2420
+us_2421,Urząd Skarbowy w Mysłowicach,41-400,Mysłowice,Adama Mickiewicza 4,2421
+us_2422,Urząd Skarbowy w Myszkowie,42-300,Myszków,Kazimierza Pułaskiego 68,2422
+us_2423,Urząd Skarbowy w Piekarach Śląskich,41-940,Piekary Śląskie,Bytomska 92,2423
+us_2424,Urząd Skarbowy w Pszczynie,43-200,Pszczyna,3 Maja 4,2424
+us_2425,Urząd Skarbowy w Raciborzu,47-400,Racibórz,Stanisława Drzymały 32,2425
+us_2426,Urząd Skarbowy w Rudzie Śląskiej,41-700,Ruda Śląska,Kokotek 6,2426
+us_2427,Urząd Skarbowy w Rybniku,44-200,Rybnik,Plac Armii Krajowej 3,2427
+us_2428,Urząd Skarbowy w Siemianowicach Śląskich,41-100,Siemianowice Śląskie,Gen. Karola Świerczewskiego 84,2428
+us_2429,Urząd Skarbowy w Sosnowcu,41-200,Sosnowiec,3 Maja 20,2429
+us_2430,Urząd Skarbowy w Tarnowskich Górach,42-600,Tarnowskie Góry,Opolska 23,2430
+us_2431,Urząd Skarbowy w Tychach,43-100,Tychy,al. Niepodległości 60,2431
+us_2432,Urząd Skarbowy w Wodzisławiu Śląskim,44-300,Wodzisław Śląski,Bartosza Głowackiego 4,2432
+us_2433,Urząd Skarbowy w Zabrzu,41-800,Zabrze,Bytomska 2,2433
+us_2434,Urząd Skarbowy w Zawierciu,42-400,Zawiercie,Leśna 8,2434
+us_2435,Urząd Skarbowy w Żorach,44-240,Żory,Wodzisławska 1,2435
+us_2436,Urząd Skarbowy w Żywcu,34-300,Żywiec,Krasińskiego 11,2436
+us_3202,Urząd Skarbowy w Białogardzie,78-200,Białogard,Adama Mickiewicza 3,3202
+us_3209,Urząd Skarbowy w Kołobrzegu,78-100,Kołobrzeg,Armii Krajowej 2,3209
+us_3213,Urząd Skarbowy w Pyrzycach,74-200,Pyrzyce,1 Maja 16,3213
+us_3215,Pierwszy Urząd Skarbowy w Szczecinie,70-217,Szczecin,Michała Drzymały 5,3215
+us_3217,Trzeci Urząd Skarbowy w Szczecinie,70-783,Szczecin,Lucjana Rydla 65,3217
+us_3218,Urząd Skarbowy w Szczecinku,78-400,Szczecinek,Adama Mickiewicza 13-14,3218
+us_0201,Izba Skarbowa we Wrocławiu,53-333,Wrocław,"Powstańców Śląskich 24,26",201
+us_0202,Urząd Skarbowy w Bolesławcu,59-700,Bolesławiec,Garncarska 10,202
+us_0203,Urząd Skarbowy w Bystrzycy Kłodzkiej,57-500,Bystrzyca Kłodzka,Adama Mickiewicza 5,203
+us_0204,Urząd Skarbowy w  Dzierżoniowie,58-200,Dzierżoniów,Pocztowa 14,204
+us_0205,Urząd Skarbowy w Głogowie,67-200,Głogów,Adama Mickiewicza 53,205
+us_0206,Urząd Skarbowy w Jaworze,59-400,Jawor,Jurija Gagarina 5,206
+us_0207,Urząd Skarbowy w  Jeleniej Górze,58-500,Jelenia Góra,Wolności 121,207
+us_0208,Urząd Skarbowy w Kamiennej Górze,58-400,Kamienna Góra,Papieża Jana Pawła II 18,208
+us_0209,Urząd Skarbowy w  Kłodzku,57-300,Kłodzko,Walasiewiczówny 1,209
+us_0210,Urząd Skarbowy w Legnicy,59-220,Legnica,Wrocławska 37,210
+us_0211,Urząd Skarbowy w Lubaniu,59-800,Lubań,Stara 1,211
+us_0212,Urząd Skarbowy w Lubinie ,59-300,Lubin,Marii Skłodowskiej Curie 94,212
+us_0213,Urząd Skarbowy w Lwówku Śląskim,59-600,Lwówek Śląski,Budowlanych 1,213
+us_0214,Urząd Skarbowy w Miliczu,56-300,Milicz,Składowa 2,214
+us_0215,Urząd Skarbowy w  Nowej Rudzie,57-400,Nowa Ruda,Kolejowa 23,215
+us_0216,Urząd Skarbowy w Oleśnicy,56-400,Oleśnica,Lwowska 34-38,216
+us_0217,Urząd Skarbowy w Oławie ,55-200,Oława,Lwowska 1,217
+us_0218,Urząd Skarbowy w Strzelinie,57-100,Strzelin,Bolka I Świdnickiego 14,218
+us_0219,Urząd Skarbowy w Środzie Śląskiej,55-300,Środa Śląska,Oławska 5A ,219
+us_0220,Urząd Skarbowy w Świdnicy,58-100,Świdnica,Marii Skłodowskiej Curie 1-3,220
+us_0221,Urząd Skarbowy w Trzebnicy,55-100,Trzebnica,Prusicka 2,221
+us_0222,Urząd Skarbowy w  Wałbrzychu,58-306,Wałbrzych,Uczniowska 21,222
+us_0223,Urząd Skarbowy w Wołowie,56-100,Wołów,Tadeusza Kościuszki 17,223
+us_0224,Urząd Skarbowy Wrocław - Fabryczna,53-238,Wrocław ,Ostrowskiego 5,224
+us_0225,Urząd Skarbowy Wrocław - Krzyki,53-310,Wrocław,Sztabowa 100,225
+us_0226,Urząd Skarbowy Wrocław - Psie Pole,50-231,Wrocław,Trzebnicka 33,226
+us_0227,Urząd Skarbowy Wrocław - Stare Miasto,53-654,Wrocław,Inowrocławska 4,227
+us_0228,Urząd Skarbowy Wrocław - Śródmieście,50-044,Wrocław,Marszałka Józefa Piłsudskiego 27-29,228
+us_0229,Pierwszy Urząd Skarbowy we Wrocławiu ,50-515,Wrocław,Ks. Czesława Klimasa 34,229
+us_0230,Urząd Skarbowy w  Ząbkowicach Śląskich,57-200,Ząbkowice Śląskie,Ludwika Waryńskiego 2a,230
+us_0231,Urząd Skarbowy w Zgorzelcu,59-900,Zgorzelec,Bohaterów II Armii Wojska Polskiego 8b,231
+us_0232,Urząd Skarbowy w Złotoryi,59-500,Złotoryja,Rynek 42,232
+us_0233,Urząd skarbowy w Górze,56-200,Góra,Poznańska 4,233
+us_0234,Urząd Skarbowy w Polkowicach,59-100,Polkowice,Zachodnia 10,234
+us_0271,Dolnośląski Urząd Skarbowy we Wrocławiu,51-130,Wrocław,Żmigrodzka 141,271
+us_0401,Izba Skarbowa w Bydgoszczy,85-950,Bydgoszcz,Dr. Emila Warmińskiego 18,401
+us_0402,Urząd Skarbowy w Aleksandrowie Kujawskim ,87-700,Aleksandrów Kujawski ,Kościelna 18,402
+us_0403,Urząd Skarbowy w Brodnicy,87-300,Brodnica,Gen. Władysława Sikorskiego 19,403
+us_0404,Pierwszy Urząd Skarbowy w Bydgoszczy,85-950,Bydgoszcz,Fordońska 77,404
+us_0405,Drugi Urząd Skarbowy w Bydgoszczy,85-822,Bydgoszcz,Wojska Polskiego 20B,405
+us_0406,Trzeci Urząd Skarbowy w Bydgoszczy,85-032,Bydgoszcz,Tadeusza Rejtana 5,406
+us_0407,Urząd Skarbowy w Chełmnie,86-200,Chełmno,Grudziądzka 6,407
+us_0408,Urząd Skarbowy w Grudziądzu,86-300,Grudziądz,Droga Łąkowa 23,408
+us_0409,Urząd Skarbowy w Inowrocławiu,88-100,Inowrocław,al. Niepodległości 5,409
+us_0410,Urząd Skarbowy w Lipnie,87-600,Lipno,Stanisława Staszica 4,410
+us_0411,Urząd Skarbowy w Mogilnie,88-300,Mogilno,900-lecia 20,411
+us_0412,Urząd Skarbowy w Nakle nad Notecią,89-100,Nakło n. Notecią,Sądowa 8,412
+us_0413,Urząd Skarbowy w Radziejowie,88-200,Radziejów,Rolnicza 6,413
+us_0414,Urząd Skarbowy w Rypinie,87-500,Rypin,Dojazdowa 10,414
+us_0415,Urząd Skarbowy w Świeciu ,86-100,Świecie,10 Lutego 16,415
+us_0416,Pierwszy Urząd Skarbowy w Toruniu,87-100,Toruń,Szosa Chełmińska 34/36,416
+us_0417,Drugi Urząd Skarbowy w Toruniu,87-100,Toruń,Mazowiecka 63/65,417
+us_0418,Urząd Skarbowy w Tucholi,89-500,Tuchola,Plac Zamkowy 4,418
+us_0419,Urząd Skarbowy w Wąbrzeźnie,87-200,Wąbrzeźno,Macieja Rataja 2,419
+us_0420,Urząd Skarbowy we Włocławku,87-800,Włocławek,Stefana Okrzei 72B,420
+us_0421,Urząd Skarbowy w Żninie,88-400 ,Żnin,Klemensa Janickiego 18,421
+us_0422,Urząd Skarbowy w Golubiu-Dobrzyniu,87-400,Golub-Dobrzyń,Dr. Jerzego Gerarda Koppa 1A,422
+us_0423,Urząd Skarbowy w Sępólnie Krajeńskim,89-400,Sępólno Krajeńskie,Tadeusza Kościuszki 22,423
+us_0461,Biuro Krajowej Informacji Podatkowej w Toruniu,87-100,Toruń,Św. Jakuba 20 ,461
+us_0471,Kujawsko-Pomorski Urząd Skarbowy w Bydgoszczy,85-236,Bydgoszcz,Grunwaldzka 50,471
+us_0601,Izba Skarbowa w Lublinie,20-883   ,Lublin           ,Tadeusza Szeligowskiego 24,601
+us_0602,Urząd Skarbowy w Białej Podlaskiej,21-500,Biała Podlaska,Prosta 19,602
+us_0603,Urząd Skarbowy w Biłgoraju,23-400,Biłgoraj,Tadeusza Kościuszki 78,603
+us_0604,Urząd Skarbowy w Chełmie,22-100,Chełm,Obłońska 20a,604
+us_0605,Urząd Skarbowy w Hrubieszowie,22-500,Hrubieszów,27 Wołyńskiej Dywizji Piechoty AK 11,605
+us_0606,Urząd Skarbowy w Janowie Lubelskim,23-300,Janów Lubelski,Wojska Polskiego 32,606
+us_0607,Urząd Skarbowy w Krasnymstawie,22-300,Krasnystaw,Rzeczna 5,607
+us_0608,Urząd Skarbowy w Kraśniku,23-200,Kraśnik,Tadeusza Kościuszki 5,608
+us_0609,Urząd Skarbowy w Lubartowie,21-100,Lubartów,Legionów 55,609
+us_0610,Pierwszy Urząd Skarbowy w Lublinie,20-027,Lublin,Sądowa 5,610
+us_0611,Drugi Urząd Skarbowy w Lublinie,20-883,Lublin,Tadeusza Szeligowskiego 24,611
+us_0612,Trzeci Urząd Skarbowy w Lublinie,20-016,Lublin,Prezydenta Gabriela Narutowicza 56,612
+us_0613,Urząd Skarbowy w Łukowie,21-400,Łuków,Międzyrzecka 72a,613
+us_0614,Urząd Skarbowy w Opolu Lubelskim,24-300,Opole Lubelskie,Józefa Piłsudskiego 12,614
+us_0615,Urząd Skarbowy w Parczewie,21-200,Parczew,Żabia 2a,615
+us_0616,Urząd Skarbowy w Puławach,24-100,Puławy,Władysława Grabskiego 4,616
+us_0617,Urząd Skarbowy w Radzyniu Podlaskim,21-300,Radzyń Podlaski,Lubelska 1,617
+us_0618,Urząd Skarbowy w Tomaszowie Lubelskim,22-600,Tomaszów Lubelski,Rolnicza 17,618
+us_0619,Urząd Skarbowy we Włodawie,22-200,Włodawa,Rynek 9,619
+us_0620,Urząd Skarbowy w Zamościu,22-400,Zamość,Jana Kilińskiego 82,620
+us_0621,Urząd Skarbowy w Łęcznej,21-010,Łęczna,Jana Pawła II 95,621
+us_0622,Urząd Skarbowy w Rykach,08-500,Ryki,Leona Wyczółkowskiego 10a,622
+us_0671,Lubelski Urząd Skarbowy w Lublinie,20-883,Lublin,Tadeusza Szeligowskiego 24,671
+us_0801,Izba Skarbowa w Zielonej Górze,65-454,Zielona Góra,Gen. Władysława Sikorskiego 2,801
+us_0802,Urząd Skarbowy w Gorzowie Wlkp.,66-400,Gorzów Wlkp.,Jagiellończyka 10,802
+us_0803,Urząd Skarbowy w Krośnie Odrz.,66-600,Krosno Odrzańskie,Obrońców Stalingradu 3,803
+us_0804,Urząd Skarbowy w Międzyrzeczu,66-300,Międzyrzecz,Rynek 3,804
+us_0805,Urząd Skarbowy w Nowej Soli,67-100,Nowa Sól,Stanisława Staszica 1,805
+us_0806,Urząd Skarbowy w Słubicach,69-100,Słubice,Wojska Polskiego 155,806
+us_0807,Urząd Skarbowy w Świebodzinie,66-200,Świebodzin,Jana III Sobieskiego 6,807
+us_0808,Pierwszy Urząd Skarbowy w Zielonej Górze,65-054,Zielona Góra,Dr. Pieniężnego 24,808
+us_0809,Drugi Urząd Skarbowy w Zielonej Górze,65-054,Zielona Góra,Dr. Pieniężnego 24,809
+us_0810,Urząd Skarbowy w Żaganiu,68-100,Żagań,X- Lecia 26,810
+us_0811,Urząd Skarbowy w Żarach,68-200,Żary,Osadników Wojskowych 3-4,811
+us_0812,Urząd Skarbowy w Drezdenku,66-530,Drezdenko,Pierwszej Brygady 21,812
+us_0813,Urząd Skarbowy w Sulęcinie,69-200,Sulęcin,Daszyńskiego 47,813
+us_0814,Urząd Skarbowy we Wschowie,67-400,Wschowa,Zielony Rynek 7,814
+us_0871,Lubuski Urząd Skarbowy w Zielonej Górze,65-054,Zielona Góra,Dr. Pieniężnego 24,871
+us_1001,Izba Skarbowa w Łodzi,90-436,Łódź,Aleja Kościuszki 83,1001
+us_1002,Urząd Skarbowy w Bełchatowie,97-400,Bełchatów,Józefa Piłsudskiego 18,1002
+us_1003,Urząd Skarbowy w Brzezinach,95-060,Brzeziny,Sienkiewicza 16,1003
+us_1004,Urząd Skarbowy w Głownie,95-015,Głowno,Ludwika Norblina 2,1004
+us_1005,Urząd Skarbowy w Kutnie,99-300,Kutno,Dr. Antoniego Troczewskiego 12,1005
+us_1006,Urząd Skarbowy w Łasku,98-100,Łask,9 Maja 31,1006
+us_1007,Urząd Skarbowy w Łowiczu,99-400,Łowicz,Józefa Chełmońskiego 2,1007
+us_1008,Pierwszy Urząd Skarbowy Łódź - Bałuty,91-066,Łódź,Zachodnia 47,1008
+us_1009,Drugi Urząd Skarbowy Łódź - Bałuty,91-222,Łódź,Św. Teresy od Dzieciątka Jezus 105,1009
+us_1010,Pierwszy Urząd Skarbowy Łódź - Górna,93-578,Łódź,Gen. Walerego Wróblewskiego 10,1010
+us_1011,Drugi Urząd Skarbowy Łódź - Górna,93-578,Łódź,Gen. Walerego Wróblewskiego 10a,1011
+us_1012,Urząd Skarbowy Łódź - Polesie,90-646 ,Łódź,6 Sierpnia 84/86,1012
+us_1013,Urząd Skarbowy Łódź - Śródmieście,90-019,Łódź,Dowborczyków 9/11,1013
+us_1014,Urząd Skarbowy Łódź - Widzew,92-312,Łódź,Papiernicza 7,1014
+us_1015,Urząd Skarbowy w Opocznie,26-300,Opoczno,Piotrkowska 14,1015
+us_1016,Urząd Skarbowy w Pabianicach,95-200,Pabianice,Zamkowa 26,1016
+us_1017,Urząd Skarbowy w Piotrkowie Trybunalskim,97-300,Piotrków Trybunalski,Wronia 65,1017
+us_1018,Urząd Skarbowy w Poddębicach,99-200,Poddębice,Narutowicza 12,1018
+us_1019,Urząd Skarbowy w Radomsku,97-500,Radomsko,Mickiewicza 4,1019
+us_1020,Urząd Skarbowy w Rawie Mazowieckiej,96-200,Rawa Mazowiecka,Juliusza Słowackiego 4,1020
+us_1021,Urząd Skarbowy w Sieradzu,98-200,Sieradz,Spółdzielcza 3,1021
+us_1022,Urząd Skarbowy w Skierniewicach,96-100,Skierniewice,Czerwona 22,1022
+us_1023,Urząd Skarbowy w Tomaszowie Mazowieckim,97-200,Tomaszów Mazowiecki,Józefa Montwiłła Mireckiego 37,1023
+us_1024,Urząd Skarbowy w Wieluniu,98-300 ,Wieluń,Krakowskie Przedmieście 34,1024
+us_1025,Urząd Skarbowy w Zduńskiej Woli,98-220,Zduńska Wola,Zielona 15,1025
+us_1026,Urząd Skarbowy w Zgierzu,95-100 ,Zgierz,ks. Jerzego Popiełuszki 8,1026
+us_1027,Urząd Skarbowy w Wieruszowie,98-400,Wieruszów,Rynek 12/13,1027
+us_1028,Urząd Skarbowy w Łęczycy,99-100,Łęczyca,al. Jana Pawła II 17,1028
+us_1029,Urząd Skarbowy w Pajęcznie,98-330,Pajęczno,1 Maja 9,1029
+us_1061,Biuro Krajowej Informacji Podatkowej w Piotrkowie Trybunalskim,97-300,Piotrków Trybunalski,Wronia 65,1061
+us_1071,Łódzki Urząd Skarbowy,90-436,Łódź,Aleja Kościuszki 85,1071
+us_1201,Izba Skarbowa w Krakowie,31-007,Kraków,Wiślna 7,1201
+us_1202,Urząd Skarbowy w Bochni,32-700,Bochnia,Gołębia 3,1202
+us_1203,Urząd Skarbowy w Brzesku,32-800,Brzesko,Królowej Jadwigi 16,1203
+us_1204,Urząd Skarbowy w Chrzanowie,32-500,Chrzanów,Garncarska 9,1204
+us_1205,Urząd Skarbowy w Dąbrowie Tarnowskiej,33-200,Dąbrowa Tarnowska,Berka Joselewicza 5,1205
+us_1206,Urząd Skarbowy w Gorlicach,38-300,Gorlice,Bardiowska 9,1206
+us_1207,Pierwszy Urząd Skarbowy Kraków,30-363,Kraków,Rzemieślnicza 20,1207
+us_1208,Urząd Skarbowy Kraków - Krowodrza,31-272,Kraków,Krowoderskich Zuchów 2,1208
+us_1209,Urząd Skarbowy Kraków - Nowa Huta,31-621,Kraków,Bohaterów Września 80,1209
+us_1210,Urząd Skarbowy Kraków - Podgórze,30-415,Kraków,Wadowicka 10,1210
+us_1211,Urząd Skarbowy Kraków - Prądnik,31-272,Kraków,Krowoderskich Zuchów 2,1211
+us_1212,Urząd Skarbowy Kraków - Stare Miasto,31-001,Kraków,Grodzka 65,1212
+us_1213,Urząd Skarbowy Kraków - Śródmieście,31-272,Kraków,Krowoderskich Zuchów 2,1213
+us_1214,Urząd Skarbowy w Limanowej,34-600,Limanowa,Matki Boskiej Bolesnej 9,1214
+us_1215,Urząd Skarbowy w Miechowie,32-200,Miechów,Stanisławy Daneckiej 1,1215
+us_1216,Urząd Skarbowy w Myślenicach,32-400,Myślenice,Hipolita Cegielskiego 2,1216
+us_1217,Urząd Skarbowy w Nowym Sączu,33-300 ,Nowy Sącz,Władysława Barbackiego 10 ,1217
+us_1218,Urząd Skarbowy w Nowym Targu,34-400,Nowy Targ,Parkowa 13,1218
+us_1219,Urząd Skarbowy w Olkuszu,32-300,Olkusz,Budowlanych 2,1219
+us_1220,Urząd Skarbowy w Oświęcimiu,32-600,Oświęcim,Plebańska 2,1220
+us_1221,Urząd Skarbowy w Proszowicach,32-100,Proszowice,Mikołaja Reja 1,1221
+us_1222,Urząd Skarbowy w Suchej Beskidzkiej,34-200,Sucha Beskidzka,Adama Mickiewicza 36,1222
+us_1223,Pierwszy Urząd Skarbowy w Tarnowie,33-100,Tarnów,Lwowska 72-96a,1223
+us_1224,Drugi Urząd Skarbowy w Tarnowie ,33-100,Tarnów,Solidarności 5-9B,1224
+us_1225,Urząd Skarbowy w Wadowicach,34-100,Wadowice,Legionów 22,1225
+us_1226,Urząd Skarbowy w Wieliczce,32-020,Wieliczka,Zamkowa 2,1226
+us_1227,Urząd Skarbowy w Zakopanem,34-500,Zakopane,Szymony 14,1227
+us_1228,Drugi Urząd Skarbowy Kraków,31-272,Kraków,Krowoderskich Zuchów 2,1228
+us_1271,Małopolski Urząd Skarbowy,31-621,Kraków,Bohaterów Września 80,1271
+us_1401,Izba Skarbowa w Warszawie,01-513,Warszawa,Alojzego Felińskiego 2B,1401
+us_1402,Urząd Skarbowy w Białobrzegach,26-800,Białobrzegi,Władysława Reymonta 46,1402
+us_1403,Urząd Skarbowy w Ciechanowie,06-400,Ciechanów,Warszawska 58,1403
+us_1404,Urząd Skarbowy w Garwolinie,08-400,Garwolin,Senatorska 30,1404
+us_1405,Urząd Skarbowy w Gostyninie,09-500,Gostynin,Płocka 10,1405
+us_1406,Urząd Skarbowy w Grodzisku Mazowieckim,05-825,Grodzisk Mazowiecki,Daleka 11,1406
+us_1407,Urząd Skarbowy w Grójcu,05-600,Grójec,Ks. Piotra Skargi 35,1407
+us_1408,Urząd Skarbowy w Kozienicach,26-900,Kozienice,Parkowa 5,1408
+us_1409,Urząd Skarbowy w Legionowie,05-120,Legionowo,Józefa Piłsudskiego 43c,1409
+us_1410,Urząd Skarbowy w Łosicach,08-200,Łosice,11 Listopada 1,1410
+us_1411,Urząd Skarbowy w Makowie Mazowieckim,06-200,Maków Mazowiecki,Kopernika 6C,1411
+us_1412,Urząd Skarbowy w Mińsku Mazowieckim,05-300,Mińsk Mazowiecki,Szczecińska 2,1412
+us_1413,Urząd Skarbowy w Mławie,06-500,Mława,Gabriela Narutowicza 19/7,1413
+us_1414,Urząd Skarbowy w Nowym Dworze Mazowieckim,05-100,Nowy Dwór Mazowiecki,Legionów 7,1414
+us_1415,Urząd Skarbowy w Ostrołęce,07-400,Ostrołęka,Przechodnia 6,1415
+us_1416,Urząd Skarbowy w Ostrowi Mazowieckiej,07-300,Ostrów Mazowiecka,Stanisława Duboisa 1,1416
+us_1417,Urząd Skarbowy w Otwocku,05-400,Otwock,Jana Matejki 4,1417
+us_1418,Urząd Skarbowy w Piasecznie,05-500,Piaseczno,Energetyczna 5,1418
+us_1419,Urząd Skarbowy w Płocku,09-402,Płock,1 Maja 10,1419
+us_1420,Urząd Skarbowy w Płońsku,09-100,Płońsk,Spółdzielcza 2,1420
+us_1421,Urząd Skarbowy w Pruszkowie,05-800,Pruszków,Stanisława Staszica 1,1421
+us_1422,Urząd Skarbowy w Przasnyszu,06-300,Przasnysz,Świerkowa 3,1422
+us_1423,Urząd Skarbowy w Pułtusku,06-100,Pułtusk,Żwirki i Wigury 7,1423
+us_1424,Pierwszy Urząd Skarbowy w Radomiu,26-615,Radom,Stanisława Zbrowskiego 106,1424
+us_1425,Drugi Urząd Skarbowy w Radomiu,26-600,Radom,Toruńska 3,1425
+us_1426,Urząd Skarbowy w Siedlcach,08-110,Siedlce,Józefa Piłsudskiego 68,1426
+us_1427,Urząd Skarbowy w Sierpcu,09-200,Sierpc,Piastowska 48,1427
+us_1428,Urząd Skarbowy w Sochaczewie,96-500,Sochaczew,Władysława Grabskiego 4,1428
+us_1429,Urząd Skarbowy w Sokołowie Podlaskim,08-300,Sokołów Podlaski,Węgrowska 5,1429
+us_1430,Urząd Skarbowy w Szydłowcu,26-500,Szydłowiec,Widok 6,1430
+us_1431,Urząd Skarbowy Warszawa - Bemowo,02-325,Warszawa,Białobrzeska 53a,1431
+us_1432,Urząd Skarbowy Warszawa - Bielany,01-844,Warszawa,Skalbmierska 5,1432
+us_1433,Urząd Skarbowy Warszawa - Mokotów,02-676,Warszawa,Postępu 16A,1433
+us_1434,Urząd Skarbowy Warszawa - Praga,03-719,Warszawa,Jagiellońska 15,1434
+us_1435,Pierwszy Urząd Skarbowy Warszawa - Śródmieście,02-013,Warszawa,Williama Lindleya 14,1435
+us_1436,Drugi Urząd Skarbowy Warszawa - Śródmieście,03-719,Warszawa,Jagiellońska 15,1436
+us_1437,Urząd Skarbowy Warszawa - Targówek,03-482,Warszawa,Dąbrowszczaków 14,1437
+us_1438,Urząd Skarbowy Warszawa - Ursynów,02-677,Warszawa,Wynalazek 3,1438
+us_1439,Urząd Skarbowy Warszawa - Wawer,04-379,Warszawa,Ludwika Mycielskiego 21,1439
+us_1440,Urząd Skarbowy Warszawa - Wola,01-381,Warszawa,Powstańców Śląskich 2D,1440
+us_1441,Urząd Skarbowy w Węgrowie,07-100,Węgrów,Kościelna 4,1441
+us_1442,Urząd Skarbowy w Wołominie ,05-200,Wołomin,Przejazd 2,1442
+us_1443,Urząd Skarbowy w Wyszkowie, 07-200,Wyszków,Gen. Józefa Sowińskiego 82,1443
+us_1444,Urząd Skarbowy w Zwoleniu,26-700,Zwoleń,Wojska Polskiego 39,1444
+us_1445,Urząd Skarbowy w Żurominie,09-300,Żuromin,Plac Józefa Piłsudskiego 4,1445
+us_1446,Urząd Skarbowy w Żyrardowie,96-300,Żyrardów,1 Maja 49a,1446
+us_1447,Urząd Skarbowy w Lipsku,27-300,Lipsko,Solecka 88,1447
+us_1448,Urząd Skarbowy w Przysusze,26-400,Przysucha,Szkolna 7,1448
+us_1449,Trzeci Urząd Skarbowy Warszawa - Śródmieście,02-013,Warszawa,Williama Lindleya 14,1449
+us_1462,Biuro Krajowej Informacji Podatkowej w Płocku,09-402,Płock,1 Maja 10,1462
+us_1471,Pierwszy Mazowiecki Urząd Skarbowy,01-513,Warszawa,Alojzego Felińskiego 2B,1471
+us_1472,Drugi Mazowiecki Urząd Skarbowy,00-193,Warszawa,Stawki 2,1472
+us_1473,Trzeci Mazowiecki Urząd Skarbowy,26-610,Radom,Andrzeja Struga 26/28,1473
+us_1601,Izba Skarbowa w Opolu,45-057,Opole,Ozimska 19,1601
+us_1613,Urząd Skarbowy w Krapkowicach,47-300,Krapkowice,Opolska 96 A,1613
+us_1671,Opolski Urząd Skarbowy w Opolu,45-331,Opole,Tadeusza Rejtana 3A,1671
+us_1801,Izba Skarbowa w Rzeszowie,35-959,Rzeszów,Geodetów 1,1801
+us_1802,Urząd Skarbowy w Brzozowie,36-200,Brzozów,Kazimierzowska 1,1802
+us_1803,Urząd Skarbowy w Dębicy,39-200,Dębica,Kolejowa 21,1803
+us_1804,Urząd Skarbowy w Jarosławiu,37-500,Jarosław,Przemysłowa 2a,1804
+us_1805,Urząd Skarbowy w Jaśle,38-200,Jasło,Stanisława Staszica 3,1805
+us_1806,Urząd Skarbowy w Kolbuszowej,36-100,Kolbuszowa,Tadeusza Kościuszki 20,1806
+us_1807,Urząd Skarbowy w Krośnie,38-400,Krosno,Składowa 5,1807
+us_1808,Urząd Skarbowy w Lesku,38-600,Lesko,Rynek 1,1808
+us_1809,Urząd Skarbowy w Leżajsku,37-300,Leżajsk,Plac Targowy 3,1809
+us_1810,Urząd Skarbowy w Lubaczowie,37-600,Lubaczów,Jana III Sobieskiego 6,1810
+us_1811,Urząd Skarbowy w Łańcucie,37-100,Łańcut,Józefa Piłsudskiego 11,1811
+us_1812,Urząd Skarbowy w Mielcu,39-300,Mielec,Stefana Żeromskiego 13,1812
+us_1813,Urząd Skarbowy w Przemyślu,37-700,Przemyśl,Lwowska 9A,1813
+us_1814,Urząd Skarbowy w Przeworsku,37-200,Przeworsk,Tysiąclecia 1,1814
+us_1815,Urząd Skarbowy w Ropczycach,39-100,Ropczyce,Św. Barbary 12,1815
+us_1816,Pierwszy Urząd Skarbowy w Rzeszowie,35-309,Rzeszów,Podwisłocze 42,1816
+us_1817,Urząd Skarbowy w Sanoku,38-500,Sanok,Henryka Sienkiewicza 1,1817
+us_1818,Urząd Skarbowy w Stalowej Woli,37-450,Stalowa Wola,Metalowców 6,1818
+us_1819,Urząd Skarbowy w Strzyżowie,38-100,Strzyżów,Daszyńskiego 6,1819
+us_1820,Urząd Skarbowy w Tarnobrzegu,39-400,Tarnobrzeg,Stanisława Wyspiańskiego 12,1820
+us_1821,Urząd Skarbowy w Ustrzykach Dolnych,38-700,Ustrzyki Dolne,Mikołaja Kopernika 1,1821
+us_1822,Drugi Urząd Skarbowy w Rzeszowie,35-234,Rzeszów,Lucjana Siemieńskiego 18,1822
+us_1823,Urząd Skarbowy w Nisku,37-400,Nisko,3 Maja 32 B,1823
+us_1871,Podkarpacki Urząd Skarbowy w Rzeszowie,35-959,Rzeszów,Geodetów 1,1871
+us_2001,Izba Skarbowa w Białymstoku,15-026,Białystok,Słonimska 1,2001
+us_2015,Urząd Skarbowy w Hajnówce,17-200,Hajnówka,3 Maja 34,2015
+us_2071,Podlaski Urząd Skarbowy,15-404 ,Białystok,Młynowa 21A,2071
+us_2201,Izba Skarbowa w Gdańsku,80-831,Gdańsk,Długa 75/76,2201
+us_2202,Urząd Skarbowy w Bytowie,77-100,Bytów,1 Maja 16,2202
+us_2203,Urząd Skarbowy w Chojnicach,89-600,Chojnice,Młyńska 22,2203
+us_2204,Urząd Skarbowy w Człuchowie,77-300,Człuchów,Jerzego z Dąbrowy 5 E,2204
+us_2205,Pierwszy Urząd Skarbowy w Gdańsku,80-822,Gdańsk,Rzeźnicka 54/56,2205
+us_2206,Drugi Urząd Skarbowy w Gdańsku,80-391,Gdańsk,Kołobrzeska 43,2206
+us_2207,Trzeci Urząd Skarbowy w Gdańsku,80-560,Gdańsk,Żaglowa 2,2207
+us_2208,Pierwszy Urząd Skarbowy w Gdyni,81-353,Gdynia,Władysława IV 2/4,2208
+us_2209,Drugi Urząd Skarbowy w Gdyni,81-061,Gdynia,Hutnicza 25,2209
+us_2210,Urząd Skarbowy w Kartuzach,83-300,Kartuzy,Kościerska 13,2210
+us_2211,Urząd Skarbowy w Kościerzynie,83-400,Kościerzyna,Staszica 6,2211
+us_2214,Urząd Skarbowy w Malborku,82-200,Malbork,Mikołaja Kopernika 10,2214
+us_2215,Urząd Skarbowy w Pucku,84-100,Puck,Kmdr. E. Szystowskiego 18,2215
+us_2216,Urząd Skarbowy w Słupsku,76-200,Słupsk,Szczecińska 59,2216
+us_2217,Urząd Skarbowy w Sopocie,81-808,Sopot,23 Marca 9/11,2217
+us_2218,Urząd Skarbowy w Starogardzie Gdańskim,83-200,Starogard Gdański,Lubichowska 4,2218
+us_2219,Urząd Skarbowy w Tczewie,83-100,Tczew,Gdańska 33,2219
+us_2220,Urząd Skarbowy w Wejherowie,84-200,Wejherowo,Jana III Sobieskiego 346,2220
+us_2221,Urząd Skarbowy w Pruszczu Gdańskim,83-000,Pruszcz Gdański,Ignacego Łukasiewicza 2,2221
+us_2271,Pomorski Urząd Skarbowy w Gdańsku,80-749,Gdańsk,Żytnia 4/6,2271
+us_2401,Izba Skarbowa w Katowicach,40-022,Katowice,Ks. Konstantego Damrota 25,2401
+us_2461,Biuro Krajowej Informacji Podatkowej w Bielsku-Białej,43-300,Bielsko-Biała,Romualda Traugutta 2a,2461
+us_2463,Biuro Krajowej Informacji Podatkowej w Będzinie,42-500,Będzin,I Armii Wojska Polskiego 1,2463
+us_2471,Pierwszy Śląski Urząd Skarbowy w Sosnowcu,41-219,Sosnowiec,Braci Mieroszewskich 97,2471
+us_2472,Drugi Śląski Urząd Skarbowy w Bielsku-Białej,43-300,Bielsko-Biała,Warszawska 45,2472
+us_2601,Izba Skarbowa w Kielcach,25-561,Kielce,Wincentego Witosa 78b,2601
+us_2602,Urząd Skarbowy w Busku-Zdroju,28-100,Busko-Zdrój,12 Stycznia 17,2602
+us_2603,Urząd Skarbowy w Jędrzejowie,28-300,Jędrzejów,11 Listopada 33,2603
+us_2604,Pierwszy Urząd Skarbowy w Kielcach ,25-661,Kielce,Wróbla 17,2604
+us_2605,Drugi Urząd Skarbowy w Kielcach,25-647,Kielce,Częstochowska 20,2605
+us_2606,Urząd Skarbowy w Końskich,26-200,Końskie,Marszałka Piłsudskiego 156b,2606
+us_2607,Urząd Skarbowy w Opatowie,27-500,Opatów,Jana Kilińskiego 9,2607
+us_2608,Urząd Skarbowy w Ostrowcu Świętokrzyskim,27-400,Ostrowiec Świętokrzyski,Polna 11,2608
+us_2609,Urząd Skarbowy w Pińczowie,28-400,Pińczów,Grodziskowa 1,2609
+us_2610,Urząd Skarbowy w Sandomierzu,27-600,Sandomierz,Żydowska 1,2610
+us_2611,Urząd Skarbowy w Skarżysku-Kamiennej,26-110,Skarżysko-Kamienna,1 Maja 56,2611
+us_2612,Urząd Skarbowy w Starachowicach,27-200,Starachowice,Składowa 33,2612
+us_2613,Urząd Skarbowy w Staszowie,28-200,Staszów,Oględowska 12,2613
+us_2614,Urząd Skarbowy w Kazimierzy Wielkiej,28-500,Kazimierza Wielka,Tadeusza Kościuszki 16,2614
+us_2615,Urząd Skarbowy we Włoszczowie,29-100,Włoszczowa,Wiśniowa 10,2615
+us_2671,Świętokrzyski Urząd Skarbowy w Kielcach,25-647,Kielce,Częstochowska 20,2671
+us_2801,Izba Skarbowa w Olsztynie,10-950,Olsztyn,Al. Marszałka Józefa Piłsudskiego 59A,2801
+us_2802,Urząd Skarbowy w Bartoszycach,11-200 ,Bartoszyce,Bohaterów Warszawy 5,2802
+us_2803,Urząd Skarbowy w Braniewie,14-500,Braniewo,Jana Matejki 6,2803
+us_2804,Urząd Skarbowy w Działdowie,13-200,Działdowo,Marii Skłodowskiej-Curie 35A,2804
+us_2805,Urząd Skarbowy w Elblągu,82-300,Elbląg,Adama Mickiewicza 43 ,2805
+us_2806,Urząd Skarbowy w Ełku,19-300,Ełk,Wojska Polskiego 67 ,2806
+us_2807,Urząd Skarbowy w Giżycku,11-500,Giżycko,I Dywizji im. T. Kościuszki 15 ,2807
+us_2808,Urząd Skarbowy w Iławie,14-200,Iława,Wojska Polskiego 26 ,2808
+us_2809,Urząd Skarbowy w Kętrzynie,11-400,Kętrzyn,Powstańców Warszawy 13 ,2809
+us_2810,Urząd Skarbowy w Nidzicy,13-100 ,Nidzica,Stefana Żeromskiego 11,2810
+us_2811,Urząd Skarbowy w Nowym Mieście Lubawskim,13-300 ,Nowe Miasto Lubawskie,Działyńskich 3,2811
+us_2812,Urząd Skarbowy w Olecku,19-400 ,Olecko,Wojska Polskiego 7,2812
+us_2813,Urząd Skarbowy w Olsztynie,10-950,Olsztyn,Al. Marszałka J. Piłsudskiego 59,2813
+us_2814,Urząd Skarbowy w Ostródzie,14-100,Ostróda,Olsztyńska 5 B ,2814
+us_2815,Urząd Skarbowy w Piszu,12-200,Pisz,Okopowa 2 ,2815
+us_2816,Urząd Skarbowy w Szczytnie,12-100,Szczytno,Warszawska 5 ,2816
+us_2871,Warmińsko Mazurski Urząd Skarbowy w Olsztynie,10-408 ,Olsztyn,Lubelska 37,2871
+us_3001(1),Biuro Wymiany Informacji Podatkowych w Koninie,62-510,Konin,Poznańska 46,3001
+us_3001(2),Izba Skarbowa w Poznaniu,61-726,Poznań,Plac Cyryla Ratajskiego 5,3001
+us_3002,Urząd Skarbowy w Czarnkowie,64-700,Czarnków,Pocztowa 4,3002
+us_3003,Urząd Skarbowy w Gnieźnie,62-200,Gniezno,Spichrzowa 4,3003
+us_3004,Urząd Skarbowy w Gostyniu,63-800,Gostyń,Lipowa 2,3004
+us_3005,Urząd Skarbowy w Grodzisku Wielkopolskim,62-065,Grodzisk Wielkopolski,Chopina 7,3005
+us_3006,Urząd Skarbowy w Jarocinie,63-200,Jarocin,Tadeusza Kościuszki 21,3006
+us_3007,Pierwszy Urząd Skarbowy w Kaliszu,62-800,Kalisz,Wrocławska 12,3007
+us_3008,Drugi Urząd Skarbowy w Kaliszu,62-800,Kalisz,Targowa 1,3008
+us_3009,Urząd Skarbowy w Kępnie,63-600,Kępno,Rynek 4,3009
+us_3010,Urząd Skarbowy w Kole,62-600,Koło,Bolesława Prusa 10,3010
+us_3011,Urząd Skarbowy w Koninie,62-510,Konin,Zakładowa 7a,3011
+us_3012,Urząd Skarbowy w Kościanie,64-000,Kościan,Młyńska 5,3012
+us_3013,Urząd Skarbowy w Krotoszynie,63-700,Krotoszyn,Polna 32,3013
+us_3014,Urząd Skarbowy w Lesznie,64-100,Leszno,Adama Mickiewicza 7,3014
+us_3015,Urząd Skarbowy w Międzychodzie,64-400,Międzychód,Marszałka Piłsudskiego 2,3015
+us_3016,Urząd Skarbowy w Nowym Tomyślu,64-300,Nowy Tomyśl,Kolejowa 38,3016
+us_3017,Urząd Skarbowy w Ostrowie Wielkopolskim,63-400,Ostrów Wielkopolski,Chłapowskiego 45,3017
+us_3018,Urząd Skarbowy w Ostrzeszowie,63-500,Ostrzeszów,Władysława Grabskiego 1,3018
+us_3019,Urząd Skarbowy w Pile,64-920,Piła,Kossaka 106,3019
+us_3020,Urząd Skarbowy Poznań - Grunwald,60-179,Poznań,Mariana Smoluchowskiego 1,3020
+us_3021,Urząd Skarbowy Poznań - Jeżyce,60-823,Poznań,Juliusza Słowackiego 22,3021
+us_3022,Urząd Skarbowy Poznań - Nowe Miasto,61-055,Poznań,Warszawska 183/185,3022
+us_3023,Pierwszy Urząd Skarbowy w Poznaniu,60-965,Poznań,Dezyderego Chłapowskiego 17/18,3023
+us_3025,Urząd Skarbowy Poznań - Winogrady,60-685,Poznań,Zygmunta Wojciechowskiego 3/5,3025
+us_3026,Urząd Skarbowy Poznań - Wilda,61-558,Poznań,Wierzbięcice 45,3026
+us_3027,Urząd Skarbowy w Rawiczu,63-900,Rawicz,Stanisława Staszica 4,3027
+us_3028,Urząd Skarbowy w Słupcy,62-400,Słupca,Wspólna 1,3028
+us_3029,Urząd Skarbowy w Szamotułach,64-500,Szamotuły,Bolesława Chrobrego 17a,3029
+us_3030,Urząd Skarbowy w Śremie,63-100,Śrem,Wojska Polskiego 12,3030
+us_3031,Urząd Skarbowy w Środzie Wielkopolskiej,63-000,Środa Wielkopolska,Harcerska 2,3031
+us_3032,Urząd Skarbowy w Turku,62-700,Turek,Konińska 1,3032
+us_3033,Urząd Skarbowy w Wągrowcu,62-100,Wągrowiec,Tadeusza Kościuszki 19a,3033
+us_3034,Urząd Skarbowy w Wolsztynie,64-200,Wolsztyn,Dworcowa 15,3034
+us_3035,Urząd Skarbowy we Wrześni,62-300,Września,Warszawska 26,3035
+us_3036,Urząd Skarbowy w Złotowie,77-400,Złotów,Aleja Piasta 25,3036
+us_3037,Urząd Skarbowy w Chodzieży,64-800,Chodzież,Ofiar Gór Morzewskich 1,3037
+us_3038,Urząd Skarbowy w Obornikach,64-600,Oborniki,Rynek 4,3038
+us_3039,Urząd Skarbowy w Pleszewie,63-300,Pleszew,Bogusza 6,3039
+us_3050,Biuro Krajowej Informacji Podatkowej w Lesznie,64-100,Leszno,Dekana 6,3050
+us_3071,Pierwszy Wielkopolski Urząd Skarbowy w Poznaniu,60-818,Poznań,Henryka Sienkiewicza 22,3071
+us_3072,Drugi Wielkopolski Urząd Skarbowy w Kaliszu,62-800,Kalisz,Fabryczna 1A,3072
+us_3201,Izba Skarbowa w Szczecinie,70-525,Szczecin,"Franklina Delano Roosevelta 1,2",3201
+us_3203,Urząd Skarbowy w Choszcznie,73-200,Choszczno,22 Lipca 16,3203
+us_3204,Urząd Skarbowy w Drawsku Pomorskim,78-500,Drawsko Pomorskie,Józefa Piłsudskiego 35-37,3204
+us_3205,Urząd Skarbowy w Goleniowie,72-100,Goleniów,Plac Lotników 1,3205
+us_3206,Urząd Skarbowy w Gryficach,72-300,Gryfice,Niepodległości 54A,3206
+us_3207,Urząd Skarbowy w Gryfinie,74-100,Gryfino,Szczecińska 24,3207
+us_3208,Urząd Skarbowy w Kamieniu Pomorskim,72-400,Kamień Pomorski,Mieszka I 5B,3208
+us_3210,Pierwszy Urząd Skarbowy w Koszalinie,75-216,Koszalin,Przemysłowa 3,3210
+us_3211,Drugi Urząd Skarbowy w Koszalinie,75-549,Koszalin,Stanisława Moniuszki 15,3211
+us_3212,Urząd Skarbowy w Myśliborzu,74-300,Myślibórz,Felczaka 18,3212
+us_3214,Urząd Skarbowy w Stargardzie,73-110,Stargard,Towarowa 15,3214
+us_3216,Drugi Urząd Skarbowy w Szczecinie,71-417,Szczecin,Felczaka 19,3216
+us_3219,Urząd Skarbowy w Świnoujściu,72-600,Świnoujście,Kazimierza Pułaskiego 7,3219
+us_3220,Urząd Skarbowy w Wałczu,78-600,Wałcz,Tadeusza Kościuszki 4,3220
+us_3271,Zachodniopomorski Urząd Skarbowy w Szczecinie,71-011,Szczecin,Mieszka I 33,3271

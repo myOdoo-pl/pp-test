@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_order_form_budget_set" model="ir.ui.view">
+            <field name="name">sale.view.order.form.budget.set</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='analytic_account_id']" position="after">
+                    <field name="budget_set"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_order_tree_budget_set" model="ir.ui.view">
+            <field name="name">	sale.order.tree.budget.set</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='amount_total']" position="before">
+                    <field name="budget_set"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_quotation_tree_budget_set" model="ir.ui.view">
+            <field name="name">	sale.order.tree.budget.set</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_quotation_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='amount_total']" position="before">
+                    <field name="budget_set"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

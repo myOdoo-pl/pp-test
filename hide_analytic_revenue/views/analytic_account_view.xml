@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="analytic_account_extended_form_view" model="ir.ui.view">
+            <field name="name">analytic.account.extended.form.view</field>
+            <field name="model">account.analytic.account</field>
+            <field name="inherit_id" ref="analytic.view_account_analytic_account_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('oe_button_box')]/button" position="attributes">
+                    <attribute name="groups">account.group_account_manager, adcookie_access_modification.group_adcookie_account_user</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

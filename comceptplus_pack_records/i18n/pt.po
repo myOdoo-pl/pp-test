@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* comceptplus_pack_records
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e-20180919\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-15 09:44+0000\n"
+"PO-Revision-Date: 2018-10-15 09:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: comceptplus_pack_records
+#: code:addons/comceptplus_pack_records/wizard/ir_model_download_pack.py:235
+#, python-format
+msgid "%s files processed"
+msgstr "%s ficheiros processados"
+
+#. module: comceptplus_pack_records
+#: code:addons/comceptplus_pack_records/wizard/ir_model_download_pack.py:308
+#: code:addons/comceptplus_pack_records/wizard/ir_model_download_pack.py:309
+#, python-format
+msgid "A ZIP file was not created:\n"
+"%s"
+msgstr "O ficheiro ZIP não foi criado:\n"
+"%s"
+
+#. module: comceptplus_pack_records
+#: model:ir.ui.view,arch_db:comceptplus_pack_records.ir_model_download_pack_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_comment
+msgid "Comment"
+msgstr "Comentário"
+
+#. module: comceptplus_pack_records
+#: model:ir.ui.view,arch_db:comceptplus_pack_records.ir_model_download_pack_form
+msgid "Create pack"
+msgstr "Criar pacote"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_display_name
+msgid "Display Name"
+msgstr "Nome"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_name
+msgid "File Name"
+msgstr "Nome do ficheiro"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_id
+msgid "ID"
+msgstr ""
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack___last_update
+msgid "Last Modified on"
+msgstr "Modificado em"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_write_uid
+msgid "Last Updated by"
+msgstr "Modificado por"
+
+#. module: comceptplus_pack_records
+#: model:ir.model.fields,field_description:comceptplus_pack_records.field_ir_model_download_pack_write_date
+msgid "Last Updated on"
+msgstr "Atualizado em"
+
+#. module: comceptplus_pack_records
+#: code:addons/comceptplus_pack_records/wizard/ir_model_download_pack.py:328
+#, python-format
+msgid "No records found"
+msgstr "Não foram encontrados registos"
+
+#. module: comceptplus_pack_records
+#: model:ir.model,name:comceptplus_pack_records.model_ir_model_download_pack
+msgid "Wizard to download a pack of records"
+msgstr "Assistente para descarregar um pacote de registos"
+
+#. module: comceptplus_pack_records
+#: code:addons/comceptplus_pack_records/wizard/ir_model_download_pack.py:323
+#, python-format
+msgid "You are about to pack %s records and %s files                        \n"
+"(records with no attachments are ignored)"
+msgstr "Está prestes a criar um pacote com %s registos e %s ficheiros                        \n"
+"(registos sem anexos são ignorados)"

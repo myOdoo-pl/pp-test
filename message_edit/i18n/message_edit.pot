@@ -1,0 +1,134 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* message_edit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-28 08:07+0000\n"
+"PO-Revision-Date: 2021-09-28 08:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__body
+msgid "Body"
+msgstr ""
+
+#. module: message_edit
+#: model_terms:ir.ui.view,arch_db:message_edit.mail_message_edit_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_mail_mail__changed
+#: model:ir.model.fields,field_description:message_edit.field_mail_message__changed
+msgid "Changed"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_mail_message__display_name
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: message_edit
+#. openerp-web
+#: code:addons/message_edit/static/src/models/message/message.js:0
+#, python-format
+msgid "Edit Message"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_mail_mail__history_ids
+#: model:ir.model.fields,field_description:message_edit.field_mail_message__history_ids
+#: model_terms:ir.ui.view,arch_db:message_edit.mail_message_edit_view_form
+msgid "History"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_mail_message__id
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__id
+msgid "ID"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_mail_message____last_update
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model,name:message_edit.model_message_edit_history
+msgid "Mail Message Edit History"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model,name:message_edit.model_mail_message
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__message_id
+#: model_terms:ir.ui.view,arch_db:message_edit.mail_message_edit_view_form
+msgid "Message"
+msgstr ""
+
+#. module: message_edit
+#: model:res.groups,name:message_edit.group_message_editing_superuser
+msgid "Message Editing: Edit All"
+msgstr ""
+
+#. module: message_edit
+#: code:addons/message_edit/models/mail_message.py:0
+#, python-format
+msgid "Only the author of the message can edit it."
+msgstr ""
+
+#. module: message_edit
+#: model_terms:ir.ui.view,arch_db:message_edit.mail_message_edit_view_form
+msgid "Save"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__name
+msgid "Subject"
+msgstr ""
+
+#. module: message_edit
+#: model:ir.model.fields,field_description:message_edit.field_message_edit_history__update_date
+msgid "Update Date"
+msgstr ""
+
+#. module: message_edit
+#. openerp-web
+#: code:addons/message_edit/static/src/xml/message_edit.xml:0
+#, python-format
+msgid "display: none;"
+msgstr ""
+
+#. module: message_edit
+#: model_terms:ir.ui.view,arch_db:message_edit.mail_message_edit_view_form
+msgid "or"
+msgstr ""

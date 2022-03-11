@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Add access to Accounting to Standard User Group -->
+        <record model="ir.ui.menu" id="account_accountant.menu_accounting">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Accounting menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account.menu_finance_entries">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Accounting/Management menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account.menu_finance_entries_management">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Accounting/Management/Budgets menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account_budget.menu_act_crossovered_budget_view">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Configuration menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account.menu_finance_configuration">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Reporting menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account.menu_finance_reports">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Reporting/Management menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account.account_reports_management_menu">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+        <!-- Add access to Accounting/Reporting/Budgets Analysis menu to Standard User Group -->
+        <record model="ir.ui.menu" id="account_budget.menu_act_crossovered_budget_lines_view">
+            <field name="groups_id" eval="[(4,ref('adcookie_access_modification.group_adcookie_account_user'))]"/>
+        </record>
+
+    </data>
+</odoo>

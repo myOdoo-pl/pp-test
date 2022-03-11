@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <template id="custom_invoice_register_layout">
+      <t t-if="o and 'company_id' in o">
+        <t t-set="company" t-value="o.company_id"></t>
+      </t>
+      <t t-if="not o or not 'company_id' in o">
+        <t t-set="company" t-value="res_company"></t>
+      </t>
+
+      <t t-call="account_pl_cirrus.custom_layout_header"/>
+      <div class="article">
+        <t t-raw="0"/>
+      </div>
+
+    </template>
+    <template id="custom_layout_header">
+      <div class="header">
+        <p class="oe_openglobe">Wydruk z Odoo – Systemu ERP o darmowej licencji. Zaprojektowano przez www.openglobe.pl</p>
+        <div class="row">
+          <div class="col-10">
+            <p class="oe_inv_reg_desc">
+              Rejestr faktur: od
+              <span t-esc="data['date_from']"/>
+              do
+              <span t-esc="data['date_to']"/>
+              typ dziennika:
+              <span t-if="data['journal_type'] == 'sale'">Ewidencja sprzedaży</span>
+              <span t-if="data['journal_type'] == 'purchase'">Ewidencja zakupu</span>
+            </p>
+          </div>
+          <div class="col-2">
+            <p class="pull-right">Strona
+              <span class="page"/>
+              z
+              <span class="topage"/></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h4>Firma:
+              <span t-field="company.name"/>,
+              <span t-field="company.street"/>,
+              <span t-field="company.zip"/>
+              <span t-field="company.city"/></h4>
+          </div>
+        </div>
+      </div>
+    </template>
+    <template id="report_invoice_register">
+      <t t-call="web.html_container">
+        <t t-call="account_pl_cirrus.custom_invoice_register_layout">
+          <div class="page">
+            <t t-set="f" t-value="'{0:.2f}'"/>
+            <t t-if="data['journal_type'] == 'sale'">
+              <p class="pull-right">Waluta:
+                <span t-field="res_company.currency_id.name"/></p>
+              <table class="table table-bordered oe_inv_reg_table" cellspacing='0' cellpadding='0'>
+                <thead class="oe_inv_reg_table_header">
+                  <tr>
+                    <th>
+                      <p>LP<br/></p>
+                    </th>
+                    <th style="white-space: nowrap;">
+                      <p>Data obowiązku podatkowego<br/>Data wystawienia</p>
+                    </th>
+                    <th>
+                      <p>Numer<br/>Nr faktury</p>
+                    </th>
+                    <th style="min-width:20%; max-width: 25%">
+                      <p>Nazwa Kontrahenta<br/>NIP</p>
+                    </th>
+                    <th>
+                      <p>23% (22%) Netto<br/>VAT</p>
+                    </th>
+                    <th>
+                      <p>8% (7%) Netto<br/>VAT</p>
+                    </th>
+                    <th>
+                      <p>5% (3%) Netto<br/>VAT</p>
+                    </th>
+                    <th>
+                      <p>0% Netto</p><br/><!-- this is a place for cell 14 from VAT-7 (17)-->></th>
+                    <th>
+                      <p>WDT Netto<br/>Eksport tow. Netto</p>
+                    </th>
+                    <th>
+                      <p>WDU+EXU Netto<br/>WDU Netto</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>1</p>
+                    </th>
+                    <th>
+                      <p>2</p>
+                    </th>
+                    <th>
+                      <p>3</p>
+                    </th>
+                    <th>
+                      <p>4</p>
+                    </th>
+                    <th>
+                      <p>5</p>
+                    </th>
+                    <th>
+                      <p>6</p>
+                    </th>
+                    <th>
+                      <p>7</p>
+                    </th>
+                    <th>
+                      <p>8</p>
+                    </th>
+                    <th>
+                      <p>9</p>
+                    </th>
+                    <th>
+                      <p>10</p>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="oe_inv_reg_table_body" t-if="data['vat_dict']['sale_dict']">
+                  <t t-set="sale_dict" t-value="data['vat_dict']['sale_dict']"/>
+                  <t t-foreach="sorted(sale_dict, key=lambda x: strptime(sale_dict[x]['display_date'], '%Y-%m-%d'))" t-as="lp">
+                    <tr style="page-break-inside: avoid !important;">
+                      <td><span t-esc="lp_index+1"/></td>
+                      <td class="text-center"><span t-esc="sale_dict[lp]['display_date']"/><br/><span t-esc="sale_dict[lp]['date_issue']"/></td>
+                      <td><span t-esc="sale_dict[lp]['invoice_reference']"/><br/><span t-esc="sale_dict[lp]['partner_reference']"/></td>
+                      <td><span t-esc="sale_dict[lp]['partner_data']['name']"/><br/><span t-esc="sale_dict[lp]['partner_data']['vat']"/><br/><span t-esc="sale_dict[lp]['partner_data']['address']"/></td>
+
+                      <t t-set="tax_values" t-value="sale_dict[lp]['tax_values']"/>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_19', 0))"/><br/><span t-esc="f.format(tax_values.get('K_20', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_17', 0))"/><br/><span t-esc="f.format(tax_values.get('K_18', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_15', 0))"/><br/><span t-esc="f.format(tax_values.get('K_16', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_13', 0))"/><br/></td>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_21', 0))"/><br/><span t-esc="f.format(tax_values.get('K_22', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_11', 0))"/><br/><span t-esc="f.format(tax_values.get('K_12', 0))"/></td>
+                    </tr>
+                  </t>
+                  <t t-set="sum_dict" t-value="data['vat_dict']['taxes_sum_dict']"/>
+                  <tr style="font-weight: bold; page-break-inside: avoid !important;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Razem</td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_19', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_20', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_17', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_18', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_15', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_16', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_13', 0))"/><br/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_21', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_22', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_11', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_12', 0))"/></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div t-if="data['vat_dict']['sale_ctrl']">
+                <t t-set="sale_ctrl" t-value="data['vat_dict']['sale_ctrl']"/>
+                <b>Suma netto:
+                </b><span t-esc="sale_ctrl['sum_base']"/>
+                <br/>
+                <b>Suma VAT:
+                </b><span t-esc="sale_ctrl['sum_taxes']"/>
+              </div>
+            </t>
+            <t t-if="data['journal_type'] == 'purchase'">
+              <p class="pull-right">Waluta:
+                <span t-field="res_company.currency_id.name"/></p>
+              <table class="table table-bordered oe_inv_reg_table" cellspacing='0' cellpadding='0'>
+                <thead class="oe_inv_reg_table_header">
+                  <tr>
+                    <th>
+                      <p>LP<br/></p>
+                    </th>
+                    <th style="white-space: nowrap;">
+                      <p>Data obowiązku podatkowego<br/>Data wystawienia</p>
+                    </th>
+                    <th>
+                      <p>Numer<br/>Nr faktury</p>
+                    </th>
+                    <th style="min-width:20%; max-width: 25%">
+                      <p>Nazwa Kontrahenta<br/>NIP</p>
+                    </th>
+                    <th>
+                      <p>Nabycie<br/>VAT Nal.</p>
+                    </th>
+                    <th>
+                      <p>ST Netto<br/>VAT Nal.</p>
+                    </th>
+                    <th>
+                      <p>WNT Netto<br/>VAT</p>
+                    </th>
+                    <th>
+                      <p>IMT Netto<br/>VAT</p>
+                    </th>
+                    <th>
+                      <p>IU Netto<br/>VAT</p>
+                    </th>
+                    <th>
+                      <p>IU wył. Netto<br/>VAT</p>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <p>1</p>
+                    </th>
+                    <th>
+                      <p>2</p>
+                    </th>
+                    <th>
+                      <p>3</p>
+                    </th>
+                    <th>
+                      <p>4</p>
+                    </th>
+                    <th>
+                      <p>5</p>
+                    </th>
+                    <th>
+                      <p>6</p>
+                    </th>
+                    <th>
+                      <p>7</p>
+                    </th>
+                    <th>
+                      <p>8</p>
+                    </th>
+                    <th>
+                      <p>9</p>
+                    </th>
+                    <th>
+                      <p>10</p>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="oe_inv_reg_table_body" t-if="data['vat_dict']['purchase_dict']">
+                  <t t-set="purchase_dict" t-value="data['vat_dict']['purchase_dict']"/>
+                  <t t-foreach="sorted(purchase_dict, key=lambda x: strptime(purchase_dict[x]['purchase_date'], '%Y-%m-%d'))" t-as="lp">
+                    <tr style="page-break-inside: avoid !important;">
+                      <td><span t-esc="lp_index+1"/></td>
+                      <td><span t-esc="purchase_dict[lp]['purchase_date']"/><br/><span t-esc="purchase_dict[lp]['date_issue']"/></td>
+                      <td><span t-esc="purchase_dict[lp]['invoice_reference']"/><br/><span t-esc="purchase_dict[lp]['main_reference']"/></td>
+                      <td><span t-esc="purchase_dict[lp]['partner_name']"/>
+                          <br/><span t-if="purchase_dict[lp]['vat'][:2] == 'PL'" t-esc="purchase_dict[lp]['vat'][2:]"/>
+                               <span t-else="" t-esc="purchase_dict[lp]['vat']"/>
+                          <br/><span t-esc="purchase_dict[lp]['address']"/>
+                      </td>
+                      <t t-set="tax_values" t-value="purchase_dict[lp]['tax_values']"/>
+                      <t t-set="sale_item" t-value="VatUtils.get_sale_part(lp, data['vat_dict'])"/>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_45', 0))"/><br/><span t-esc="f.format(tax_values.get('K_46', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(tax_values.get('K_43', 0))"/><br/><span t-esc="f.format(tax_values.get('K_44', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(sale_item.get('K_23', 0))"/><br/><span t-esc="f.format(sale_item.get('K_24', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(sale_item.get('K_25', 0))"/><br/><span t-esc="f.format(sale_item.get('K_26', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(sale_item.get('K_29', 0))"/><br/><span t-esc="f.format(sale_item.get('K_30', 0))"/></td>
+                      <td align='right'><span t-esc="f.format(sale_item.get('K_27', 0))"/><br/><span t-esc="f.format(sale_item.get('K_28', 0))"/></td>
+                    </tr>
+                  </t>
+                  <tr style="font-weight: bold; page-break-inside: avoid !important;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Razem</td>
+                    <!-- GET SUMS  -->
+                    <t t-set="sum_dict" t-value="data['vat_dict']['taxes_sum_dict']"/>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_45', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_46', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_43', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_44', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_23', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_24', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_25', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_26', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_29', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_30', 0))"/></td>
+                    <td align='right'><span t-esc="f.format(sum_dict.get('P_27', 0))"/><br/><span t-esc="f.format(sum_dict.get('P_28', 0))"/></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div t-if="data['vat_dict']['purchase_ctrl']">
+                <t t-set="purchase_ctrl" t-value="data['vat_dict']['purchase_ctrl']"/>
+                <t t-set="sale_ctrl" t-value="data['vat_dict']['sale_ctrl']"/>
+                <b>Suma netto:
+                </b><span t-esc="f.format(purchase_ctrl.get('sum_base', 0))"/>
+                <br/>
+                <b>Suma VAT należny:
+                </b><span t-if="data['vat_dict']['sale_ctrl']" t-esc="f.format(sale_ctrl.get('sum_taxes', 0))"/>
+                <br/>
+                <b>Suma VAT naliczony:
+                </b><span t-esc="f.format(purchase_ctrl.get('sum_taxes', 0))"/>
+              </div>
+            </t>
+          </div>
+        </t>
+      </t>
+    </template>
+  </data>
+</openerp>

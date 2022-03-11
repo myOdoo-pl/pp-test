@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="layout" inherit_id="web.layout">
+      <xpath expr="//head" position="inside">
+        <link rel="stylesheet" href="/account_invoice_pl_og/static/src/css/account_invoice_pl_og.css"/>
+      </xpath>
+    </template>
+  </data>
+</odoo>

@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+tax_tag_pl,tax.tag.pl,model_tax_tag_pl,account.group_account_invoice,1,1,1,1
+access_invoice_register_wizard,access.invoice.register.wizard,model_account_report_invoice_register,account.group_account_user,1,1,1,1
+access_wizard_jpk_fa_1,access.jpk.fa.1.wizard,model_wizard_jpk_fa_1,account.group_account_user,1,1,1,1
+access_wizard_jpk_fa_2,access.jpk.fa.2.wizard,model_wizard_jpk_fa_2,account.group_account_user,1,1,1,1
+access_wizard_jpk_fa_3,access.jpk.fa.3.wizard,model_wizard_jpk_fa_3,account.group_account_user,1,1,1,1
+access_wizard_jpk_vat_3,access.jpk.vat.3.wizard,model_wizard_jpk_vat_3,account.group_account_user,1,1,1,1
+access_wizard_jpk_vat_2020,access.jpk.vat.2020.wizard,model_wizard_jpk_vat_2020,account.group_account_user,1,1,1,1
+access_wizard_jpk_wb,access.jpk.wb.wizard,model_wizard_jpk_wb,account.group_account_user,1,1,1,1
+access_account_report_trial_balance,access.account.report.trial_balance,model_account_report_trial_balance,account.group_account_user,1,1,1,1
+access_account_report_vat_7_18,access.account.report.vat.7.18,model_account_report_vat_7_18,account.group_account_user,1,1,1,1
+access_account_report_vat_7_19,access.account.report.vat.7.19,model_account_report_vat_7_19,account.group_account_user,1,1,1,1
+access_account_report_vat_7_20,access.account.report.vat.7.20,model_account_report_vat_7_20,account.group_account_user,1,1,1,1
+access_account_report_vat_ue4,access.account.report.vat.ue4,model_account_report_vat_ue4,account.group_account_user,1,1,1,1

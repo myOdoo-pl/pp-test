@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+      <template id="custom_trial_balance_layout">
+          <t t-if="o and 'company_id' in o">
+              <t t-set="company" t-value="o.company_id"></t>
+          </t>
+          <t t-if="not o or not 'company_id' in o">
+              <t t-set="company" t-value="res_company"></t>
+          </t>
+
+
+          <t t-call="account_pl_cirrus.custom_trial_balance_header" />
+
+          <div class="article o_report_layout_standard">
+              <t t-raw="0" />
+          </div>
+      </template>
+      <template id="custom_trial_balance_header">
+          <div class="header">
+              <p class="oe_openglobe">Wydruk z Odoo – Systemu ERP o darmowej licencji. Zaprojektowano przez www.openglobe.pl</p>
+              <div class="row">
+                  <div class="col-3">
+                      <p><span t-field="company.name"/><br/>
+                          <span t-field="company.street"/><br/>
+                          <span t-field="company.city"/> <span t-field="company.zip"/><br/>
+                          <span t-field="company.vat"/></p>
+                  </div>
+                  <div class="col-6 text-center">
+                      <h2>Zestawienie obrotów i sald</h2>
+                      <p>Za okres od <span t-esc="data['date_from']"/> do <span t-esc="data['date_to']"/>
+                      <t t-if="ob_in_sales"><br/><span style="font-size: 10px">Uwzględniono bilans otwarcia w obrotach narastająco oraz saldach.</span></t></p>
+                  </div>
+                  <div class="col-3">
+                      <p class="text-right" t-esc="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d %H:%M')"/>
+                      <p class="text-right">Waluta: <span t-field="res_company.currency_id.name"/></p>
+                      <p class="text-right">Strona <span class="page"/> z <span class="topage"/></p>
+                  </div>
+              </div>
+          </div>
+      </template>
+      <template id="report_trial_balance">
+           <t t-call="web.html_container">
+             <!-- <t t-call="web.external_layout"> -->
+                <t t-call="account_pl_cirrus.custom_trial_balance_layout">
+                    <div class="page">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 30%" colspan="2"><p>Konta<br/></p></th>
+                                    <th style="width: 17%" colspan="2"><p>Bilans otwarcia</p></th>
+                                    <th style="width: 17%" colspan="2"><p>Obroty za <span t-esc="data['date_to'][:7]"/> </p></th>
+                                    <th colspan="2"><p>Obroty narastająco od początku roku</p></th>
+                                    <th style="width: 17%" colspan="2"><p>Salda na dzień <span t-esc="data['date_to']"/></p></th>
+                                </tr>
+                                <tr>
+                                    <th style="width: 8%"><span>Kod</span></th>
+                                    <th><span>Nazwa</span></th>
+                                    <th><span>Wn</span></th>
+                                    <th><span>Ma</span></th>
+                                    <th><span>Wn</span></th>
+                                    <th><span>Ma</span></th>
+                                    <th><span>Wn</span></th>
+                                    <th><span>Ma</span></th>
+                                    <th><span>Wn</span></th>
+                                    <th><span>Ma</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="account_res" t-as="account">
+                                    <tr style="page-break-inside: avoid !important;">
+                                        <td>
+                                            <span t-esc="account['code']" />
+                                        </td>
+                                        <td>
+                                            <span t-esc="account['name']" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['ob_debit'])"/>
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['ob_credit'])" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['month_debit'])" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['month_credit'])" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['year_debit'])" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['year_credit'])" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['balance_debit'])" />
+                                        </td>
+                                        <td class='text-right'>
+                                            <span t-esc="docs.pl_rounding(account['balance_credit'])" />
+                                        </td>
+                                    </tr>
+                                    <t t-if="account['partners'] != {}">
+                                      <t t-foreach="account['partners']" t-as="partner_id">
+                                        <tr style="page-break-inside: avoid !important;">
+                                            <td>
+                                                <span t-esc="account['partners'][partner_id]['code']" />
+                                            </td>
+                                            <td>
+                                                <span t-esc="account['partners'][partner_id]['name']" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['ob_debit'])"/>
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['ob_credit'])" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['month_debit'])" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['month_credit'])" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['year_debit'])" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['year_credit'])" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['balance_debit'])" />
+                                            </td>
+                                            <td class='text-right'>
+                                                <span t-esc="docs.pl_rounding(account['partners'][partner_id]['balance_credit'])" />
+                                            </td>
+                                        </tr>
+                                      </t>
+                                    </t>
+                                </t>
+                                <tr style="font-weight: bold; page-break-inside: avoid !important;">
+                                    <td class='text-center' colspan="2">
+                                        <span><strong>Suma razem</strong></span>
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['ob_debit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['ob_credit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['month_debit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['month_credit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['year_debit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['year_credit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['balance_debit'])" />
+                                    </td>
+                                    <td class='text-right'>
+                                        <span t-esc="docs.pl_rounding(account_sums['balance_credit'])" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+              <!-- </t> -->
+          </t>
+      </template>
+</odoo>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="external_layout_standard_adcookie" inherit_id="web.external_layout_standard">
+        <xpath expr="//t" position="replace">
+            <t t-name="web.external_layout_standard">
+                <div class="header">
+                    <br/>
+                    <div class="row">
+                        <div class="col-5 mb4">
+                            <img style="max-height: 85px; display: block; margin: 0 auto" t-if="company.logo"
+                                 t-att-src="image_data_uri(company.logo)" alt="Logo"/>
+                        </div>
+                        <div class="col-5 offset-2 text-center">
+                            <div t-field="company.name"/>
+                            <div t-field="company.phone"/>
+                            <div>faktury@adcookie.pl</div>
+                            <div t-field="company.website"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article o_report_layout_standard" t-att-data-oe-model="o and o._name"
+                     t-att-data-oe-id="o and o.id" t-att-data-oe-lang="o and o.env.context.get('lang')">
+                    <t t-call="web.address_layout"/>
+                    <t t-raw="0"/>
+                </div>
+
+                <div class="footer o_standard_footer">
+                    <div class="text-center" style="border-top: 1px solid #f37224">
+                        <ul class="list-inline mb4">
+                            <li t-if="company.phone" class="list-inline-item">Phone:
+                                <span t-field="company.phone"/>
+                            </li>
+                            <li t-if="company.email" class="list-inline-item">Email:
+                                <span t-field="company.email"/>
+                            </li>
+                            <li t-if="company.website" class="list-inline-item">Web:
+                                <span t-field="company.website"/>
+                            </li>
+                        </ul>
+
+                        <div name="financial_infos">
+                            <span t-field="company.report_footer"/>
+                        </div>
+
+                        <div t-if="report_type == 'pdf'" class="text-muted">
+                            Page:
+                            <span class="page"/>
+                            /
+                            <span class="topage"/>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>
