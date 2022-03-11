@@ -9,3 +9,8 @@ class AccountMove(models.Model):
     def set_package_generated(self):
         self.package_generated = True
 
+    def get_bank_account(self):
+        account = self.env['account.journal'].search(
+            [('type', '=', 'bank'), ('company_id', '=', self.company_id), ('bank_account_id', '!=', '')])
+
+        return account.bank_account_id
