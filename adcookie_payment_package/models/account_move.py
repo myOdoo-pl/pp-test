@@ -11,6 +11,6 @@ class AccountMove(models.Model):
 
     def get_bank_account(self):
         account = self.env['account.journal'].search(
-            [('type', '=', 'bank'), ('company_id', '=', self.company_id), ('bank_account_id', '!=', '')])
+            [('type', '=', 'bank'), ('company_id', '=', self.company_id.id), ('bank_account_id', '!=', '')])
 
         return account.bank_account_id
