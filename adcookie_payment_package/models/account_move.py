@@ -13,4 +13,4 @@ class AccountMove(models.Model):
         account = self.env['account.journal'].search(
             [('type', '=', 'bank'), ('company_id', '=', self.company_id.id), ('bank_account_id', '!=', '')])
 
-        return account.bank_account_id
+        return account.bank_account_id.acc_number
