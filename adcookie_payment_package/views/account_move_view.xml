@@ -4,7 +4,7 @@
         <record id="invoice_payment_package_tree_view" model="ir.ui.view">
             <field name="name">invoice.payment.package.tree.view</field>
             <field name="model">account.move</field>
-            <field name="inherit_id" ref="account.view_invoice_tree"/>
+            <field name="inherit_id" ref="account.view_in_invoice_tree"/>
             <field name="arch" type="xml">
                 <xpath expr="/tree/field[last()]" position="after">
                     <field name="package_generated"/>
