@@ -21,7 +21,7 @@ class PaymentPackageReport(models.AbstractModel):
     #
     #     return report_obj.render('adcookie_payment_package.payment_package_report', docargs)
 
-    def _get_report_values(self):
+    def _get_report_values(self, data=None):
         report_obj = self.env['report']
         report = report_obj._get_report_from_name('adcookie_payment_package.payment_package_report')
 
