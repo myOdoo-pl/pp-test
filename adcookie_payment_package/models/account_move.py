@@ -1,4 +1,6 @@
 from odoo import api, fields, models, _
+import sys
+import importlib
 
 
 class AccountMove(models.Model):
@@ -14,3 +16,11 @@ class AccountMove(models.Model):
             [('type', '=', 'bank'), ('company_id', '=', self.company_id.id), ('bank_account_id', '!=', '')])
 
         return account.bank_account_id.acc_number
+
+    def set_windows_coding(self):
+        importlib.reload(sys)
+        sys.setdefaultencoding('cp1250')
+
+    def set_default_coding(self):
+        importlib.reload(sys)
+        sys.setdefaultencoding('utf-8')
