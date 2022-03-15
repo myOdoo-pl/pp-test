@@ -6,7 +6,6 @@ import importlib
 class PaymentPackageReport(models.AbstractModel):
     _name = 'report.adcookie_payment_package.payment_package_report'
 
-    @api.multi
     def render_html(self, data=None):
         report_obj = self.env['report']
 
