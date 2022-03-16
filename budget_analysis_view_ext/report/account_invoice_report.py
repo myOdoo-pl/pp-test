@@ -6,4 +6,4 @@ class AccountInvoiceReport(models.Model):
 
     @api.model
     def _select(self):
-        return super(AccountInvoiceReport, self)._select() + ", move.partner_id.company_group_id as company_group_id"
+        return super(AccountInvoiceReport, self)._select() + ", move.company_group_id as company_group_id"
