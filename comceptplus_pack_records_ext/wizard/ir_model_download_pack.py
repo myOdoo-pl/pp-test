@@ -87,10 +87,21 @@ class ModelDownloadPack(models.TransientModel):
                                             break
                                         i += 1
                             else:
-                                shutil.copy(
-                                            Attachment._full_path(att.store_fname),
-                                            os.path.join(rec_folder, att.name)
-                                            )
+                                f_path = os.path.join(rec_folder, att.name)
+
+                                # If file with the same name exists, add number to file path
+                                if not exists(f_path):
+                                    _logger.info(f'NOT EXISTS: {f_path}')
+                                    shutil.copy(Attachment._full_path(att.store_fname), f_path)
+                                else:
+                                    i = 1
+                                    while i < 10:
+                                        if not exists(os.path.join(f_path, str(i))):
+                                            _logger.info(f'NOT EXISTS: {os.path.join(f_path, str(i))}')
+                                            shutil.copy(Attachment._full_path(att.store_fname), os.path.join(f_path, str(i)))
+                                            break
+                                        i += 1
+
                         except Exception as e2:
                             msg.append(_(e2))
                             _logger.error("File copy: %s" % e2)
