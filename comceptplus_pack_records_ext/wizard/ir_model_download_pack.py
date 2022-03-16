@@ -56,37 +56,19 @@ class ModelDownloadPack(models.TransientModel):
                     pass
 
                 # Copy attachments
-                _logger.info(f'REC FOLDER: {rec_folder}')
-                _logger.info(f'REC FOLDER: {os.path.isdir(rec_folder)}')
                 if os.path.isdir(rec_folder):
                     for att in Attachment.search([
                                                 ('res_model','=',self._context['active_model']),
                                                 ('res_id','=',rec.id)
                                                 ]):
                         try:
-                            _logger.info(f'DB DATAS: {att.db_datas}')
                             if att.db_datas:
-                                _logger.info(f'REC FOLDER: {rec_folder}')
-                                _logger.info(f'ATT NAME: {att.name}')
-                                f_path = rec_folder + '/' + att.name
+                                f = open(rec_folder + '/' + att.name, 'wb')
+                                f.write(Attachment._file_read(att.db_datas))
+                                f.close()
 
-                                # If file with the same name exists, add number to file path
-                                if not exists(f_path):
-                                    _logger.info(f'NOT EXISTS: {f_path}')
-                                    f = open(f_path, 'wb')
-                                    f.write(Attachment._file_read(att.db_datas))
-                                    f.close()
-                                else:
-                                    i = 1
-                                    while i < 10:
-                                        if not exists(f_path + str(i)):
-                                            _logger.info(f'NOT EXISTS: {f_path}')
-                                            f = open(f_path + str(i), 'wb')
-                                            f.write(Attachment._file_read(att.db_datas))
-                                            f.close()
-                                            break
-                                        i += 1
                             else:
+                                _logger.info(f'ATT NAME: {att.name}')
                                 f_path = os.path.join(rec_folder, att.name)
 
                                 # If file with the same name exists, add number to file path
