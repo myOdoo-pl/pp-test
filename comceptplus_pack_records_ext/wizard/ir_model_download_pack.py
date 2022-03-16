@@ -63,10 +63,13 @@ class ModelDownloadPack(models.TransientModel):
                                                 ]):
                         try:
                             if att.db_datas:
+                                _logger.info(f'REC FOLDER: {rec_folder}')
+                                _logger.info(f'ATT NAME: {att.name}')
                                 f_path = rec_folder + '/' + att.name
 
                                 # If file with the same name exists, add number to file path
                                 if not exists(f_path):
+                                    _logger.info(f'NOT EXISTS: {f_path}')
                                     f = open(f_path, 'wb')
                                     f.write(Attachment._file_read(att.db_datas))
                                     f.close()
@@ -74,6 +77,7 @@ class ModelDownloadPack(models.TransientModel):
                                     i = 1
                                     while i < 10:
                                         if not exists(f_path + str(i)):
+                                            _logger.info(f'NOT EXISTS: {f_path}')
                                             f = open(f_path + str(i), 'wb')
                                             f.write(Attachment._file_read(att.db_datas))
                                             f.close()
