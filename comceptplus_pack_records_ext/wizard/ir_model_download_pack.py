@@ -79,7 +79,7 @@ class ModelDownloadPack(models.TransientModel):
                                     name_parts = att.name.split('.')
                                     i = 1
                                     while i < 10:
-                                        new_file_name = name_parts[0] + "(" + str(i) + ")" + name_parts[1]
+                                        new_file_name = name_parts[0] + "(" + str(i) + ")." + name_parts[1]
                                         new_f_path = os.path.join(rec_folder, new_file_name)
                                         if not exists(new_f_path):
                                             _logger.info(f'NOT EXISTS 2: {new_f_path}')
