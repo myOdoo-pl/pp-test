@@ -28,13 +28,13 @@ class PaymentPackageReport(models.AbstractModel):
 
         _logger.info(f"DOCIDS: {docids}")
 
-        report_obj = self.env['report']
+        report_obj = self.env['ir.actions.report']
         report = report_obj._get_report_from_name('adcookie_payment_package.payment_package_report')
 
         return {
             'doc_ids': self._ids,
             'doc_model': report.model,
-            'docs': self,
+            'docs': docids,
             'set_windows_coding': self._set_windows_coding,
             'set_default_coding': self._set_default_coding
         }
