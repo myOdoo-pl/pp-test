@@ -86,6 +86,7 @@ class ModelDownloadPack(models.TransientModel):
                                             shutil.copy(Attachment._full_path(att.store_fname), new_f_path)
                                             break
                                         i += 1
+                                        
 
                         except Exception as e2:
                             msg.append(_(e2))
