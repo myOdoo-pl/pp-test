@@ -56,6 +56,8 @@ class ModelDownloadPack(models.TransientModel):
                     pass
 
                 # Copy attachments
+                _logger.info(f'REC FOLDER: {rec_folder}')
+                _logger.info(f'REC FOLDER: {os.path.isdir(rec_folder)}')
                 if os.path.isdir(rec_folder):
                     for att in Attachment.search([
                                                 ('res_model','=',self._context['active_model']),
