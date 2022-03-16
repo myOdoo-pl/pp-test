@@ -64,6 +64,7 @@ class ModelDownloadPack(models.TransientModel):
                                                 ('res_id','=',rec.id)
                                                 ]):
                         try:
+                            _logger.info(f'DB DATAS: {att.db_datas}')
                             if att.db_datas:
                                 _logger.info(f'REC FOLDER: {rec_folder}')
                                 _logger.info(f'ATT NAME: {att.name}')
