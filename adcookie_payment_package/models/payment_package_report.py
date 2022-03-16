@@ -1,6 +1,9 @@
 from openerp import api, models
 import sys
 import importlib
+import logging
+
+_logger = logging.getLogger(__name__)
 
 
 class PaymentPackageReport(models.AbstractModel):
@@ -21,7 +24,10 @@ class PaymentPackageReport(models.AbstractModel):
     #
     #     return report_obj.render('adcookie_payment_package.payment_package_report', docargs)
 
-    def _get_report_values(self, data=None):
+    def _get_report_values(self, docids, data=None):
+
+        _logger.info(f"DOCIDS: {docids}")
+
         report_obj = self.env['report']
         report = report_obj._get_report_from_name('adcookie_payment_package.payment_package_report')
 
