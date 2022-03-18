@@ -7,7 +7,7 @@
     'author': 'myOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Templates',
-    'version': '[V14] 3.8.1',
+    'version': '[V14] 3.9',
     'depends': [
         'account',
         'sale',

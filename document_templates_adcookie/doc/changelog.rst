@@ -1,6 +1,7 @@
-v3.8.1
-======
-* Updated account move form view.
+v3.9
+====
+* Change string for invoice_sale_date to "Old Sale Date"
+* Change string for date to "Sale Date"
 
 v3.8
 ====

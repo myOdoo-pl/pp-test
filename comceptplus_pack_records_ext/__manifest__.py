@@ -4,7 +4,7 @@
     'author': 'MyOdoo.pl',
     'website': 'https://myodoo.pl',
     'category': 'Tools',
-    'version': '[V14]_2.1',
+    'version': '[V14]_3.0',
     'depends': [
         'comceptplus_pack_records'
     ],

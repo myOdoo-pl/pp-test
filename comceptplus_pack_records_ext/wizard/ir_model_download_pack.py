@@ -68,12 +68,10 @@ class ModelDownloadPack(models.TransientModel):
                                 f.close()
 
                             else:
-                                _logger.info(f'ATT NAME: {att.name}')
                                 f_path = os.path.join(rec_folder, att.name)
 
                                 # If file with the same name exists, add number to file path
                                 if not exists(f_path):
-                                    _logger.info(f'NOT EXISTS: {f_path}')
                                     shutil.copy(Attachment._full_path(att.store_fname), f_path)
                                 else:
                                     name_parts = att.name.split('.')
@@ -82,7 +80,6 @@ class ModelDownloadPack(models.TransientModel):
                                         new_file_name = name_parts[0] + "(" + str(i) + ")." + name_parts[1]
                                         new_f_path = os.path.join(rec_folder, new_file_name)
                                         if not exists(new_f_path):
-                                            _logger.info(f'NOT EXISTS 2: {new_f_path}')
                                             shutil.copy(Attachment._full_path(att.store_fname), new_f_path)
                                             break
                                         i += 1

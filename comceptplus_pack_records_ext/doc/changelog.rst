@@ -1,3 +1,7 @@
+v3.0
+====
+* Added duplicate files saving mechanism.
+
 v2.1
 ====
 * Removed ZIP internal directory structure.

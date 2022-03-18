@@ -25,7 +25,16 @@ class AccountMove(models.Model):
                                               check_company=True,
                                               readonly=True, states={'draft': [('readonly', False)]})
 
-    invoice_sale_date = fields.Date(string='Sale Date', default=fields.Date.today(), help='Sale date for this invoice.')
+    invoice_sale_date = fields.Date(string='Old Sale Date', default=fields.Date.today(), help='Sale date for this invoice.')
+    date = fields.Date(
+        string='Sale Date',
+        required=True,
+        index=True,
+        readonly=True,
+        states={'draft': [('readonly', False)]},
+        copy=False,
+        default=fields.Date.context_today
+    )
     correction_ref = fields.Char(compute='_get_ref_from_ref')
     correction_reason = fields.Char(compute='_get_reason_from_ref')
     duplicate_date = fields.Datetime(string='Duplicate Date', default=fields.Datetime.now())
